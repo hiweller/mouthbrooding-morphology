@@ -1,0 +1,9 @@
+eye.dors
+eye.post
+eye.ante
+eye.vent
+jaw.uppe
+jaw.lowe
+mth.corn
+pec.dorsa
+pec.vent

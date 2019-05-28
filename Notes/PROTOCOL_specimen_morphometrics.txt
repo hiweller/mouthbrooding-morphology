@@ -1,0 +1,53 @@
+MODIFIED FROM OKUDA ET AL. 2002 (mostly osteology):
+
+1. Body volume (BV)
+
+2. Standard length (SL):
+	- Anterior tip of lower jaw to caudal peduncle
+
+3. Head length (HL)
+	- Anterior tip of lower jaw to posterior of operculum
+
+4. Snout length (SNL): 
+	- Anterior tip of upper jaw to  anterior edge of orbit
+
+5. Lower jaw length (LJL):
+	- Anterior tip of dentary to posterior of articular
+
+6. Dentary-hypohyal length (Dnt-Hyp):
+	- Anterior tip of dentary to posterior of hypohyal
+
+7. Head depth (HD):
+	- Posterior tip of premaxillary pedical to anterior tip of hypohyal
+
+8. Mouth width (MW):
+	- Posterior tips of left and right maxillae
+
+9. Angular width (AW): 
+	- Lateral edges of left and right angulars
+
+10. Urohyal length (UHL):
+	- Anterior to posterior tips of urohyal
+
+11. Urohyal height (UHH):
+	- Deepest point of urohyal
+
+12. Sternohyoideus (STNH):
+	- Dorsal and ventral points of origin; attachment site
+
+
+
+
+BASED ON RESULTS OF O'CONNOR ET AL. 2012:
+
+14. Length and curvature of 1st ceratobranchial
+	- Fit as 2nd order polynomial
+
+15. Surface area/aspect ratio of 1st epibranchial
+
+16. Number of gill rakers on 1st arch
+
+17. Avg. height of gill rakers on 1st arch
+
+18. Lamellae measurements per O'Connor et al? Could be a pain (or impossible) to measure with CT scans.
+

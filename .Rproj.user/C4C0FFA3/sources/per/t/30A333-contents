@@ -1,0 +1,46 @@
+# growth model (shitty)
+
+mu.max <- 1
+K <- 0.5
+R <- 10
+
+mu <- function(mu.max, K, R) {
+  
+  return(mu.max * R / (K + R))
+  
+}
+
+vary.R <- sapply(seq(0, 10, by = 0.1), function(i) mu(1, 0.5, i))
+plot(seq(0, 10, by = 0.1), vary.R, type = 'l', 
+     xlab = "[P]", ylab = "Algal growth rate")
+
+
+# create our fake phytoplankton levels
+week <- rep(as.character(c(1:9)), 2)
+phyto <- c(rep("Diatoms", length(week) / 2), 
+           rep("Cyanobacteria", length(week) / 2))
+chlorophyll <- c(0.1, 0.3, 0.5,
+                 0.7, 1.0, 0.7, 
+                 0.5, 0.3, 0.1)
+prop.diatoms <- c(0.9, 0.8, 0.7, 
+                  0.2, 0.1, 0.08,
+                  0.05, 0.05, 0.05)
+chlorophyll.diatoms <- chlorophyll * prop.diatoms
+chlorophyll.cyano <- chlorophyll * (1 - prop.diatoms)
+chlorophyll.tot <- c(chlorophyll.diatoms, chlorophyll.cyano)
+
+df <- data.frame(week, phyto, chlorophyll.tot)
+
+png("C:/Users/Problematicus/Dropbox/Brainerd_Lab/Classes/EEB_Seminar/WellerH_EEB_Foundations_2019_Ecology/Fig03_bar_graph.png",
+    res = 150,
+    width = 1200, 
+    height = 1000)
+require(ggplot2)
+p <- ggplot(df, aes(fill = phyto, y = chlorophyll.tot, x = week)) +
+  geom_bar(stat = "identity", color = "black") +
+  xlab("Weeks since P addition") + ylab("Chlorophyll a (normalized)") +
+  scale_fill_manual(values = c("#76c2fc", "#75ad47"),
+                    name = "Phytoplankton") +
+  theme_classic(base_size = 16); p
+dev.off()
+

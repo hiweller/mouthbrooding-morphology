@@ -1,0 +1,4 @@
+"0","b <- sapply(c(1:100), function(i) bayesian(100, 63, 1))
+"
+"2","Error in bayesian(100, 63, 1) : could not find function ""bayesian""
+"

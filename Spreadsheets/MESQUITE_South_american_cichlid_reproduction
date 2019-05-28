@@ -1,0 +1,220 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=118;
+	taxlabels
+	'"Geophagus" brasiliensis"'[&!name=""Geophagus" brasiliensis"]
+	'"Geophagus" crassilabris"'
+	'"Geophagus" pellegrini"'
+	'"Geophagus" steindachneri"'
+	Acarichthys_heckelii
+	Acaronia
+	Aequidens_chimantanus
+	Aequidens_diadema
+	Aequidens_epae
+	Aequidens_gerciliae
+	Aequidens_hoehnei
+	Aequidens_mauesanus
+	Aequidens_metae
+	Aequidens_michaeli
+	Aequidens_pallidus
+	Aequidens_paloemeuensis
+	Aequidens_patricki
+	Aequidens_plagiozonatus
+	Aequidens_potaroensis
+	Aequidens_rondoni
+	Aequidens_tetramerus
+	Aequidens_tubicen
+	Aequidens_viridis
+	Andinoacara
+	Apistogramma
+	Astronotus
+	Biotodoma
+	Biotoecus
+	Bujurquina_apoparuana
+	Bujurquina_cordemadi
+	Bujurquina_eurhinus
+	Bujurquina_hophrys
+	Bujurquina_huallagae
+	Bujurquina_labiosa
+	Bujurquina_mariae
+	Bujurquina_megalospilus
+	Bujurquina_moriorum
+	Bujurquina_oenolaemus
+	Bujurquina_ortegai
+	Bujurquina_peregrinabunda
+	Bujurquina_robusta
+	Bujurquina_syspilus
+	Bujurquina_tambopatae
+	Bujurquina_vittata
+	Bujurquina_zamorensis
+	Caquetaia_
+	Chaetobranchopsis
+	Chaetobranchus
+	Cichla
+	Cichlasoma
+	Cleithracara_maronii
+	Crenicara
+	'Crenicichla + Teleocichla'
+	Dicrossus
+	Geophagus_abalios
+	Geophagus_altifrons
+	Geophagus_argyrostictus
+	Geophagus_brachybranchus
+	Geophagus_brokopondo
+	Geophagus_camopiensis
+	Geophagus_crocatus
+	Geophagus_dicrozoster
+	Geophagus_gottwaldi
+	Geophagus_grammepareius
+	Geophagus_harreri
+	Geophagus_itapicuruensis[&!name=""Geophagus" itapicuruensis"]
+	Geophagus_megasema
+	Geophagus_neambi
+	Geophagus_obscurus[&!name=""Geophagus" obscurus"]
+	Geophagus_parnaibae
+	Geophagus_proximus
+	Geophagus_surinamensis
+	Geophagus_sveni
+	Geophagus_taeniopareius
+	Geophagus_winemilleri
+	Guianacara_cuyunii
+	Guianacara_dacrya
+	Guianacara_geayi
+	Guianacara_oelemariensis
+	Guianacara_owroewefi
+	Guianacara_sphenozona
+	Guianacara_stergiosi
+	Gymnogeophagus_australis
+	Gymnogeophagus_balzanii
+	Gymnogeophagus_caaguazuensis
+	Gymnogeophagus_che
+	Gymnogeophagus_gymnogenys
+	Gymnogeophagus_labiatus
+	Gymnogeophagus_lacustris
+	Gymnogeophagus_meridionalis
+	Gymnogeophagus_rhabdotus
+	Gymnogeophagus_setequedas
+	Gymnogeophagus_tiraparae
+	Heroina_isonycterina
+	Heros
+	Hoplarchus_psittacus
+	Hypselecara
+	Krobia
+	Laetacara
+	Mazarunia
+	Mesonauta
+	Mikrogeophagus
+	Nannacara
+	Pterophyllum
+	Retroculus
+	Satanoperca_acuticeps
+	Satanoperca_daemon
+	Satanoperca_jurupari
+	Satanoperca_leucosticta
+	Satanoperca_lilith
+	Satanoperca_mapiritensis
+	Satanoperca_pappaterra
+	Satanoperca_rhynchitis
+	Symphysodon_aequifasciatus
+	Taeniacara_candidi
+	Tahuantinsuyoa_chipi
+	Tahuantinsuyoa_macantzatza
+	Uaru
+;
+end;
+
+begin trees;
+	tree Edited__based_on_Edited__based_on_Default_Symmetrical_Tree_____Stored_Trees___ = [&R] (((((((Caquetaia_[&!color=#009999],Heroina_isonycterina[&!color=#009999])[&!color=#009999],(Mesonauta[&!color=#009999],(Heros[&!color=#009999],(Symphysodon_aequifasciatus[&!color=#009999],Uaru[&!color=#009999])[&!color=#009999])[&!color=#009999])[&!color=#009999])[&!color=#009999],(Hoplarchus_psittacus[&!color=#009999],Hypselecara[&!color=#009999])[&!color=#009999])[&!color=#009999],Pterophyllum[&!color=#009999])[&!color=#009999],((((Andinoacara[&!color=#009999],((((Bujurquina_apoparuana[&!color=#990099],(Bujurquina_cordemadi[&!color=#990099],Bujurquina_eurhinus[&!color=#990099])[&!color=#990099])[&!color=#990099],((Bujurquina_hophrys[&!color=#990099],Bujurquina_huallagae[&!color=#990099])[&!color=#990099],(Bujurquina_labiosa[&!color=#990099],Bujurquina_mariae[&!color=#990099])[&!color=#990099])[&!color=#990099])[&!color=#990099],(((Bujurquina_megalospilus[&!color=#990099],Bujurquina_moriorum[&!color=#990099])[&!color=#990099],(Bujurquina_oenolaemus[&!color=#990099],Bujurquina_ortegai[&!color=#990099])[&!color=#990099])[&!color=#990099],((Bujurquina_vittata[&!color=#990099],Bujurquina_zamorensis[&!color=#990099])[&!color=#990099],((Bujurquina_peregrinabunda[&!color=#990099],Bujurquina_robusta[&!color=#990099])[&!color=#990099],(Bujurquina_syspilus[&!color=#990099],Bujurquina_tambopatae[&!color=#990099])[&!color=#990099])[&!color=#990099])[&!color=#990099])[&!color=#990099])[&!color=#990099,!cartoon={17,0.0}],(Tahuantinsuyoa_macantzatza[&!color=#990099],Tahuantinsuyoa_chipi[&!color=#990099])[&!cartoon={2,0.0},!color=#990099])[&!color=#990099])[&!color=#009999],Acaronia[&!color=#009999])[&!color=#009999],Laetacara[&!color=#009999])[&!color=#009999],(((((((Aequidens_pallidus[&!color=#009999],(Aequidens_paloemeuensis[&!color=#009999],Aequidens_patricki[&!color=#009999])[&!color=#009999])[&!color=#009999],((Aequidens_plagiozonatus[&!color=#009999],Aequidens_potaroensis[&!color=#009999])[&!color=#009999],Aequidens_rondoni[&!color=#009999])[&!color=#009999])[&!color=#009999],((Aequidens_chimantanus[&!color=#009999],(Aequidens_epae[&!color=#009999],Aequidens_gerciliae[&!color=#009999])[&!color=#009999])[&!color=#009999],((Aequidens_tubicen[&!color=#009999],Aequidens_viridis[&!color=#009999])[&!color=#009999],((Aequidens_hoehnei[&!color=#009999],Aequidens_mauesanus[&!color=#009999])[&!color=#009999],(Aequidens_metae[&!color=#009999],(Aequidens_diadema[&!color=#009999],Aequidens_michaeli[&!color=#009999])[&!color=#009999])[&!color=#009999])[&!color=#009999])[&!color=#009999])[&!color=#009999])[&!color=#009999],Aequidens_tetramerus[&!color=#009999])[&!color=#009999,!cartoon={17,0.0}],Cichlasoma[&!color=#009999])[&!color=#009999],Krobia[&!color=#009999])[&!color=#009999],(Nannacara[&!color=#009999],Cleithracara_maronii[&!color=#009999])[&!color=#009999])[&!color=#009999])[&!color=#009999])[&!color=#009999],(((((('Crenicichla + Teleocichla'[&!color=#009999],(Biotoecus[&!color=#009999],Acarichthys_heckelii[&!color=#009999])[&!color=#009999])[&!color=#009999],((Taeniacara_candidi[&!color=#009999],Apistogramma[&!color=#009999])[&!color=#009999],(((Satanoperca_daemon,Satanoperca_lilith),Satanoperca_acuticeps)[&!cartoon={3,0.0},!color=#009999],(((Satanoperca_mapiritensis[&!color=#990099],Satanoperca_pappaterra[&!color=#990099])[&!color=#990099],Satanoperca_rhynchitis[&!color=#990099])[&!color=#990099],(Satanoperca_leucosticta[&!color=#990099],Satanoperca_jurupari[&!color=#990099])[&!color=#990099])[&!color=#990099])[&!color=#009999])[&!color=#009999])[&!color=#009999],(Mazarunia[&!color=#009999],((Guianacara_cuyunii,((Guianacara_dacrya,Guianacara_geayi),(Guianacara_oelemariensis,Guianacara_owroewefi))),(Guianacara_sphenozona,Guianacara_stergiosi))[&!cartoon={7,0.0},!color=#009999])[&!color=#009999])[&!color=#009999],(((((((((Gymnogeophagus_meridionalis[&!color=#009999,!rotate=true],Gymnogeophagus_rhabdotus[&!color=#009999,!rotate=true])[&!color=#009999,!rotate=true],Gymnogeophagus_che[&!color=#009999,!rotate=true])[&!color=#009999,!rotate=false],(Gymnogeophagus_setequedas[&!color=#009999,!rotate=true],(Gymnogeophagus_australis[&!color=#990099,!rotate=true],(Gymnogeophagus_caaguazuensis[&!color=#990099,!rotate=true],(Gymnogeophagus_tiraparae[&!color=#990099,!rotate=true],((Gymnogeophagus_lacustris[&!color=#990099,!rotate=true],Gymnogeophagus_labiatus[&!color=#990099,!rotate=true])[&!color=#990099,!rotate=true],(Gymnogeophagus_balzanii[&!color=#990099,!rotate=true],Gymnogeophagus_gymnogenys[&!color=#990099,!rotate=true])[&!color=#990099,!rotate=true])[&!color=#990099,!rotate=true])[&!color=#990099,!rotate=true])[&!color=#990099,!rotate=true])[&!color=#990099,!rotate=false,!cartoon={7,0.0}])[&!color=#009999,!rotate=true])[&!color=#009999],(('"Geophagus" crassilabris"'[&!color=#990099],'"Geophagus" pellegrini"'[&!color=#990099])[&!color=#990099],'"Geophagus" steindachneri"'[&!color=#990099])[&!cartoon={3,0.0},!color=#990099])[&!color=#009999],(((((((((((((((Geophagus_abalios[&!color=#990099],Geophagus_altifrons[&!color=#990099])[&!color=#990099],(Geophagus_winemilleri[&!color=#990099],(Geophagus_surinamensis[&!color=#990099],Geophagus_brachybranchus[&!color=#990099])[&!color=#990099])[&!color=#990099])[&!color=#990099],Geophagus_brokopondo[&!color=#990099])[&!color=#990099],Geophagus_camopiensis[&!color=#990099])[&!color=#990099],Geophagus_dicrozoster[&!color=#990099])[&!color=#990099],Geophagus_megasema[&!color=#990099])[&!color=#990099],Geophagus_proximus[&!color=#990099])[&!color=#990099],Geophagus_harreri[&!color=#990099])[&!color=#990099],Geophagus_crocatus[&!color=#990099])[&!color=#990099],Geophagus_parnaibae[&!color=#990099])[&!color=#990099],Geophagus_sveni[&!color=#990099])[&!color=#990099],Geophagus_neambi[&!color=#990099])[&!cartoon={15,0.0},!color=#990099],Geophagus_argyrostictus[&!color=#009999])[&!color=#009999],(Geophagus_grammepareius[&!color=#009999],Geophagus_taeniopareius[&!color=#009999])[&!color=#009999])[&!color=#009999],Geophagus_gottwaldi[&!color=#009999])[&!color=#009999])[&!color=#009999],(Mikrogeophagus[&!color=#009999],(Geophagus_obscurus,(Geophagus_itapicuruensis,'"Geophagus" brasiliensis"'))[&!cartoon={3,0.0},!color=#009999])[&!color=#009999])[&!color=#009999],Biotodoma[&!color=#009999])[&!color=#009999],Dicrossus[&!color=#009999])[&!color=#009999],Crenicara[&!color=#009999])[&!color=#009999])[&!color=#009999],(Chaetobranchopsis[&!color=#009999],Chaetobranchus[&!color=#009999])[&!color=#009999])[&!color=#009999],Astronotus[&!color=#009999])[&!color=#009999])[&!color=#009999],(Cichla[&!color=#009999],Retroculus[&!color=#009999])[&!color=#009999])[&!color=#009999];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=740;
+	set layout.layoutType="POLAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=156832;
+	set polarLayout.rootAngle=85545;
+	set polarLayout.rootLength=99;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=3.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

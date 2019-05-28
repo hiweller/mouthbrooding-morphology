@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558032900940.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4883E108",
+    "lastKnownWriteTime" : 1558044739,
+    "last_content_update" : 1558642155182,
+    "path" : "~/Dropbox/Mouthbrooding/Code/PRELIMINARY_oral_cavity_profiles.R",
+    "project_path" : "Code/PRELIMINARY_oral_cavity_profiles.R",
+    "properties" : {
+        "cursorPosition" : "52,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

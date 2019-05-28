@@ -1,0 +1,912 @@
+,Species,Fertilization,Reproduction,ParentalCare,AddInfo,Mouthbrooder
+1,Abactochromis labrosus,in mouth,external brooders,maternal,NA,Y
+2,Acarichthys heckelii,external,nesters,NA,A hole nester.      ,N
+3,Acaronia nassa,external,clutch tenders,biparental,Spawn on horizontal surface. Female tends eggs and male defends territory (Ref. 40602).,N
+4,Acaronia vultuosa,external,NA,NA,NA,N
+5,Aequidens chimantanus,external,NA,NA,NA,N
+6,Aequidens diadema,external,external brooders,biparental,"Spawns on substrate; after hatching, both parents take larvae into mouth (Ref. 40602).",N
+7,Aequidens epae,external,NA,NA,NA,n
+8,Aequidens gerciliae,external,NA,NA,NA,n
+9,Aequidens hoehnei,external,clutch tenders,biparental,Both parents guard the eggs and young (Ref. 40602).,n
+10,Aequidens mauesanus,external,NA,NA,NA,n
+11,Aequidens metae,external,clutch tenders,NA,NA,n
+12,Aequidens michaeli,external,clutch tenders,biparental,Eggs are deposited on hard substrate; eggs and larvae are defended by both parents (Ref. 40602).,n
+13,Aequidens pallidus,external,clutch tenders,NA,Not a larvophil mouthbrooder (Ref. 40602).,n
+14,Aequidens patricki,external,clutch tenders,NA,NA,n
+15,Aequidens plagiozonatus,external,NA,NA,NA,n
+16,Aequidens potaroensis,external,clutch tenders,biparental,Spawns on hard substrate: parents defend eggs and larvae (Ref. 40602).,n
+17,Aequidens rondoni,external,NA,NA,NA,n
+18,Aequidens tetramerus,external,clutch tenders,biparental,Produces a minimum of 1000 eggs (Ref. 1672).,n
+19,Aequidens tubicen,external,NA,NA,NA,n
+20,Aequidens viridis,external,NA,NA,NA,n
+21,Alcolapia alcalica,external,external brooders,maternal,"Early in the morning before taking possession of their pits, the males feed on slimy algal growths-noisily. Sexual activity is greater after noon than before. Young male may build a small pit around that of a larger male and mate there with a small female (Ref. 2). Males prepare and guard nests, while females migrate from one nest to another. Males guard the nest against juveniles of their own species and other species which feed on the fertilized eggs which fall from the mouth of the female mouth brooder (Ref. 11288).",y
+22,Alcolapia grahami,in mouth,external brooders,maternal,"Male prepares a breeding pit, the structure of which may vary with the nature of the substratum. Breeding activities are more actively pursued by both sexes in the morning than in the afternoon. Female lays about 3-10 eggs at a time, picks them up instantly and the male swims with his genital papilla near the mouth, probably emitting sperm. Brooding period reportedly 12-16 days.  ",y
+23,Alcolapia latilabris,external,NA,NA,NA,?
+24,Alcolapia ndalalani,external,external brooders,maternal,Females carry eggs and larvae in their mouths (Ref. 32272).,y
+25,Alticorpus geoffreyi,external,NA,NA,NA,?
+26,Alticorpus macrocleithrum,external,NA,NA,NA,?
+27,Alticorpus mentale,external,NA,NA,NA,?
+28,Alticorpus peterdaviesi,external,NA,NA,NA,?
+29,Alticorpus profundicola,external,NA,NA,NA,?
+30,Altolamprologus calvus,external,clutch tenders,maternal,"The female guards the eggs, about 200 in number (Ref. 2060).",n
+31,Altolamprologus compressiceps,external,clutch tenders,NA,NA,n
+32,Amatitlania coatepeque,external,NA,NA,NA,?
+33,Amatitlania kanna,external,NA,NA,NA,?
+34,Amatitlania nigrofasciata,external,nesters,biparental,"Lays eggs on cleaned surfaces of rocks. Parents incubate eggs and guard young. Tends and fans the embryos and free embryos and transfers them several times into new pits excavated in the bottom using its mouth (huddling) (Ref. 34155).Dark cavities are preferred as nests to conceal the brood and make them less conspicuous to visual predators (Ref. 38966). When in caves, single entrances are favored to reduce the probability of intrusion and are probably more manageable for the females in terms of defending their brood (Ref. 38966). Approximately 100-150 eggs are deposited and are vigorously guarded and cared for by both male and female (Ref. 44091).",n
+35,Amatitlania siquia,external,NA,NA,NA,?
+36,Amphilophus alfari,external,clutch tenders,NA,NA,n
+37,Amphilophus altifrons,external,clutch tenders,NA,NA,n
+38,Amphilophus amarillo,external,NA,NA,NA,?
+39,Amphilophus astorquii,external,NA,NA,NA,?
+40,Amphilophus bussingi,external,NA,NA,NA,?
+41,Amphilophus calobrensis,external,NA,NA,NA,?
+42,Amphilophus chancho,external,NA,NA,NA,?
+43,Amphilophus citrinellus,external,nesters,biparental,"Spawn preferentially on the ceiling of natural caves (Ref. 38966). Deposit eggs on hard substrates, such as rocks or logs; both parents  guarding the eggs and the fry for several weeks (Ref. 44091). 300-1000 eggs (Ref. 2060).",n
+44,Amphilophus diquis,external,NA,NA,NA,?
+45,Amphilophus flaveolus,external,NA,NA,NA,?
+46,Amphilophus hogaboomorum,external,NA,NA,NA,?
+47,Amphilophus labiatus,external,nesters,maternal,"600-700 eggs, female tends the clutch (Ref. 2060).",n
+48,Amphilophus longimanus,external,nesters,NA,NA,n
+49,Amphilophus lyonsi,external,NA,NA,NA,?
+50,Amphilophus macracanthus,external,NA,NA,NA,?
+51,Amphilophus margaritifer,external,NA,NA,NA,?
+52,Amphilophus nourissati,external,NA,NA,NA,?
+53,Amphilophus rhytisma,external,NA,NA,NA,?
+54,Amphilophus robertsoni,external,clutch tenders,NA,"Generally spawns in open pits or depressions in the sand. Cleans an area about 12-18 inches in diameter and patrols an area about 1-2 cubic meters, diligently warding off intruders.",n
+55,Amphilophus rostratus,external,clutch tenders,NA,NA,n
+56,Amphilophus sagittae,external,NA,NA,NA,?
+57,Amphilophus xiloaensis,external,NA,NA,NA,?
+58,Amphilophus zaliosus,external,NA,NA,NA,?
+59,Andinoacara biseriatus,external,clutch tenders,biparental,Spawn up to120 eggs on flat stones; both parents care for eggs and larvae (Ref. 40602).,n
+60,Andinoacara coeruleopunctatus,external,clutch tenders,biparental,An open bottom spawner which produces hundreds of eggs. Both parents care for their eggs until the fry are a week into free-swimming (Ref. 12251).,n
+61,Andinoacara latifrons,external,clutch tenders,biparental,Spawn up to 800 oval eggs of 1.2 mm diameter on flat substrate; both parents defend eggs and larvae (Ref. 40602).,n
+62,Andinoacara pulcher,external,clutch tenders,biparental,"In captivity, both male and female clean a rock which will be the spawning area. Eggs are laid on the rock by the female and fertilized by the male. Both male and female guard the eggs, which hatch in 2 to 5 days, and continue to look after the fry for some weeks (Ref. 7020). In cases of danger, the male protects its young by placing them inside its mouth (Ref. 26543).",n
+63,Andinoacara rivulatus,external,clutch tenders,biparental,Deposit up to 600 eggs on hard substrate: the female cares for the eggs and larvae and the male defends the territory (Ref. 40602).,n
+64,Andinoacara sapayensis,external,clutch tenders,paternal,About 400 eggs. Male defends the territory (Ref. 2060).,n
+65,Andinoacara stalsbergi,external,clutch tenders,biparental,Data based on aquarium observations (Ref. 82770).,n
+66,Anomalochromis thomasi,external,clutch tenders,NA,NA,n
+67,Apistogramma acrensis,external,NA,NA,NA,?
+68,Apistogramma agassizii,external,clutch tenders,maternal,"Produces up to 150 eggs. Eggs are attached to the ceiling of caves, female cares for eggs and larvae. (Ref. 1672).",n
+69,Apistogramma alacrina,external,NA,NA,NA,?
+70,Apistogramma amoena,external,nesters,maternal,"Male guards a relatively large territory, within this area a number of females occupy smaller territories. Male courts and mates with each female. Females lay eggs on the roof of the cave and tend them. Eggs hatch in 3 to 4 days and the fry are guarded for a time by the females (Ref. 7020).",n
+71,Apistogramma angayuara,external,NA,NA,NA,?
+72,Apistogramma arua,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+73,Apistogramma atahualpa,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref 47893).",n
+74,Apistogramma baenschi,external,NA,NA,NA,?
+75,Apistogramma bitaeniata,external,clutch tenders,maternal,"Produces 40-60 eggs. All <i>Apistogramma</i> species build caves for spawning, the eggs are attached to the ceiling. Female tends the clutch (Ref. 2060).",n
+76,Apistogramma borellii,external,clutch tenders,maternal,"Produces 50-70 eggs. The eggs are attached to the ceiling of caves, female cares for eggs and larvae. (Ref. 1672).",n
+77,Apistogramma brevis,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+78,Apistogramma cacatuoides,external,clutch tenders,maternal,"Produces up to 80 eggs. Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+79,Apistogramma caetei,external,clutch tenders,maternal,Max. 200 eggs are deposited on the cave ceiling. Female tends the clutch (Ref. 2060). Is a harem spawner when the opportunity arises (Ref. 12251).,n
+80,Apistogramma cinilabra,NA,NA,biparental,NA,?
+81,Apistogramma commbrae,external,clutch tenders,biparental,"Max. 80 eggs are deposited on the cave ceiling. Female clutch tender, but male often takes part in caring for eggs and larvae (Ref. 47893).",n
+82,Apistogramma cruzi,external,clutch tenders,maternal,"Eggs are attached to the roof of caves, female cares for eggs and larvae (Ref. 47893).",n
+83,Apistogramma diplotaenia,external,clutch tenders,maternal,"Eggs are attached to the roof of caves, female cares for eggs and larvae (Ref. 47893).",n
+84,Apistogramma elizabethae,external,clutch tenders,maternal,"Eggs are attached to the roof of caves, female cares for eggs and larvae (Ref. 47893).",n
+85,Apistogramma eremnopyge,external,NA,NA,NA,?
+86,Apistogramma eunotus,external,clutch tenders,maternal,"100-150 eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+87,Apistogramma geisleri,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+88,Apistogramma gephyra,external,clutch tenders,maternal,"Max. 200 eggs, female tends the clutch(Ref. 2060).  Eggs are attached to the ceiling of caves (Ref. 47893).",n
+89,Apistogramma gibbiceps,external,clutch tenders,maternal,"A good pair produces 250 eggs every six weeks (Ref. 12251). Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+90,Apistogramma gossei,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+91,Apistogramma guttata,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+92,Apistogramma hippolytae,external,nesters,maternal,"These fish practice harem breeding when the females outnumber the available males (Ref. 12251). About 200 eggs, female tends the clutch (Ref. 2060).",n
+93,Apistogramma hoignei,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+94,Apistogramma hongsloi,external,nesters,maternal,"About 60-90 eggs, female tends the clutch (Ref. 47893). The eggs are attached to the ceiling of caves (Ref. 47893).",n
+95,Apistogramma huascar,external,NA,NA,NA,?
+96,Apistogramma inconspicua,external,clutch tenders,biparental,"Eggs are attached to the ceiling of caves (Ref. 47893).  Female clutch tender, but male often takes part in caring for eggs and larvae (Ref. 47893).",n
+97,Apistogramma iniridae,external,nesters,maternal,Female deposits 80-120 eggs at the cave ceiling and tends the clutch (Ref. 2060).,n
+98,Apistogramma inornata,external,NA,NA,NA,?
+99,Apistogramma juruensis,external,clutch tenders,maternal,"Sexual maturity is reached after 3-4 months. Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+100,Apistogramma linkei,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves (Ref. 47893).  Female clutch tender, male often takes part in caring for eggs and larvae (Ref. 47893).",n
+101,Apistogramma luelingi,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+102,Apistogramma macmasteri,external,clutch tenders,maternal,"Produces 60-120 eggs. The eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893). Like other <i>Apistogramma</i>, this species may participate in harem spawning where the male services more than one female in his secret spawning site which may either be a cave or thick vegetation (Ref. 12251).",n
+103,Apistogramma martini,external,NA,NA,NA,?
+104,Apistogramma meinkeni,external,clutch tenders,maternal,"30-50 eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+105,Apistogramma mendezi,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+106,Apistogramma moae,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+107,Apistogramma nijsseni,external,nesters,biparental,Female guards eggs in nest; male and female guard larvae (Ref. 42573).,n
+108,Apistogramma norberti,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+109,Apistogramma ortmanni,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+110,Apistogramma panduro,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+111,Apistogramma pantalone,external,NA,NA,NA,?
+112,Apistogramma paucisquamis,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+113,Apistogramma paulmuelleri,NA,nesters,maternal,NA,n
+114,Apistogramma payaminonis,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+115,Apistogramma personata,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+116,Apistogramma pertensis,external,clutch tenders,maternal,Female deposits about 120 eggs at the cave ceiling and tends the clutch (Ref. 2060).,n
+117,Apistogramma piauiensis,external,clutch tenders,maternal,"Eggs are attached tot the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+118,Apistogramma pleurotaenia,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+119,Apistogramma pulchra,external,clutch tenders,maternal,"The males barely reach 5 cm, while the females are barely 2.5 cm in length. Breeding males are very colorful and have extended fin filaments while the female's fins are rounded (Ref. 12965). Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+120,Apistogramma regani,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+121,Apistogramma resticulosa,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+122,Apistogramma rositae,external,NA,NA,NA,?
+123,Apistogramma rubrolineata,external,NA,NA,NA,?
+124,Apistogramma rupununi,external,clutch tenders,NA,The males are not very colorful but the females are bright yellow during breeding season (Ref. 12251). About 200 eggs (Ref. 47893).,n
+125,Apistogramma salpinction,external,NA,NA,NA,?
+126,Apistogramma similis,external,NA,NA,NA,?
+127,Apistogramma staecki,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+128,Apistogramma steindachneri,external,clutch tenders,paternal,One male has a harem of several females; 60-120 eggs are laid in caves; male defends all nesting sites (Ref. 13371).,n
+129,Apistogramma taeniata,external,NA,NA,NA,?
+130,Apistogramma trifasciata,external,clutch tenders,biparental,"Harem family, usually 1 male and 3 females. Lays up to 100 eggs in caves. Both sexes defend eggs and larvae (Ref. 1672).",n
+131,Apistogramma tucurui,external,NA,NA,NA,?
+132,Apistogramma uaupesi,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+133,Apistogramma urteagai,external,clutch tenders,maternal,"Eggs are attached to the ceiling of caves, female cares for eggs and larvae (Ref. 47893).",n
+134,Apistogramma velifera,external,NA,NA,NA,?
+135,Apistogramma viejita,external,clutch tenders,maternal,"Maximum of 100 eggs, female tends the clutch. The eggs are attached to the ceiling of caves (Ref. 47893).  Males practice harem spawning when there is an excess of females around (Ref. 12251).",n
+136,Apistogramma wapisana,external,NA,NA,NA,?
+137,Apistogrammoides pucallpaensis,external,clutch tenders,maternal,"About 80 eggs are attached to the ceiling of caves, female tends the clutch (Ref. 2060).",n
+138,Archocentrus centrarchus,external,NA,NA,NA,?
+139,Archocentrus multispinosus,external,clutch tenders,maternal,"Female tends the clutch. The larvae were attached to aquatic swimming plants because most oxygen is near the surface of the pool. Later female looks after the young, male defends the territory. This updates previous information from Ref. 1672.",n
+140,Archocentrus spinosissimus,external,NA,NA,NA,?
+141,Aristochromis christyi,external,NA,NA,NA,?
+142,Astatoreochromis alluaudi,in mouth,external brooders,NA,Assumed to be a mouth brooder. Replace ASAP.,Y
+143,Astatoreochromis straeleni,external,NA,NA,NA,?
+144,Astatoreochromis vanderhorsti,external,NA,NA,NA,?
+145,Astatotilapia bloyeti,external,external brooders,NA,Mouthbrooding by females.,Y
+146,Astatotilapia burtoni,external,external brooders,NA,Mouthbrooding by females.,Y
+147,Astatotilapia calliptera,external,external brooders,maternal,"Female lays batches of eggs on a substratum which the male begins to inseminate. Female collects the eggs almost immediately after laying a batch and incubates eggs in her mouth for 12-14 days at 26å¡C, releasing the young after which. Parent guards the young for 5-7 days, keeping them into her mouth when approached by predators or divers.  ",Y
+148,Astatotilapia desfontainii,external,external brooders,NA,Mouthbrooding by females.,Y
+149,Astatotilapia flaviijosephi,external,external brooders,maternal,Mouthbrooding by females (Ref. 2059).,Y
+150,Astatotilapia stappersii,external,external brooders,NA,Mouthbrooding by females.,y
+151,Astatotilapia swynnertoni,external,external brooders,NA,Mouthbrooding by females.,y
+152,Astatotilapia tweddlei,external,external brooders,NA,Mouthbrooding by females.,y
+153,Astronotus crassipinnis,external,NA,NA,NA,n
+154,Astronotus ocellatus,external,clutch tenders,biparental,"In captivity, both male and female clean a suitable spawning site - often a flat rock , or branches, or in a circular nest excavated in shallow water (Ref. 44091). Eggs (usually numbering in the thousands, Ref. 44091) are deposited and are guarded by both parents. Egg hatch in 3 or 4 days and parent move the fry to a shallow pit in the sand where they remain for 6 or 7 days (Ref. 7020).   ",n
+155,Aulonocara aquilonium,external,NA,NA,NA,?
+156,Aulonocara auditor,external,NA,NA,NA,?
+157,Aulonocara baenschi,in mouth,external brooders,maternal,Female mouthbrooder (Ref. 2060).,y
+158,Aulonocara brevinidus,external,NA,NA,NA,?
+159,Aulonocara brevirostre,external,NA,NA,NA,?
+160,Aulonocara ethelwynnae,external,NA,NA,NA,?
+161,Aulonocara gertrudae,external,external brooders,NA,"Territorial males either dig crater nests, defend a rocky cave (north of Ruhuhu), or dig a spawning pit against a rock. Mouthbrooder.",y
+162,Aulonocara guentheri,external,NA,NA,NA,?
+163,Aulonocara hansbaenschi,in mouth,external brooders,NA,NA,y
+164,Aulonocara hueseri,external,NA,NA,NA,n
+165,Aulonocara jacobfreibergi,in mouth,external brooders,NA,Produces up to 50 eggs.,y
+166,Aulonocara kandeensis,external,NA,NA,NA,?
+167,Aulonocara koningsi,external,NA,NA,NA,?
+168,Aulonocara korneliae,external,NA,NA,NA,?
+169,Aulonocara maylandi,in mouth,external brooders,maternal,Female mouth brooder (Ref. 2060). Maximum number of 50 eggs (Ref. 2060).,y
+170,Aulonocara nyassae,external,NA,NA,NA,?
+171,Aulonocara rostratum,external,NA,NA,NA,?
+172,Aulonocara saulosi,external,NA,NA,NA,?
+173,Aulonocara steveni,external,NA,NA,NA,?
+174,Aulonocara stonemani,external,NA,NA,NA,?
+175,Aulonocara stuartgranti,in mouth,external brooders,NA,NA,?
+176,Aulonocara trematocephalum,external,NA,NA,NA,?
+177,Aulonocranus dewindti,external,external brooders,maternal,Eggs from the cleavage phase up to larvae of around 1.63 cm TL are mouthbrooded by female parents with size ranging from 7.0 to 9.0 cm SL (Ref. 86760).,y
+178,Australoheros charrua,external,NA,NA,NA,?
+179,Australoheros facetus,external,clutch tenders,biparental,"This species is an easy open spawner that lays its eggs on a stone or piece of wood. Both parents care for the eggs and fry (Ref. 12251).  In Europe where it has invaded native drainages, spawns when temperature rises above 28-30å¡C.  Forms pairs during spawning and both sexes are territorial.  Females deposits eggs on exposed hard surfaces such as stones or wood. Both parent guard larvae and juveniles for 1-3 weeks (Ref. 59043).",n
+180,Australoheros forquilha,external,NA,NA,NA,?
+181,Australoheros guarani,external,NA,NA,NA,?
+182,Australoheros kaaygua,external,NA,NA,NA,?
+183,Australoheros minuano,external,NA,NA,NA,?
+184,Australoheros scitulus,external,NA,NA,NA,?
+185,Australoheros tembe,external,NA,NA,NA,?
+186,Baileychromis centropomoides,external,NA,NA,NA,?
+187,Bathybates fasciatus,external,NA,NA,NA,?
+188,Bathybates ferox,external,NA,NA,NA,?
+189,Bathybates graueri,external,NA,NA,NA,?
+190,Bathybates hornii,external,NA,NA,NA,?
+191,Bathybates leo,external,NA,NA,NA,?
+192,Bathybates minor,external,NA,NA,NA,?
+193,Bathybates vittatus,external,NA,NA,NA,?
+194,Benitochromis batesii,external,external brooders,maternal,"Female mouthbrooders, maximum number of 100 eggs (Ref. 2060).",y
+195,Benitochromis conjunctus,external,NA,NA,NA,?
+196,Benitochromis finleyi,external,external brooders,maternal,Female mouthbrooders (Ref. 26489).,y
+197,Benitochromis nigrodorsalis,external,external brooders,biparental,Both parents participate in mouthbrooding (Ref. 42576).,y
+198,Benitochromis riomuniensis,external,NA,NA,NA,?
+199,Benitochromis ufermanni,external,NA,NA,NA,?
+200,Benthochromis horii,external,NA,NA,NA,?
+201,Benthochromis melanoides,external,external brooders,NA,Mouthbrooder (Ref. 74417).,y
+202,Benthochromis tricoti,external,external brooders,NA,Mouthbrooder (Ref. 74417).,y
+203,Biotodoma cupido,external,clutch tenders,NA,NA,n
+204,Biotodoma wavrini,external,NA,NA,NA,?
+205,Biotoecus dicentrarchus,external,clutch tenders,maternal,Eggs are deposited at the ceiling of a cave; the female tends to eggs and yolk-sac larvae; both parents care for the free-swimming young (Ref. 42051).,n
+206,Biotoecus opercularis,external,NA,NA,NA,n
+207,Boulengerochromis microlepis,external,nesters,NA,"Deposits eggs in abandoned nests of other cichlids, in between stones, or in the sand, if no nests are available (Ref. 7343).",n
+208,Buccochromis atritaeniatus,external,NA,NA,NA,?
+209,Buccochromis heterotaenia,external,NA,NA,NA,?
+210,Buccochromis lepturus,external,NA,NA,NA,?
+211,Buccochromis nototaenia,external,NA,NA,NA,?
+212,Buccochromis oculatus,external,NA,NA,NA,?
+213,Buccochromis rhoadesii,external,NA,NA,NA,?
+214,Buccochromis spectabilis,external,NA,NA,NA,?
+215,Bujurquina apoparuana,external,external brooders,biparental,Larvae are carried in the mouth by both parents (Ref. 40602).,y
+216,Bujurquina cordemadi,external,NA,NA,NA,?
+217,Bujurquina eurhinus,external,NA,NA,NA,?
+218,Bujurquina hophrys,external,NA,NA,NA,?
+219,Bujurquina huallagae,external,NA,NA,NA,?
+220,Bujurquina labiosa,external,NA,NA,NA,?
+221,Bujurquina mariae,external,external brooders,NA,"Produces 100-400 eggs. After 2 days, one of the parents incubates eggs in the mouth (Ref. 1672).",y
+222,Bujurquina megalospilus,external,NA,NA,NA,?
+223,Bujurquina moriorum,external,clutch tenders,biparental,Both parents guard eggs and larvae (Ref. 40602).,n
+224,Bujurquina oenolaemus,external,NA,NA,NA,?
+225,Bujurquina ortegai,external,NA,NA,NA,?
+226,Bujurquina peregrinabunda,external,NA,NA,NA,?
+227,Bujurquina robusta,external,clutch tenders,biparental,"Eggs are deposited on fallen leaves, which may be dragged around. Both parents guard eggs and larvae (Ref. 40602).",n
+228,Bujurquina syspilus,external,external brooders,biparental,Eggs are deposited on leaves and guarded by both parents; larvae are taken into the mouth (Ref. 40602).,y
+229,Bujurquina tambopatae,external,external brooders,NA,Larvae and eggs have been found in the mouth of these fishes (Ref. 40602).,y
+230,Bujurquina vittata,external,external brooders,biparental,"Spawn up to 400 eggs on fallen leaves, which may be pulled around, possibly in reaction to predators or water level changes. Both parents defend the eggs and take the yolk-sac larvae in their mouth (Ref. 40602).",y
+231,Bujurquina zamorensis,external,NA,NA,NA,?
+232,Callochromis macrops,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 1.38 cm TL are mouthbrooded by female parents ranging from 8.6 to 10.0 cm SL (Ref. 86760).,y
+233,Callochromis melanostigma,external,NA,NA,NA,?
+234,Callochromis pleurospilus,external,NA,NA,NA,?
+235,Caprichromis liemi,external,NA,NA,NA,?
+236,Caprichromis orthognathus,external,NA,NA,NA,?
+237,Caquetaia kraussii,external,clutch tenders,NA,NA,n
+238,Caquetaia myersi,external,clutch tenders,NA,Over 1000 eggs are deposited on open substrate (e.g. stones) and guarded by both parents. Larvae are transferred to a depression in the sand created by the female (Ref. 40602).,n
+239,Caquetaia spectabilis,external,clutch tenders,biparental,Eggs are deposited on open substrate and defended by both parents. Larvae are transferred to various hiding places by the female (Ref. 40602).,n
+240,Caquetaia umbrifera,external,clutch tenders,maternal,"Deposit several thousand eggs on open, preferably horizontal substrate; male defends territory and female guards eggs; larvae are guarded by the female (Ref. 40602).Females reach sexual maturity at 10 cm, males at 15 cm (Ref. 2060).",n
+241,Cardiopharynx schoutedeni,external,NA,NA,NA,?
+242,Chaetobranchopsis australis,external,NA,NA,NA,?
+243,Chaetobranchopsis orbicularis,external,NA,NA,NA,?
+244,Chaetobranchus flavescens,external,NA,NA,NA,?
+245,Chaetobranchus semifasciatus,external,NA,NA,NA,?
+246,Chalinochromis brichardi,external,nesters,NA,Maximum number of eggs is 120. Cave brooder (Ref. 2060).,n
+247,Chalinochromis popelini,external,NA,NA,NA,?
+248,Champsochromis caeruleus,external,NA,NA,NA,?
+249,Champsochromis spilorhynchus,external,external brooders,maternal,The female carries over 100 young in her mouth (Ref. 2060).,y
+250,Cheilochromis euchilus,external,external brooders,maternal,Female takes eggs in mouth (Ref. 1672).,y
+251,Chetia brevicauda,external,NA,NA,NA,?
+252,Chetia brevis,external,external brooders,maternal,Female incubates eggs and larvae in the mouth (Ref. 27553).,y
+253,Chetia flaviventris,external,external brooders,maternal,The female mouth broods the eggs and larvae (Ref. 7248).,y
+254,Chetia gracilis,external,NA,NA,NA,?
+255,Chetia mola,external,NA,NA,NA,?
+256,Chetia welwitschi,external,NA,NA,NA,?
+257,Chilochromis duponti,external,NA,NA,NA,?
+258,Chilotilapia rhoadesii,in mouth,external brooders,NA,NA,y
+259,Chromidotilapia cavalliensis,external,external brooders,NA,Ovophilic male mouthbrooder; both parents take care of the young after hatching (Ref. 12468).,y
+260,Chromidotilapia guntheri,external,external brooders,biparental,Male mouthbrooder; both parents take care of the young after hatching (Ref. 47115). This corrects previous information from Ref. 26489.,y
+261,Chromidotilapia kingsleyae,external,external brooders,NA,Female mouthbrooders.,y
+262,Chromidotilapia linkei,external,external brooders,NA,"Female mouthbrooders, max. 150 eggs (Ref. 2060).",y
+263,Chromidotilapia melaniae,NA,NA,NA,"In aquaria, a monogamous, pair-bonding, biparental ovophilic mouth brooder.  Eggs are deposited on hard substrate or on leaves and incubated by the female for the first 2 or 3 days; afterwhich incubation may be done by both male and female (but mainly by female) (Ref. 50577).",y
+264,Chromidotilapia mrac,external,external brooders,maternal,"<i>Chromidotilapia mrac</i> is a monogamous, pair bounding female larvophilic mouthbrooder, which spawns in caves (Ref. 47112). Eggs are incubated by the female alone for 3 days, after hatching the larvae are carried by the female for 9-10 days in the buccal cavity (Ref. 47112). When free swimming the juveniles are protected by the adults for a duration of about 4-5 weeks (Ref. 47112).",y
+265,Chromidotilapia nana,NA,NA,NA,"In aquaria, a monogamous, pair-bonding, biparental ovophilic mouth brooder.  Eggs are deposited on hard substrate or on leaves and incubated by the female for the first 2 or 3 days; afterwhich incubation may be done by both male and female (but mainly by female) (Ref. 50577).",y
+266,Chromidotilapia schoutedeni,external,external brooders,NA,Female mouthbrooders.,y
+267,Cichla monoculus,external,nesters,NA,"Oviparous (Ref. 205). May spawn 3-4 times a year in batches of 50 to 100 eggs, each spawning lasting 2-3 hours (Ref. 50805).",n
+268,Cichla ocellaris,external,clutch tenders,biparental,"Spawning, with rare exceptions, takes place on a flat, horizontal surface which is either bare to begin with, or cleared of algae or other vegetation during the spawning activities. The female moves forward laying a single row of eggs and the male follows exuding sperm over each row. Once the eggs have hatched, the parents transport the larvae in their mouths to one of the depression nests.",n
+269,Cichla temensis,external,nesters,NA,Oviparous (Ref. 205).,n
+270,Cichlasoma amazonarum,external,clutch tenders,NA,NA,n
+271,Cichlasoma araguaiense,external,clutch tenders,NA,NA,n
+272,Cichlasoma atromaculatum,external,clutch tenders,NA,"Up to 3000 eggs are deposited on open substratum, such as a flat stone.  Mainly the female guards eggs and young.",n
+273,Cichlasoma beani,external,clutch tenders,NA,Both parents defend eggs and larvae (Ref. 40602).,n
+274,Cichlasoma bimaculatum,external,clutch tenders,NA,NA,n
+275,Cichlasoma boliviense,external,clutch tenders,NA,NA,n
+276,Cichlasoma dimerus,external,clutch tenders,NA,NA,n
+277,Cichlasoma ericymba,external,clutch tenders,NA,NA,n
+278,Cichlasoma festae,external,nesters,NA,Max. 3000 eggs. ,n
+279,Cichlasoma grammodes,external,clutch tenders,NA,Parents care for eggs and larvae. Larvae feed on the thickened skin of the parents. Pairs may stay together for a long time (Ref. 40602).,n
+280,Cichlasoma istlanum,external,clutch tenders,NA,Produces about 500 eggs.,n
+281,Cichlasoma orientale,external,clutch tenders,NA,NA,n
+282,Cichlasoma orinocense,external,clutch tenders,NA,NA,n
+283,Cichlasoma ornatum,external,nesters,NA,Oviparous (Ref. 205).,n
+284,Cichlasoma paranaense,external,clutch tenders,NA,NA,n
+285,Cichlasoma portalegrense,external,clutch tenders,NA,Produces up to 500 eggs (Ref. 1672). Some times females that have already reproduced develop into functional males (Ref. 40602).,n
+286,Cichlasoma pusillum,external,nesters,NA,NA,n
+287,Cichlasoma salvini,external,clutch tenders,NA,Produces about 500-600 eggs per spawning.,n
+288,Cichlasoma sanctifranciscense,external,clutch tenders,NA,NA,n
+289,Cichlasoma taenia,external,clutch tenders,NA,NA,n
+290,Cichlasoma trimaculatum,external,clutch tenders,NA,"Large females can lay more than 1000 eggs. Females reach sexual maturity at 8-10 cm, males at 12-14 cm (Ref. 2060).",n
+291,Cichlasoma urophthalmum,external,nesters,maternal,Max. 600 eggs. ,n
+292,Cleithracara maronii,external,clutch tenders,NA,Spawns on hard substrate; produces up to 600 eggs; both parents guard eggs and larvae (Ref. 40602).,n
+293,Congochromis dimidiatus,external,clutch tenders,NA,NA,n
+294,Copadichromis atripinnis,NA,NA,NA,Builds bowers on a sand slope near rocky area at depth of 16-25 m. Bowers are circular or oval in shape with slight depression on the center and a surrounding sand mound. These contain a stone usually at the deeper margin of the sand mound. The depression is usually deepest near the stone and spawning takes place at this deepest part.,n
+295,Copadichromis borleyi,in mouth,external brooders,NA,"Males defend spawning sites on large boulders and spawn along the vertical face of the boulder or construct a small bower of find sand on top of the boulder. Female mouth brooder, ca. 60 eggs (Ref. 2060).",y
+296,Copadichromis chrysonotus,in mouth,external brooders,NA,Spawns in the water column and does not build bowers (Ref. 42940). Females carries fry in mouth.,y
+297,Copadichromis geertsi,external,nesters,NA,"The spawning site or nest is normally constructed under and against a rock with a diameter of between 50 to 200 cm; the male excavates the sand from beneath the rock and heaps it up, building a semicircular wall around the spawning site; male spawning sites are usually at least 4 meters apart (Ref. 47113).",n
+298,Copadichromis ilesi,external,nesters,NA,"The spawning site usually is constructed under and against a rock or small group of rocks; the male excavates the sand from beneath the rock and heaps it up, building a semicircular wall around the spawning site, sometimes leaving just a narrow opening to the nest (Ref. 47113). The spawning sites are usually about 2 meters apart (Ref. 47113).",n
+299,Copadichromis mloto,in mouth,external brooders,NA,Males remain in breeding condition longer than females.      ,y
+300,Copadichromis virginalis,in mouth,external brooders,NA,Annual breeding season is brief. Females brood young or show development of the buccal brood pouch.     ,y
+301,Crenicara punctulatum,external,clutch tenders,NA,Attaches about 200 eggs to plants or stones; female tends the clutch. After a year the females turn into males. This corrects previous informations from Ref. 35887 and 13371.,n
+302,Crenicichla acutirostris,external,nesters,NA,NA,n
+303,Crenicichla adspersa,external,nesters,NA,NA,n
+304,Crenicichla albopunctata,external,nesters,NA,NA,n
+305,Crenicichla alta,external,nesters,NA,NA,n
+306,Crenicichla anthurus,external,nesters,NA,NA,n
+307,Crenicichla brasiliensis,external,nesters,NA,NA,n
+308,Crenicichla britskii,external,nesters,NA,NA,n
+309,Crenicichla cametana,external,nesters,NA,NA,n
+310,Crenicichla celidochilus,external,nesters,NA,NA,n
+311,Crenicichla cincta,external,nesters,NA,NA,n
+312,Crenicichla compressiceps,external,nesters,NA,NA,n
+313,Crenicichla coppenamensis,external,nesters,NA,NA,n
+314,Crenicichla cyanonotus,external,nesters,NA,NA,n
+315,Crenicichla cyclostoma,external,nesters,NA,NA,n
+316,Crenicichla gaucho,external,nesters,NA,NA,n
+317,Crenicichla geayi,external,nesters,NA,NA,n
+318,Crenicichla heckeli,external,nesters,NA,NA,n
+319,Crenicichla hemera,external,nesters,NA,NA,n
+320,Crenicichla igara,external,nesters,NA,NA,n
+321,Crenicichla jegui,external,nesters,NA,NA,n
+322,Crenicichla johanna,external,nesters,biparental,NA,n
+323,Crenicichla jupiaensis,external,nesters,NA,NA,n
+324,Crenicichla jurubi,external,nesters,NA,NA,n
+325,Crenicichla lacustris,external,nesters,NA,NA,n
+326,Crenicichla lenticulata,external,nesters,NA,NA,n
+327,Crenicichla lepidota,external,nesters,NA,"Females reach sexual maturity at 14 cm, males at 18 cm (Ref. 2060).",n
+328,Crenicichla lucius,external,nesters,NA,NA,n
+329,Crenicichla lugubris,external,nesters,NA,NA,n
+330,Crenicichla macrophthalma,external,nesters,NA,NA,n
+331,Crenicichla minuano,external,nesters,NA,NA,n
+332,Crenicichla missioneira,external,nesters,NA,NA,n
+333,Crenicichla mucuryna,external,nesters,NA,NA,n
+334,Crenicichla multispinosa,external,nesters,NA,NA,n
+335,Crenicichla nickeriensis,external,nesters,NA,NA,n
+336,Crenicichla niederleinii,external,nesters,NA,NA,n
+337,Crenicichla notophthalmus,external,clutch tenders,NA,"Eggs are deposited in caves; females tend the eggs, male defend the territory (Ref. 13371).",n
+338,Crenicichla percna,external,nesters,NA,NA,n
+339,Crenicichla phaiospilus,external,nesters,NA,NA,n
+340,Crenicichla prenda,external,nesters,NA,NA,n
+341,Crenicichla proteus,external,nesters,NA,NA,n
+342,Crenicichla regani,external,nesters,NA,NA,n
+343,Crenicichla reticulata,external,nesters,NA,NA,n
+344,Crenicichla rosemariae,external,nesters,NA,NA,n
+345,Crenicichla saxatilis,external,nesters,NA,NA,n
+346,Crenicichla scottii,external,nesters,NA,NA,n
+347,Crenicichla sedentaria,external,nesters,NA,NA,n
+348,Crenicichla semicincta,external,nesters,NA,NA,n
+349,Crenicichla semifasciata,external,nesters,NA,Sexual mature at 10-12 cm TL (Ref. 2060).,n
+350,Crenicichla sipaliwini,external,nesters,NA,NA,n
+351,Crenicichla strigata,external,clutch tenders,NA,"Deposit eggs in caves at the ceiling, sometimes at the walls; female tends the clutch, male defends the territory; later both parents look after the free-swimming young. This corrects previous information from Ref. 13371.",n
+352,Crenicichla tendybaguassu,external,nesters,NA,NA,n
+353,Crenicichla ternetzi,external,nesters,NA,NA,n
+354,Crenicichla urosema,external,nesters,NA,NA,n
+355,Crenicichla vittata,external,nesters,NA,NA,n
+356,Crenicichla wallacii,external,nesters,NA,About 150 aggs (Ref. 2060).,n
+357,Cryptoheros sajica,external,nesters,NA,"300 eggs, female tends the clutch.",n
+358,Cryptoheros spilurus,external,clutch tenders,NA,Usually lays eggs in sand depressions. Produces 300-400 offspring per spawning.,n
+359,Ctenochromis benthicola,external,external brooders,NA,Mouthbrooding by females.,y
+360,Ctenochromis horei,external,external brooders,maternal,Larvae of up to 1.42 cm TL are mouthbrooded by female parents ranging from 8.4 to 9.6 cm SL (Ref. 86760).,y
+361,Ctenochromis luluae,external,external brooders,NA,Mouthbrooding by females.,y
+362,Ctenochromis oligacanthus,external,external brooders,NA,Mouthbrooding by females.,y
+363,Ctenochromis pectoralis,NA,external brooders,NA,Mouthbrooder.,y
+364,Ctenochromis polli,external,external brooders,NA,Mouthbrooding by females.,y
+365,Ctenopharynx pictus,in mouth,external brooders,NA,NA,y
+366,Cyathopharynx furcifer,in mouth,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 1.69 cm TL are mouthbrooded by female parents ranging from 11.3 to 12.2 cm SL (Ref. 86760).,y
+367,Cynotilapia afra,in mouth,external brooders,maternal,Sexual maturity is reached at 6-8 months. Female mouth brooder.,y
+368,Cyphotilapia frontosa,in mouth,external brooders,maternal,"Females incubate eggs in buccal cavity. Early hatching embryos commence feeding on inhaled particles by the female when still in possession of large yolk (Ref. 7471).  In one study, larvae of up to 1.66 cm TL are mouthbrooded by a female parent 14.0 SL long (Ref. 86760).",y
+369,Cyprichromis leptosoma,in mouth,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 1.88 cm TL are mouthbrooded by female parents ranging from 6.8 to 7.6 cm SL (Ref. 86760).,y
+370,Cyprichromis microlepidotus,in mouth,external brooders,NA,"Female mouth brooder, about 25 eggs.",y
+371,Cyrtocara moorii,in mouth,external brooders,maternal,Female takes brood into her mouth and takes care of the young (Ref. 1672).,y
+372,Dicrossus filamentosus,external,clutch tenders,NA,NA,n
+373,Dimidiochromis compressiceps,in mouth,external brooders,NA,NA,y
+374,Dimidiochromis kiwinge,external,NA,NA,Guards the young for about 4 days.      ,?
+375,Dimidiochromis strigatus,external,clutch tenders,NA,NA,n
+376,Diplotaxodon limnothrissa,NA,external brooders,NA,"Males in breeding dress were found throughout the year; ripe adults and mouthbrooding females were recorded at depths of 50-125m; largest fry found in the mouth of females were 3cm TL, but a maximum of only 1-2 such large fry were found per female; juveniles of 40-50mm were found in many locations (Ref. 55949).",y
+377,Enigmatochromis lucanusi,external,NA,NA,"In aquaria, the species is a monogamous, pair bonding, cave spawner. Eggs are guarded by both sexes, but more intensively by the female. Hatching occurs after three days post-spawn.Larvae are normally deposited on the bottom of the cave, rarely in other caves nearby the original cave. Juveniles are free swimming 8 or 9 days post-hatching, and are guarded by both parents for about 5 to 6 weeks. Breeding and guarding individuals of both sexes regularly exhibit more aggressive and intensive coloration. The dark, longitudinal stripe that is typical for breeding and guarding specimens of both sexes inmany other cave breeders of the chromidotilapiine lineage (e.g., <i>Pelvicachromis</i>, <i>Congochromis</i>, and <i>Parananochromis</i>) is prominently visible in males, but is more rarely and weakly visible in females. In thischaracter, females of Enigmatochromis differ from females of <i>Pelvicachromis</i>, <i>Congochromis</i> and <i>Parananochromis</i>, where a prominent dark, longitudinal stripe is typical for females (and only rarely for males) during the first 2 to 4 weeks when guarding fry (Ref. 81928).",n
+378,Eretmodus cyanostictus,external,external brooders,biparental,Eggs from the cleavage phase and larvae of up to 1.09 cm TL are mouthbrooded by male and female parents ranging from 4.7 to 6.2 cm SL (Ref. 86760).,y
+379,Etroplus maculatus,external,nesters,biparental,"Spawns in shallow water, on a soft depression excavated by both parents. About 200 eggs are laid and hatch after 5 days, during which time the parents tend, and if necessary fan them. One parent always remains with the eggs while the other forages. Fry are guarded by parents until they almost reach sexual maturity.",n
+380,Etroplus suratensis,external,clutch tenders,NA,"After spawning, about 500 eggs are laid and attached to a submerged log, rock or sometimes roots and weeds, in still or slow flowing water. Parents guard and fan the eggs until hatching, usually about 4 days. The fry shoal around their parents during the first weeks of growth. Parents refrain from feeding from the time of spawning until the fry become independent.",n
+381,Fossorochromis rostratus,in mouth,external brooders,NA,"Female mouth brooder, gestation period: three weeks, about 50-100 young, (Ref. 2059).",y
+382,Geophagus argyrostictus,external,clutch tenders,NA,This fish is a substrate spawner and is becoming well established in the aquarium trade (Ref. 12251).,n
+383,Geophagus brachybranchus,external,external brooders,NA,Larvophile mouthbrooders.,y
+384,Geophagus brasiliensis,external,clutch tenders,NA,NA,n
+385,Geophagus pellegrini,external,external brooders,maternal,The females carry the brood in this mouthbrooding species. Males often spawn with many females at the same time if there is a surplus of them (Ref. 12251).,y
+386,Geophagus proximus,external,external brooders,NA,Male and female are mouthbrooding.,y
+387,Geophagus steindachneri,external,external brooders,NA,Very little is known of the breeding habits of this peaceful species (Ref. 12251).,y
+388,Geophagus surinamensis,external,external brooders,NA,Parents form pairs. Larvophile mouthbrooder.,y
+389,Geophagus taeniopareius,external,clutch tenders,NA,NA,n
+390,Gnathochromis permaxillaris,external,external brooders,NA,Males and females are mouthbrooders.,y
+391,Gnathochromis pfefferi,external,external brooders,biparental,Eggs from the cleavage phase and larvae of up to 0.89 cm TL are mouthbrooded by male and female parents ranging from 6.7 to 7.0 cm SL (Ref. 86760).,y
+392,Grammatotria lemairii,external,external brooders,maternal,Larvae of up to 1.32 cm TL are mouthbrooded by female parents 16.5 cm SL long (Ref. 86760).,y
+393,Guianacara geayi,external,clutch tenders,NA,Produces up to 500 eggs.,n
+394,Gymnogeophagus australis,external,external brooders,NA,Larvophile mouth brooders. This corrects the previous information from Ref. 1672.,y
+395,Gymnogeophagus balzanii,external,external brooders,NA,Larvophile mouth brooders. Female tends the clutch. This updates previous information from Ref. 1672.,y
+396,Gymnogeophagus gymnogenys,external,external brooders,NA,Eggs are deposited on substrate and covered with sand; female protects clutch and takes larvae into the mouth after hatching; larvophile mouth brooder. This corrects previous information from Ref. 2060.,y
+397,Gymnogeophagus labiatus,external,external brooders,NA,Larvophile mouth brooders.,y
+398,Gymnogeophagus lacustris,external,external brooders,NA,Larvophile mouth brooders.,y
+399,Gymnogeophagus meridionalis,external,clutch tenders,NA,Eggs are attached to hard substrates such as stones; both parents care for eggs and larvae (Ref. 42572). ,n
+400,Gymnogeophagus rhabdotus,external,nesters,NA,The female lays about 300 eggs on a cleaned site. After hatching the young are moved to already built ground depressions.,n
+401,Gymnogeophagus setequedas,external,clutch tenders,NA,Both parents take care of the fry.,n
+402,Haplochromis acidens,NA,external brooders,NA,Mouthbrooders.,y
+403,Haplochromis adolphifrederici,external,external brooders,NA,Mouthbrooding by females.,y
+404,Haplochromis aelocephalus,NA,external brooders,NA,Mouthbrooder.,y
+405,Haplochromis aeneocolor,external,external brooders,NA,Mouthbrooding by females.,y
+406,Haplochromis albertianus,external,external brooders,NA,Mouthbrooding by females.,y
+407,Haplochromis altigenis,external,external brooders,NA,Mouthbrooding by females.,y
+408,Haplochromis ampullarostratus,in mouth,internal live bearers,NA,Mouthbrooders: Females carry eggs and larvae in the mouth.,y
+409,Haplochromis angustifrons,external,external brooders,NA,Mouthbrooding by females.,y
+410,Haplochromis annectidens,NA,external brooders,NA,Mouthbrooder.,y
+411,Haplochromis antleter,NA,external brooders,maternal,Mouth brooding done by the female (Ref. 85523).,y
+412,Haplochromis apogonoides,external,external brooders,NA,Mouthbrooding by females.,y
+413,Haplochromis arcanus,NA,external brooders,NA,Mouthbrooder.,y
+414,Haplochromis argens,NA,NA,NA,<i>Haplochromis argens</i> is a female mouth brooder (Ref. 92860).,y
+415,Haplochromis argenteus,NA,external brooders,NA,Mouthbrooder.,y
+416,Haplochromis artaxerxes,NA,external brooders,NA,Mouthbrooder.,y
+417,Haplochromis astatodon,external,external brooders,NA,Mouthbrooding by females.,y
+418,Haplochromis avium,external,external brooders,NA,Mouthbrooding by females.,y
+419,Haplochromis azureus,NA,external brooders,NA,"A polygynous female mouth brooder, probably with maternal parental care.",y
+420,Haplochromis barbarae,NA,external brooders,NA,Mouthbrooder.,y
+421,Haplochromis bartoni,NA,external brooders,NA,Mouthbrooding by female.,y
+422,Haplochromis bayoni,NA,external brooders,NA,Mouthbrooding by female.,y
+423,Haplochromis beadlei,NA,external brooders,NA,Mouthbrooding by female.,y
+424,Haplochromis bicolor,in mouth,external brooders,NA,A mouthbrooder.,y
+425,Haplochromis boops,NA,external brooders,NA,Mouthbrooding by female.,y
+426,Haplochromis brownae,NA,external brooders,NA,Mouthbrooding by female.,y
+427,Haplochromis bullatus,external,external brooders,NA,Mouthbrooding by females.,y
+428,Haplochromis bwathondii,NA,external brooders,maternal,Mouth brooding done by the female (Ref. 85523).,y
+429,Haplochromis cassius,NA,external brooders,NA,Mouthbrooding by female.,y
+430,Haplochromis cavifrons,NA,external brooders,NA,Mouthbrooding by female.,y
+431,Haplochromis chilotes,NA,external brooders,NA,Mouthbrooding by female.,y
+432,Haplochromis chlorochrous,external,external brooders,NA,Mouthbrooding by females.,y
+433,Haplochromis chromogynos,NA,external brooders,NA,Mouthbrooding by female.,y
+434,Haplochromis cinctus,external,external brooders,NA,Mouthbrooding by females.,y
+435,Haplochromis cinereus,external,external brooders,NA,Mouthbrooding by females.,y
+436,Haplochromis cnester,external,external brooders,NA,Mouthbrooding by females.,y
+437,Haplochromis commutabilis,in mouth,internal live bearers,NA,Mouth brooders: female carries eggs and larvae in mouth.,y
+438,Haplochromis coprologus,NA,external brooders,maternal,Mouth brooding done by the female. A seasonal spawner (Ref. 85523).,y
+439,Haplochromis crassilabris,NA,external brooders,NA,Mouthbrooding by female.,y
+440,Haplochromis crebridens,external,external brooders,NA,Mouthbrooding by females.,y
+441,Haplochromis crocopeplus,external,external brooders,NA,Mouthbrooding by females.,y
+442,Haplochromis cronus,external,external brooders,NA,Mouthbrooding by females.,y
+443,Haplochromis cryptodon,external,external brooders,NA,Mouthbrooding by females.,y
+444,Haplochromis cryptogramma,external,external brooders,NA,Mouthbrooding by females.,y
+445,Haplochromis cyaneus,NA,external brooders,NA,"A polygynous female mouth brooder with maternal parental care. In the aquarium, females incubate eggs and larvae for about 15 days before they first release them and guards the fry for another 15 days.",y
+446,Haplochromis decticostoma,NA,external brooders,NA,Mouthbrooding by female.,y
+447,Haplochromis degeni,external,external brooders,NA,Mouthbrooding by female.,y
+448,Haplochromis dentex,NA,external brooders,NA,Mouthbrooding by female.,y
+449,Haplochromis dichrourus,external,external brooders,NA,Mouthbrooding by females.,y
+450,Haplochromis diplotaenia,external,external brooders,NA,Mouthbrooding by females.,y
+451,Haplochromis dolichorhynchus,external,external brooders,NA,Mouthbrooding by females.,y
+452,Haplochromis dolorosus,external,external brooders,NA,Mouthbrooding by females.,y
+453,Haplochromis eduardii,external,external brooders,NA,Mouthbrooding by females.,y
+454,Haplochromis elegans,external,external brooders,NA,Mouthbrooding by females.,y
+455,Haplochromis empodisma,external,external brooders,NA,Mouthbrooding by females.,y
+456,Haplochromis engystoma,external,external brooders,NA,Mouthbrooding by females.,y
+457,Haplochromis erythrocephalus,external,external brooders,NA,Mouthbrooding by females.,y
+458,Haplochromis erythromaculatus,external,external brooders,NA,Mouthbrooding by females.,y
+459,Haplochromis estor,NA,external brooders,NA,Mouthbrooding by female.,y
+460,Haplochromis eutaenia,external,external brooders,NA,Mouthbrooding by females.,y
+461,Haplochromis exspectatus,in mouth,internal live bearers,NA,Mouth brooders: female carries eggs and larvae in mouth.,y
+462,Haplochromis flavipinnis,NA,external brooders,NA,Mouthbrooding by female.,y
+463,Haplochromis fuscus,external,external brooders,NA,Mouthbrooding by females.,y
+464,Haplochromis fusiformis,external,external brooders,NA,Mouthbrooding by females.,y
+465,Haplochromis gigas,NA,external brooders,NA,"Mouth brooder with usually maternal parental care. Male defends territories. Brooding female guards fry in often not more than 0.5 m deep water, where it establishes small territories.",y
+466,Haplochromis gigliolii,external,external brooders,NA,Mouthbrooding by females.,y
+467,Haplochromis gilberti,NA,external brooders,NA,Mouthbrooding by female.,y
+468,Haplochromis goldschmidti,NA,NA,NA,"Based on the egg dummies on the anal fin of males, <i>Haplochromis goldschmidti</i> is probably a female mouth brooder (Ref. 92860).",y
+469,Haplochromis gowersii,NA,external brooders,NA,Mouthbrooding by female.,y
+470,Haplochromis gracilior,external,external brooders,NA,Mouthbrooding by females.,y
+471,Haplochromis granti,NA,external brooders,NA,Mouthbrooding by female.,y
+472,Haplochromis graueri,external,external brooders,NA,Mouthbrooding by females.,y
+473,Haplochromis greenwoodi,NA,external brooders,NA,Mouth brooder with maternal parental care. Male defends territories at depths between less than 1 and 4 m. Brooding female guards small territories around a cave between rock boulders.,y
+474,Haplochromis guiarti,NA,external brooders,NA,Mouthbrooding by female.,y
+475,Haplochromis heusinkveldi,external,external brooders,NA,Mouthbrooding by females.,y
+476,Haplochromis hiatus,external,external brooders,NA,Mouthbrooding by females.,y
+477,Haplochromis humilior,external,external brooders,NA,Mouthbrooding by females.,y
+478,Haplochromis humilis,external,external brooders,NA,Mouthbrooding by females.,y
+479,Haplochromis igneopinnis,NA,external brooders,NA,A polygynous female mouth-brooder with maternal parental care. Males occupy territories among big boulders at 3-4 m depth or deeper.,y
+480,Haplochromis iris,external,external brooders,NA,Mouthbrooding by females.,y
+481,Haplochromis ishmaeli,NA,external brooders,NA,Mouthbrooding by female.,y
+482,Haplochromis kamiranzovu,external,external brooders,NA,Mouthbrooding by females.,y
+483,Haplochromis katunzii,NA,external brooders,maternal,Mouth brooding done by the female (Ref. 85523).,y
+484,Haplochromis labiatus,external,external brooders,NA,Mouthbrooding by females.,y
+485,Haplochromis labriformis,external,external brooders,NA,Mouthbrooding by females.,y
+486,Haplochromis lacrimosus,external,external brooders,NA,Mouthbrooding by females.,y
+487,Haplochromis laparogramma,external,external brooders,NA,Mouthbrooding by females.,y
+488,Haplochromis latifasciatus,NA,external brooders,NA,Mouthbrooding by female.,y
+489,Haplochromis limax,external,external brooders,NA,Mouthbrooding by females.,y
+490,Haplochromis lividus,NA,external brooders,NA,Mouthbrooding by female.,y
+491,Haplochromis loati,external,external brooders,NA,Mouthbrooding by females.,y
+492,Haplochromis longirostris,NA,external brooders,NA,Mouthbrooding by female.,y
+493,Haplochromis luteus,NA,external brooders,NA,"A polygynous female mouth brooder with maternal parental care. Males seem to be territorial and sometimes chase other fishes. Brooding females have been observed in very shallow water under roots of floating reed. In the aquarium, females release their fry after about 21 days but continue to keep them in the mouth in situations of danger and at night, for up to another 17 days. Size at 50% maturity not precisely known, but above 12.3 cm SL at the Makobe Island (Lake Victoria, Tanzania).",y
+494,Haplochromis macconneli,external,external brooders,NA,Mouthbrooding by females.,y
+495,Haplochromis macrocephalus,NA,external brooders,NA,A polygynous female mouth-brooder with maternal parental care. Males are territorial.,y
+496,Haplochromis macrognathus,NA,external brooders,NA,Mouthbrooding by female.,y
+497,Haplochromis macrops,external,external brooders,NA,Mouthbrooding by females.,y
+498,Haplochromis macropsoides,external,external brooders,NA,Mouthbrooding by females.,y
+499,Haplochromis maculipinna,NA,external brooders,NA,Mouthbrooding by female.,y
+500,Haplochromis mahagiensis,external,external brooders,NA,Mouthbrooding by females.,y
+501,Haplochromis malacophagus,external,external brooders,NA,Mouthbrooding by females.,y
+502,Haplochromis mandibularis,NA,external brooders,NA,Mouthbrooding by female.,y
+503,Haplochromis martini,NA,external brooders,NA,Mouthbrooding by female.,y
+504,Haplochromis maxillaris,NA,external brooders,NA,Mouthbrooding by female.,y
+505,Haplochromis mbipi,NA,external brooders,NA,"A polygynous female mouthbrooder with maternal parental care. Males defend territories of usually less than a square meter surface around a larger crevice. During courtship and male-male interactions they leave the crevice, but usually do not  move far away from it. Females are led to the crevice, where the spawning takes place. Males are vigorously defending the territories against conspecific males. Brooding females guard small territories around a small cave at variable water depths. In the aquarium, females release their fry after about 21 days but continue to keep them in the mouth in situations of danger and at night, for up to another 21 days.",y
+506,Haplochromis megalops,NA,external brooders,NA,Mouthbrooding by female.,y
+507,Haplochromis melanopterus,NA,external brooders,NA,Mouthbrooding by female.,y
+508,Haplochromis melanopus,external,external brooders,NA,Mouthbrooding by females.,y
+509,Haplochromis melichrous,external,external brooders,NA,Mouthbrooding by females.,y
+510,Haplochromis mentatus,external,external brooders,NA,Mouthbrooding by females.,y
+511,Haplochromis mento,NA,external brooders,NA,Mouthbrooder.,y
+512,Haplochromis michaeli,NA,external brooders,NA,Mouthbrooder.,y
+513,Haplochromis microdon,NA,external brooders,NA,Mouthbrooder.,y
+514,Haplochromis multiocellatus,external,external brooders,NA,Mouthbrooding by females.,y
+515,Haplochromis mylergates,NA,external brooders,NA,Mouthbrooder.,y
+516,Haplochromis mylodon,external,external brooders,NA,Mouthbrooding by females.,y
+517,Haplochromis nanoserranus,NA,external brooders,NA,Mouthbrooder.,y
+518,Haplochromis nigrescens,NA,external brooders,NA,Mouthbrooder.,y
+519,Haplochromis nigricans,external,external brooders,NA,Mouthbrooding by females.,y
+520,Haplochromis nigripinnis,external,external brooders,NA,Mouthbrooding by females.,y
+521,Haplochromis nigroides,external,external brooders,NA,Mouthbrooding by females.,y
+522,Haplochromis niloticus,NA,external brooders,NA,Mouthbrooder.,y
+523,Haplochromis nubilus,external,external brooders,NA,Mouthbrooding by females.,y
+524,Haplochromis nuchisquamulatus,NA,external brooders,NA,Mouthbrooder.,y
+525,Haplochromis nyanzae,NA,external brooders,NA,Mouthbrooder.,y
+526,Haplochromis nyererei,external,external brooders,NA,Mouthbrooding by females.,y
+527,Haplochromis obesus,external,external brooders,NA,Mouthbrooding by females.,y
+528,Haplochromis obliquidens,NA,external brooders,NA,Mouthbrooder.,y
+529,Haplochromis obtusidens,NA,external brooders,NA,Mouthbrooder.,y
+530,Haplochromis occultidens,external,external brooders,NA,Mouthbrooding by females.,y
+531,Haplochromis olivaceus,external,external brooders,NA,Mouthbrooding by females.,y
+532,Haplochromis omnicaeruleus,NA,external brooders,NA,"Mouth brooder with maternal parental care. Male defends territories throughout the depth range down to 6 m, but territorial densities are higher at 2-4 m depth. Brooding female also defends small territories around a cave between rock boulders at various water depths.",y
+533,Haplochromis oregosoma,external,external brooders,NA,Mouthbrooding by females.,y
+534,Haplochromis orthostoma,NA,external brooders,NA,Mouthbrooder.,y
+535,Haplochromis pachycephalus,NA,external brooders,NA,Mouthbrooder.,y
+536,Haplochromis pallidus,external,external brooders,NA,Mouthbrooding by females.,y
+537,Haplochromis paludinosus,external,external brooders,NA,Mouthbrooding by females.,y
+538,Haplochromis pancitrinus,NA,external brooders,maternal,Mouth brooding done by the female (Ref. 85523).,y
+539,Haplochromis pappenheimi,external,external brooders,NA,Mouthbrooding by females.,y
+540,Haplochromis paraguiarti,NA,external brooders,NA,Mouthbrooder.,y
+541,Haplochromis paraplagiostoma,NA,external brooders,NA,Mouthbrooder.,y
+542,Haplochromis paropius,NA,external brooders,NA,Mouthbrooder.,y
+543,Haplochromis parorthostoma,NA,external brooders,NA,Mouthbrooder.,y
+544,Haplochromis parvidens,external,external brooders,NA,Mouthbrooding by females.,y
+545,Haplochromis paucidens,external,external brooders,NA,Mouthbrooding by females.,y
+546,Haplochromis pellegrini,NA,external brooders,NA,Mouthbrooder.,y
+547,Haplochromis percoides,NA,external brooders,NA,Mouthbrooder.,y
+548,Haplochromis perrieri,NA,external brooders,NA,Mouthbrooder.,y
+549,Haplochromis petronius,external,external brooders,NA,Mouthbrooding by females.,y
+550,Haplochromis pharyngalis,external,external brooders,NA,Mouthbrooding by females.,y
+551,Haplochromis pharyngomylus,NA,external brooders,NA,Mouthbrooder.,y
+552,Haplochromis phytophagus,NA,external brooders,NA,Mouthbrooder.,y
+553,Haplochromis piceatus,NA,external brooders,NA,Mouthbrooder.,y
+554,Haplochromis pitmani,external,external brooders,NA,Mouthbrooding by females.,y
+555,Haplochromis placodus,external,external brooders,NA,Mouthbrooding by females.,y
+556,Haplochromis plagiodon,external,external brooders,NA,Mouthbrooding by females.,y
+557,Haplochromis plagiostoma,NA,external brooders,NA,Mouthbrooder.,y
+558,Haplochromis plutonius,external,external brooders,NA,Mouthbrooding by females.,y
+559,Haplochromis prodromus,external,external brooders,NA,Mouthbrooding by females.,y
+560,Haplochromis prognathus,NA,external brooders,NA,Mouthbrooder.,y
+561,Haplochromis pseudopellegrini,NA,external brooders,NA,Mouthbrooder.,y
+562,Haplochromis ptistes,external,external brooders,NA,Mouthbrooding by females.,y
+563,Haplochromis pundamilia,NA,external brooders,NA,A polygynous female mouth brooder with maternal parental care.,y
+564,Haplochromis pyrrhocephalus,NA,external brooders,NA,Mouthbrooder.,y
+565,Haplochromis retrodens,external,external brooders,NA,Females are mouthbrooders.,y
+566,Haplochromis riponianus,external,external brooders,NA,Mouthbrooding by females.,y
+567,Haplochromis rubripinnis,NA,external brooders,NA,"A polygynous female mouth brooder with maternal parental care. At Python Islands in Lake Victoria, Tanzania, large, sexually active males are found most commonly from 3-5 m depth, suggesting that spawning takes place at those intermediate depths.",y
+568,Haplochromis rudolfianus,external,external brooders,NA,Mouthbrooding by females.,y
+569,Haplochromis rufocaudalis,NA,external brooders,NA,Mouth brooder with maternal parental care. Males defend spawning territories against conspecific and other <i>Neochromis</i> males. Brooding females occur among rock boulders in very shallow water.,y
+570,Haplochromis rufus,NA,external brooders,NA,"A polygynous female mouthbrooder, probably with maternal care.",y
+571,Haplochromis sauvagei,NA,external brooders,NA,Mouthbrooder.,y
+572,Haplochromis saxicola,external,external brooders,NA,Mouthbrooding by females.,y
+573,Haplochromis scheffersi,external,external brooders,NA,Mouthbrooding by females.,y
+574,Haplochromis schubotzi,external,external brooders,NA,Mouthbrooding by females.,y
+575,Haplochromis schubotziellus,external,external brooders,NA,Mouthbrooding by females.,y
+576,Haplochromis serranus,external,external brooders,NA,Mouthbrooding by females.,y
+577,Haplochromis serridens,external,external brooders,NA,Mouthbrooding by females.,y
+578,Haplochromis simpsoni,NA,external brooders,NA,Mouthbrooder.,y
+579,Haplochromis smithii,external,external brooders,NA,Mouthbrooding by females.,y
+580,Haplochromis spekii,NA,external brooders,NA,Mouthbrooder.,y
+581,Haplochromis sphex,NA,external brooders,maternal,Mouth brooding done by the female (Ref. 85523).,y
+582,Haplochromis squamipinnis,external,external brooders,NA,Mouthbrooding by females.,y
+583,Haplochromis squamulatus,external,external brooders,NA,Mouthbrooding by females.,y
+584,Haplochromis sulphureus,external,external brooders,NA,Mouthbrooding by females.,y
+585,Haplochromis taurinus,external,external brooders,NA,Mouthbrooding by females.,y
+586,Haplochromis teegelaari,NA,external brooders,NA,Mouthbrooder.,y
+587,Haplochromis teunisrasi,external,external brooders,NA,Mouthbrooding by females.,y
+588,Haplochromis theliodon,external,external brooders,NA,Mouthbrooding by females.,y
+589,Haplochromis thuragnathus,NA,external brooders,NA,Mouthbrooder.,y
+590,Haplochromis tridens,external,external brooders,NA,Mouthbrooding by females.,y
+591,Haplochromis turkanae,external,external brooders,NA,Mouthbrooding by females.,y
+592,Haplochromis tyrianthinus,external,external brooders,NA,Mouthbrooding by females.,y
+593,Haplochromis velifer,NA,external brooders,NA,Mouthbrooder.,y
+594,Haplochromis venator,NA,external brooders,NA,Mouthbrooder.,y
+595,Haplochromis vicarius,external,external brooders,NA,Mouthbrooding by females.,y
+596,Haplochromis victoriae,external,external brooders,NA,Females are mouthbrooders.,y
+597,Haplochromis victorianus,NA,external brooders,NA,Mouthbrooder.,y
+598,Haplochromis vittatus,NA,external brooders,NA,Mouthbrooder.,y
+599,Haplochromis welcommei,NA,external brooders,NA,Mouthbrooder.,y
+600,Haplochromis worthingtoni,NA,external brooders,NA,Mouthbrooder.,y
+601,Haplochromis xanthopteryx,NA,external brooders,NA,A polygynous female mouth brooder with maternal parental care.,y
+602,Haplochromis xenognathus,external,external brooders,NA,Mouthbrooding by females.,y
+603,Haplochromis xenostoma,NA,external brooders,NA,Mouthbrooder.,y
+604,Haplotaxodon microlepis,external,external brooders,biparental,Larvae of up to 2.34 cm TL are mouthbrooded by male and female parents ranging from 16.6 to 18.3 cm SL (Ref. 86760).,y
+605,Hemichromis bimaculatus,external,clutch tenders,NA,NA,n
+606,Hemichromis elongatus,external,nesters,biparental,Oviparous (Ref. 205).,n
+607,Hemichromis fasciatus,external,clutch tenders,biparental,Introduced individuals in Austria reported to form pairs during spawning.  Female deposits eggs on exposed hard surfaces such as stones or wood.  Both parents guard larvae and juveniles for 4-8 weeks (Ref. 59043).,n
+608,Hemichromis guttatus,NA,clutch tenders,NA,Reported to form pairs.  Female deposits eggs on exposed hard surfaces such as stones or wood.  Both parents guard larvae and juveniles for about 4 weeks (Ref. 59043).,n
+609,Hemichromis letourneuxi,external,clutch tenders,NA,NA,n
+610,Hemichromis lifalili,external,clutch tenders,NA,NA,n
+611,Hemitilapia oxyrhyncha,in mouth,external brooders,NA,Female is moutbrooder.,y
+612,Herichthys carpintis,external,clutch tenders,NA,"Both parents tend the clutch; female takes care for the eggs, male defends the territory.",n
+613,Herichthys cyanoguttatus,external,clutch tenders,NA,Both parents tend the clutch.,n
+614,Herichthys minckleyi,external,clutch tenders,NA,Female guards the brood.,n
+615,Herichthys tamasopoensis,external,clutch tenders,biparental,Both parents tend the clutch (Ref. 47076).,n
+616,Heroina isonycterina,external,clutch tenders,NA,Both parents care for eggs and young (Ref. 40602).,n
+617,Heros efasciatus,external,clutch tenders,NA,Up to 1000 eggs are depoited on flat stones or on roots; both parents participate in caring for eggs and larvae (Ref. 40602).,n
+618,Heros severus,external,external brooders,NA,Up to 200 eggs are deposited on stones or roots and defended by both parents: larvae are taken into the mouth. Parental care can last up to 6 weeks (Ref. 40602).,y
+619,Hoplarchus psittacus,external,clutch tenders,NA,NA,n
+620,Hypselecara coryphaenoides,external,clutch tenders,NA,Both parents guard eggs and larvae (Ref. 40602).,n
+621,Hypselecara temporalis,external,clutch tenders,biparental,"Mature males have a well developed frontal hump. Spawning occurs in holes dug in the substrate and both parents watch over their eggs and alevins (Ref. 35237, 13371).",n
+622,Hypsophrys nematopus,external,brood hiders,NA,Spawns in caves. During spawning both parents completely change their color.,n
+623,Hypsophrys nicaraguensis,external,clutch tenders,NA,"Deposits eggs in sand depressions. Produces about 200-400 non adhesive eggs with females practicing communal care during the post spawning period (an unusual behavior referred to as ""creching"", Ref. 44091). A group of 3 or 4 females stand guard over their combined spawns, encircling the expanded group and do not allow any intruders or predators into the rearing arena.",n
+624,Iodotropheus sprengerae,in mouth,external brooders,NA,Female is mouthbrooder.,y
+625,Iranocichla hormuzensis,in mouth,external brooders,NA,Female mouth brooder with up to 38 eggs (Ref. 36597).,y
+626,Julidochromis dickfeldi,external,clutch tenders,NA,NA,n
+627,Julidochromis marlieri,external,clutch tenders,NA,"The same study (Ref. 54894) claims that polyandry aside from monogamy is also demonstrated by this species because of some observations in the nesting area where a female occupies 2 territories each with a male. This idea of an expanded mating system for <i>J. marlieri</i> was initially suggested by Yamagishi and Kohda (1996). However, monogamous pairs are most common (Ref. 54944). Males guard the nest against attacks by cichlid and non-cichlid predators alike (Ref. 54944).",n
+628,Julidochromis ornatus,external,clutch tenders,NA,NA,n
+629,Julidochromis regani,external,nesters,NA,Oviparous (Ref. 205).,n
+630,Julidochromis transcriptus,external,clutch tenders,NA,NA,n
+631,Konia dikume,external,external brooders,NA,Assumed to be the same as in <i>K. eisentrauti</i>.,y
+632,Konia eisentrauti,external,external brooders,NA,"Male or female carries the egg in the mouth (Ref. 52307, Ref. 13614).  A few days prior to spawning, both partners remain close together for much of the time; the genital papilla of the female is clearly visible immediately before spawning and is much broader and larger then the male's; females normally more succesfull in brooding the fry; specimens are relatively shy and prefer to lie silently near the bottom in secluded areas when mouthbrooding, which ends about three weeks post-spawning; once free swimming, the fry normally does not return to the parent's mouth (Ref. 52307).",y
+633,Krobia guianensis,external,clutch tenders,NA,Produces up to 500 eggs.,n
+634,Krobia itanyi,external,clutch tenders,NA,NA,n
+635,Labeotropheus fuelleborni,in mouth,external brooders,NA,Female takes brood into her mouth and takes care of the young.,y
+636,Labeotropheus trewavasae,in mouth,external brooders,NA,Female takes brood into her mouth and takes care of the young.,y
+637,Labidochromis caeruleus,in mouth,external brooders,NA,Mouthbrooder.,y
+638,Labidochromis ianthinus,in mouth,external brooders,NA,Female is mouthbrooder.,y
+639,Labidochromis lividus,in mouth,external brooders,NA,Female takes brood in her mouth.,y
+640,Labidochromis vellicans,in mouth,external brooders,NA,"After releasing the young from her mouth for the first time, the female continues to tend them one more week.",y
+641,Laetacara curviceps,external,clutch tenders,NA,Lays 300 eggs. Males and females have similar colors but the males are slightly larger. These fish make excellent parents (Ref. 12251). Eggs and larvae are tended and guarded by both parents (Ref. 40602).,n
+642,Laetacara dorsigera,external,clutch tenders,NA,NA,n
+643,Laetacara flavilabris,external,clutch tenders,NA,Spawns on flat surfaces: parents guard eggs and larvae (Ref. 40602).,n
+644,Laetacara fulvipinnis,external,clutch tenders,biparental,Based on aquarium observations.,n
+645,Laetacara thayeri,external,clutch tenders,NA,NA,n
+646,Lamprologus callipterus,external,nesters,maternal,"Males collect empty snail shells which are then carried to the nest site (Ref. 47165). Females enter the shells to spawn and care for the brood, fanning the eggs and larvae for 10-14 days (Ref. 47165).",n
+647,Lamprologus congoensis,external,nesters,NA,NA,n
+648,Lamprologus meleagris,external,NA,NA,NA,n
+649,Lamprologus ocellatus,external,nesters,NA,Typical shell-dwellers.,n
+650,Lamprologus ornatipinnis,external,nesters,NA,Typical shell-dweller.,n
+651,Lamprologus speciosus,external,nesters,maternal,Eggs are deposited in the snail shell that is inhabited by the female. The female guards and ventilates the eggs. Larve emerge after about 10 days and wander between the shells of their parents (Ref. 52467).,n
+652,Lamprologus werneri,external,clutch tenders,NA,NA,n
+653,Lepidiolamprologus elongatus,external,nesters,NA,Spawns in small caves.,n
+654,Lestradea perspicax,external,external brooders,maternal,Larvae of up to 1.38 cm TL are mouthbrooded by a female parent 6.4 cm SL long (Ref. 86760).,y
+655,Limbochromis robertsi,external,nesters,NA,NA,n
+656,Limnochromis auritus,external,external brooders,biparental,Both parents are mouthbrooders.,y
+657,Limnotilapia dardennii,external,NA,NA,NA,?
+658,Lobochilotes labiatus,external,external brooders,maternal,Larvae of up to 2.03 cm TL are mouthbrooded by female parents 14.8 to 19.0 cm SL long (Ref. 86760).,y
+659,Maylandia aurora,in mouth,external brooders,NA,Produces 40-70 eggs.,y
+660,Maylandia greshakei,in mouth,external brooders,NA,Oviparous (Ref. 205).,y
+661,Maylandia heteropicta,in mouth,external brooders,NA,Females are mouthbrooders.,y
+662,Maylandia lanisticola,in mouth,external brooders,NA,NA,y
+663,Maylandia livingstonii,in mouth,external brooders,NA,Females are mouthbrooders.,y
+664,Maylandia lombardoi,in mouth,external brooders,maternal,"Females are mouthbrooders (Ref. 2060).  Males adorn one eggspot on the anal fin which mimics eggs and apparently functions to lure females to pick up this egg enabling fertilization of the rest of the eggs being brooded in the females's mouth (Ref. 47814).  In one experimental study, females are attracted to males with one large eggspot more than to those with numerous tiny eggs covering the same area (Ref. 47814).",y
+665,Maylandia xanstomachus,external,external brooders,maternal,Mouthbrooding by females (Ref. 53335).,y
+666,Maylandia zebra,in mouth,external brooders,NA,Produces up to 60 eggs.,y
+667,Mazarunia mazarunii,external,clutch tenders,NA,Both parents tend the clutch. Larvae are often deposited in little holes in the roots.,n
+668,Mchenga conophoros,NA,NA,NA,Male builds cone-shaped bowers in large breeding arenas off sand beaches in water 3-10 m deep.,n
+669,Mchenga cyclicos,NA,NA,NA,Male builds cone-shaped bowers in breeding arenas over sand at 3-7 m deep.,n
+670,Mchenga thinos,NA,NA,NA,Male builds cone-shaped bowers in breeding arenas on the rock/sand interface at water depths of 15-25 m.,n
+671,Melanochromis auratus,in mouth,external brooders,NA,Lays up to 40 eggs. Female takes brood into her mouth and takes care of the young.,y
+672,Melanochromis chipokae,in mouth,external brooders,NA,Female is mouthbrooder.,y
+673,Melanochromis loriae,in mouth,external brooders,maternal,Females are mouthbrooders (Ref. 2060).,y
+674,Melanochromis melanopterus,external,external brooders,maternal,Females are mouthbrooders.,y
+675,Melanochromis vermivorus,in mouth,external brooders,NA,Female takes brood into her mouth and takes care of the young.,y
+676,Mesonauta acora,external,clutch tenders,NA,Both parents care for eggs and larvae. Larvae are deposited in plants near the surface (40602).,n
+677,Mesonauta festivus,external,clutch tenders,NA,NA,n
+678,Mesonauta mirificus,external,clutch tenders,NA,NA,n
+679,Mikrogeophagus altispinosus,external,clutch tenders,NA,"Eggs are deposited on stones and covered with sand, female cares for eggs. Larvae are carried into troughs and defended by both parents.",n
+680,Mikrogeophagus ramirezi,external,clutch tenders,NA,Female cares for eggs and larvae (Ref. 47893. ,n
+681,Mylochromis epichorialis,in mouth,external brooders,NA,NA,y
+682,Nandopsis haitiensis,external,clutch tenders,NA,Clean a stone and deposit 150-200 eggs. Female cares for eggs and larvae (Ref. 40602).,n
+683,Nandopsis ramsdeni,external,clutch tenders,NA,NA,n
+684,Nandopsis tetracanthus,external,clutch tenders,NA,Max. 600 eggs (Ref. 2060).,n
+685,Nannacara adoketa,external,clutch tenders,NA,Amber-colored 200-300 eggs are deposited on roots; both parents guard the eggs and larvae (Ref. 40602).,n
+686,Nannacara anomala,external,clutch tenders,NA,"During spawning the female changes its color to a chess-board pattern, which is apparently recognized by the young. Only the female takes care of the (up to 300) eggs and young, the male may defend the larger territory (Ref. 40602).",n
+687,Nannacara aureocephalus,external,clutch tenders,NA,The up to 100 eggs are deposited at the ceiling of a small caves or in the open; only the female guards the eggs and young (Ref. 40602).,n
+688,Nanochromis parilus,external,clutch tenders,NA,NA,n
+689,Neolamprologus brevis,external,nesters,NA,Typical shell-dwellers.,n
+690,Neolamprologus brichardi,external,clutch tenders,NA,NA,n
+691,Neolamprologus christyi,external,NA,NA,NA,?
+692,Neolamprologus cylindricus,external,NA,NA,NA,?
+693,Neolamprologus furcifer,external,nesters,NA,The female lays about 50 eggs on the roof of the pairs cave.,n
+694,Neolamprologus leleupi,external,clutch tenders,NA,NA,n
+695,Neolamprologus longior,external,nesters,NA,Spawns in caves.,n
+696,Neolamprologus meeli,external,nesters,NA,Typical shell-dwellers.,n
+697,Neolamprologus modestus,external,nesters,NA,"Spawns in caves, both parents care for the young.",n
+698,Neolamprologus mustax,external,nesters,NA,Spawns in caves.,n
+699,Neolamprologus nigriventris,external,NA,NA,NA,?
+700,Neolamprologus obscurus,external,NA,NA,NA,?
+701,Neolamprologus pulcher,external,clutch tenders,biparental,"The eggs are deposited in crevices; the area is defended by males, females, and larger juveniles together. Pairs remain together until one partner dies.",n
+702,Neolamprologus sexfasciatus,external,nesters,NA,Typical cave spawner.,n
+703,Neolamprologus tetracanthus,external,clutch tenders,NA,NA,n
+704,Neolamprologus tretocephalus,external,clutch tenders,NA,NA,n
+705,Neolamprologus wauthioni,external,nesters,NA,Shell dweller.,n
+706,Nimbochromis fuscotaeniatus,in mouth,external brooders,NA,NA,y
+707,Nimbochromis linni,in mouth,external brooders,NA,Female takes brood into her mouth and takes care of the young.,y
+708,Nimbochromis livingstonii,in mouth,external brooders,NA,Female takes brood into her mouth and takes care of the young.,y
+709,Nimbochromis polystigma,in mouth,external brooders,NA,Female takes brood into her mouth and takes care of the young.,y
+710,Nimbochromis venustus,in mouth,external brooders,NA,Female takes brood into her mouth and takes care of the young.,y
+711,Nosferatu bartoni,external,clutch tenders,NA,Spawns between 200 and 300 eggs.,n
+712,Nosferatu labridens,external,clutch tenders,NA,NA,n
+713,Nosferatu pantostictus,external,clutch tenders,NA,NA,n
+714,Nosferatu steindachneri,external,clutch tenders,NA,The female tends mainly for eggs and larvae.,n
+715,Nyassachromis boadzulu,in mouth,external brooders,NA,NA,n
+716,Ophthalmotilapia nasuta,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 1.68 cm TL are mouthbrooded by female parents ranging from 8.5 to 9.8 cm SL (Ref. 86760).,y
+717,Ophthalmotilapia ventralis,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 1.97 cm TL are mouthbrooded by female parents ranging from 6.5 to 7.5 cm SL (Ref. 86760).,y
+718,Oreochromis amphimelas,in mouth,external brooders,NA,Breeding cycle of about 7 weeks; there is evidence of biparental mouthbrooding (Ref. 2).    ,y
+719,Oreochromis andersonii,in mouth,external brooders,NA,"Spawning did not occur in ponds at a temperature below 21å¡C (Ref. 2).  Rarely more than one brood in a season (Ref. 87, 246), but known to breed at least twice a year under pond conditions (Ref. 12524, 13337).  Males excavate saucer-shaped nests (Ref. 246, 314, 6465, 12524, 13337, 54048) that can be up to 75cm in diameter and 30cm deep, using mouth and fins (Ref. 2, 314, 52307), in the center of their territory (Ref. 52307), on a sandy substrate (any vegetation is uprooted with its mouth) and in water from 1-3m deep, where they display to attract females (Ref. 12524, 13337, 54048).  Up to 40 nests can be found together (Ref. 6465).  Females are the primary care-givers (Ref. 52307), moutbrooding eggs, larvae and fry; multiple broods are raised during the warmer months (Ref. 7248, 52193).  She lays her eggs in the concavity on top of the nest, the male fertilizes the eggs whereupon the female takes the eggs into her mouth where they are incubated; males guard the nest and females against all intruders; parental care is exercised for the first few weeks after the eggs hatch (Ref. 12524, 13337).",y
+720,Oreochromis aureus,external,external brooders,maternal,"Nesting usually in shallow water weedy areas (Ref. 96).  Males establish territory and dig a spawning pit (Ref. 2, 6465, 54601), using mouth and fins (Ref. 2), up to 60cm deep and 4-6m in diameter; a number of territories can often be found clustered together (Ref. 52307).  Territories are defended by means of agressive behaviour (Ref. 6465), including lateral display, lateral biting and mouth-to-mouth combat (Ref. 2).  Reproduction is stimulated by long photoperiods and inhibited by short daylengths (Ref. 54365).  Reproduction requires a minimum temperature of about 20å¡C (Ref. 2).  Males visit schools of females and attempt to attract a female spawning partner (Ref. 2, 52307).  Courting behaviour in the nest consists of lateral display by both sexes with nipping and tail-flapping (Ref. 2).  Eggs are deposited in single clutches, from several dozen to 100 eggs (Ref. 52307), and are taken into the females mouth as soon as they are fertilized (Ref. 2, 6465, 52307),  with a peak spawning frequency around the 9-11th hour of light (Ref. 31140, 54365).  One female may hold up to 2000 eggs in her mouth (Ref. 2).  The female swims away to deeper water with the brood after spawning is complete (Ref. 2, 52307), while the male renews spawning activities with another female.  Hatching occurs about 3 days after oviposition (Ref. 2).  Incubation time varies with temperature, 13-14 days at 25-27å¡C (Ref. 2, 52307) or 8-10 days at 29å¡C (Ref. 144), and juveniles leave the mother's mouth when they are about 1.1cm in length (Ref. 54601).  The young school near parent's head for a few days, reentering the mouth at any sign of danger or at a gesture of the female;  parent-offspring relationship ceases after 5 days (Ref. 2).",y
+721,Oreochromis esculentus,in mouth,external brooders,NA,"Reproduction probably triggered by the rains (Ref. 2771), with the time of maximum spawning activity coinciding with the wettest months of the year (Ref. 363).  Males form a crater-like spawning nest without a distinct wall (Ref. 27292).  The pit is about 30cm in diameter and 10cm deep, and is probably made in the early morning (Ref. 27292).  Ovaries show that a female may have a succession of three or more broods in a spawning period; brooding females often shelter in weed beds and swampy places (Ref. 2, 363).  Males defend their breeding territory (Ref. 2) for weeks or on and off for several months, while females only make short visits to the spawning grounds and leave the territory immediately after spawning (Ref. 363).  Males eat little while actively guarding the nest (Ref. 363).  Papyrus swamp channels (Ref. 363, 34921, 55020) and beaches with weed grown swamps (Ref. 34921) function as nursery areas.  Young become independent at a length of about 1.5cm (Ref. 2, 363)by which size the yolk sac is occluded and they have strated to feed (Ref. 363), and at about 12cm TL they move from the nursery areas to the open water (Ref. 2).",y
+722,Oreochromis jipe,in mouth,external brooders,NA,"Breeding pits may be similar to those of <i>O. pangani</i>, consisting of a central pit surrounded by two or three series of smaller pits (Ref. 2, 55060).",y
+723,Oreochromis karomo,external,external brooders,NA,"Males construct and maintain a mating platform which is a circular area of fine sand (Ref. 2), usually only about 10-15cm in diameter which is much smaller than the length of the fish (Ref. 55077), surrounded by a low ridge, on the top of a mound about 10 cm high (Ref. 2), but the mound might be 1m in diameter at its base and 30cm high (Ref. 55074, 55077).  The plaque of sand is kept very clean, making the nest visible from a considerable distance (Ref. 55077).  Little boundary fighting between close neighbours, but males seen to drive away individuals of other species (e.g. <i>Labeo</i> and <i>Clarias</i> as well as other cichlids)(Ref. 2, 55077).  Females are seen in the nests at various times throughout the day; the number of times a male spawns appears to be limited by the number of ripe females available; females cruise over the spawning grounds singly or in small shoals (Ref. 55077).  Courtship behaviour short and not particularly complex (Ref. 364), including displaying by the male to attract a female, snout shaking (nose wagging) and tassel dragging (Ref. 364, 55077).  Female lays a batch of eggs and immediately picks them up while the male drags his tassel over the nest (Ref. 2, 55077), but it remains unclear whether the eggs are fertilised in the water or in the mouth of the female (Ref. 55077).  2, 3 or more batches of eggs may be laid by the same female before she leaves the nest (Ref. 2, 55077), and the larger the female the more numerous the eggs (Ref. 55077).  Normal spawning generally takes less than 5 minutes (Ref. 55077).  Breeding individuals spend little time feeding (Ref. 2), and males do not leave their territory to feed (Ref. 5507).  Young of 11mm still with large yolk sacs were the largest seen from the mouth of a female (Ref. 55077).  Young of 2-6cm remain in schools in the shallows (Ref. 2, 55077).",y
+724,Oreochromis karongae,in mouth,external brooders,NA,"Breeding period extends over several months as noted in Lake Malombe, at present one of the main breeding areas for this species (Ref. 6150).  Males build nests on a variety of substrata and at depths of 0.5m to at least 28m; nests generally 0.3-1.9m diameter, with dimensions correlated to male size (Ref. 55079).  Nest with a characteristic spawning cone in its center (Ref. 5595).  Courtship appears to occur mainly in the early morning (Ref. 40193, 55079), and consist of leading, followed by tilting and head-down quivering if the female follows the male to the nest (Ref. 40193).  A female with 324 young of 15mm long in the mouth has been caught (Ref. 2781).  Females keep guarding their fry until they are about 24 mm (Ref. 2781, 6150).",y
+725,Oreochromis leucostictus,in mouth,external brooders,NA,"Breeds over shallow muddy bottoms in sheltered inlets and in the papyrus fringe (Ref. 56123).  Ripe males are found near the bottom over particular nesting areas (Ref. 39939).  Males establish territory and make a nest by mouth-digging (Ref. 2), actively preventing invasion by other fishes (Ref. 39939).  Nests made in shallow water, 15-300cm deep (Ref. 2, 56123), 16-20cm in diameter and 1-4m apart, dug in coarse leaf-debris or on shallow muddy bottoms (Ref. 2, 39939).  Brooding females from the lagoons are found in pools adjacent to the lagoons/nursery swamps (Ref. 2, 39939).  Fry spent their early days in shallow, grassy (Ref. 2, 32297, 39939) and deoxygenated swamps (Ref. 56123), but move to deeper water as their length increases (Ref. 32297, 39939).",y
+726,Oreochromis lidole,in mouth,external brooders,NA,"Seems to be sexually mature at a smaller size in Lakes Chungruru and Kingiri than in Lake Malawi (Ref. 2, 54852).  Spawns off clean sandy or rocky shores (Ref. 2, 87, 2781) in deeper water (Ref. 2, 87, 2781, 5595, 6150, 40193).  Territorial males build a large (Ref. 5595, 40193, 55079) sand-castle nest, with a characteristic spawning cone in its center (Ref. 2, 5595).  Females congregate in schools that may number hundreds of individuals (Ref. 2, 2781, 5595).  The male genital tassel, which develops together with the breeding dress and imitates a clutch of eggs, is dragged through the nest after the females has deposited some eggs, which are picked up immediately; the female probably mistakes the tassel for eggs that have been forgotten and tries to collect them as well, which results in the eggs being fertilized (Ref. 5595).  Females carrying eggs in the mouth move into open, more eutrophic waters, and stay there until the young have almost lost the yolk sac; they feed little during this time (Ref. 2781).  Females brood eggs/young, guarding their fry until about 52(-58)mm (Ref. 2, 2781).  Females move inshore with their young for at least part of the day; the young are spat out to feed, and food (small phytoplankton) is found in the foregut before the involuted yolk-sac is fully absorbed (Ref. 2781).",y
+727,Oreochromis macrochir,in mouth,external brooders,NA,"Breeds in summer (Ref. 2, 7248, 52193).  Males construct (Ref. 2, 13337) and defend (Ref. 2) a nest in shallowish waters (Ref. 2, 13337), which is a central volcano-shaped mound (Ref. 2, 314, 364, 5214, 13337, 55074) with a flat or slightly concave top which is the mating platform, surrounded by a ditch and vallum (groove and boundary wall) (Ref. 2).  The cone is higher than the boundary wall of the territory (Ref. 2).  Spawns in waters up to 150 cm deep, along banks of the lakes/river (Ref. 2).  Males court several females in succession and females may mate with more than one male in a summer, so that large populations of young may build up (Ref. 5214).  Several nests are often grouped into an arena (Ref. 5214, 7248, 36094, 52193).",y
+728,Oreochromis mortimeri,in mouth,external brooders,NA,"Nest a saucer-shaped depression with a raised mound in the middle (Ref. 12524, 13337), made by the male in a breeding arena in shallow water down to about 4m (Ref. 54048). Females are lured to these through male courtship displays; female collects eggs in mouth after spawning and fertilisation, and moves off; mouthbrooding females may shoal together and do not feed at this time; eggs hatch after about ten days but remain in the mouth for a further few days; juveniles make short feeding sorties once the storage yolk is used up, but seldom stray far and dart into her mouth when danger threatens; after about another 10 days young are released in warm shallow water in the margins (nursery areas), where they feed independently in small shoals (Ref. 54048). Young released from mouthbrooding female are about 1cm long (Ref. 2). Female returns to the breeding arena where she spawns again (Ref. 54048).",y
+729,Oreochromis mossambicus,external,external brooders,NA,"Spawns at the edge of the littoral terrace of lakes (Ref. 1, 2, 87, 6465), in sandy or muddy bottoms (Ref. 57425). Displays a lek mating system; territorial males establish breeding territories where they dig spawning pits, assume a dark coloration, defend a breeding territory and actively court females; sneaking males intrude into nests during a spawning episode, exhibiting quivering behavior which is usually an indicator of sperm release; sneaking is predominantly performed by subordinate males, which may adopt pseudo-female behavior (Ref. 57425). Only territorial males produce sounds, during all phases of courtship but especially during the late stages, including spawning (Ref. 49830). Territorial male excavates and defends a basin-shaped pit in the center of his territory, where female deposits 100-1700(1800) eggs (Ref. 44894, 52307). Eggs and milt are sucked up by the female (Ref. 2, 44894). Fertilization is reported to sometimes occur in the mouth of the female (Ref. 6028). Females incubate eggs alone (Ref. 12501, 52307). It is possible, albeit rare, that males take up some eggs after spawning (Ref. 2, 5726, 52307, 57895), but they almost always eat them soon after (Ref. 52307). Females school together while mouthbrooding (Ref. 40035), they cease to feed and subsist on food reserves stored in their body (Ref. 1). Females may spawn a full clutch with just one male, or may spawn with several different males in a series (Ref. 52307). Water is circulated over the eggs by chewing movements of the jaws (Ref. 12501, 12522). Fry hatch in the female's mouth after 3-5 days (Ref. 2, 12501, 12522, 44894, 52307), depending on the temperature (Ref. 52307). The young are released from the mouth in 10-14 days, but remain near the female and enter the mouth if threatened until about 3 weeks old (Ref. 2, 44894, 52307). Fry and juveniles shoal in shallow water (Ref. 6465, 7248, 57895) where they feed during the day, and retreat to deep water at night (Ref. 87, 6465). Females raise multiple broods during a season (Ref. 7248, 57895).",y
+730,Oreochromis mweruensis,in mouth,external brooders,NA,Spawns along the banks of lakes/rivers at an average depth of 12 to 13 m. Mating territory largely occupied by a low mound with 6-12 grooves or crests radiating from the small central concave area (star-shaped nest). Males build the star-shaped nests on a sandy substrates.   ,y
+731,Oreochromis niloticus,external,external brooders,maternal,"Sexual maturity is reached at 3-6 months depending on temperature, reaching about 30 g. Reproduction occurs only when temperatures are over 20å¡C. Several yearly spawnings every 30 days. Females incubate eggs inside their mouths (approximately for a week) where larvae hatch and remain until the vitellus is reabsorved. Egg size 1.5 mm, larval length at hatching 4 mm.Spawns in firm sand in water from 0.6 to 2 m deep of lakes (Ref. 2) and inshore waters (Ref. 55624). Males set up and defend territory which are visited by the females. Courtship lasts several hours.  A single male probably fertilises the eggs of more than one female (Ref. 55624). Eggs are shed in batches in shallow nest and fertilized by male. Each batch of eggs is picked up into oral cavity by female. Females solely involved in broodcare. Female carries up to 200 eggs in her mouth where the larvae hatch and remain until after the yolk-sac is absorbed.",y
+732,Oreochromis rukwaensis,in mouth,external brooders,NA,"Males construct breeding territories in shallow water, each territory consisting of a central raised mating platform at the center of a large circular depression. Males occupy territory at sunrise when water temperature was 12å¡C. Exhibits pseudo-spawning and true spawning.   ",y
+733,Oreochromis saka,NA,external brooders,NA,Forms breeding colonies in water of 2 to 4 m depth off reedy shores.      ,y
+734,Oreochromis schwebischi,NA,external brooders,NA,"Nests are made on sandy or loamy bottoms in water 40-80 cm deep, or more sparsely in depths of a meter or more. They are circular basins with a diameter of 115-185 cm, about 20 cm deep in the middle with a rim raised 7-8 cm above the surrounding level. Spawning occurs at night, the fishes seeking deeper waters during the day to avoid high temperatures and intense illumination.  ",y
+735,Oreochromis shiranus,in mouth,external brooders,NA,"Builds basin-shaped nests in shallow water from 0.15 m to 1.5 m deep , in sand overlaid with mud, in the vicinity of rooted aquatic vegetation. Females brood eggs and young in the mouth until the young reach a length of about 10 mm.    ",y
+736,Oreochromis spilurus,in mouth,external brooders,maternal,"Spawns in shallow water with shelving bottom in ponds. Size of first spawning depends on population density (lower at higher densities). Mating pit is the size and shape of a saucer. Eggs probably fertilized before being taken into the mouth by the female, or are fertilized inside the mouth (Ref. 2).",y
+737,Oreochromis squamipinnis,in mouth,external brooders,NA,"Mating behavior includes the T-stand, both partners alternately forming the horizontal part of the T. Eggs are laid in batches and immediately picked up by the female. Fertilization takes place both on the ground and in the mouth. Females brood eggs/young, guarding their fry until about 15 mm (Ref. 2781).   ",y
+738,Oreochromis tanganicae,NA,external brooders,NA,Brooding females of 23-25 cm TL were included in the catches off sandy beaches.      ,?
+739,Oreochromis upembae,external,external brooders,maternal,"Female broods the young and eggs in the mouth in the shelter of sandbanks in the Zaire of Yangambi. In various aquarium observations, male builds shallow spawning nests; female deposits eggs in nest; male fertilizes eggs; female takes eggs in mouth; female swallows additional sperms (Ref. 37042).",y
+740,Oreochromis urolepis,in mouth,external brooders,NA,Arena spawning.      ,y
+741,Oreochromis variabilis,in mouth,external brooders,NA,"Nests are built on sandy bottoms in shallow waters. Each nest consists of a central shallow saucer 13-15 cm in diameter, around which is a circle of small pits. This structure is the center of a larger pit, 30-39 cm in diameter. Breeding pair makes the T-stand. Female lays batches of eggs; picks them up and sucks at the male's genital tassel.  ",y
+742,Orthochromis kasuluensis,NA,external brooders,NA,Probably a female mouthbrooder as several preserved specimens with eggs or fry in the mouth appeared to be females.,y
+743,Orthochromis luichensis,NA,external brooders,NA,A mouthbrooding species. It is likely a female brooder  as few specimens with young in the mouth appeared to be females.,y
+744,Orthochromis machadoi,external,external brooders,NA,Mouthbrooding by females.,y
+745,Orthochromis malagaraziensis,external,external brooders,NA,Mouthbrooding by females.,y
+746,Orthochromis mazimeroensis,NA,external brooders,NA,A mouth brooding species. A ripening female of 5.2 cm SL contained 24 eggs of about 3 mm diameter in the abdominal cavity.,y
+747,Orthochromis mosoensis,NA,external brooders,NA,A mouthbrooding species. The ovaries of a ripening female of 5.36 cm SL contained only 15 eggs.,y
+748,Orthochromis polyacanthus,external,external brooders,NA,Mouthbrooding by females.,y
+749,Orthochromis torrenticola,external,external brooders,NA,Mouthbrooding by females.,y
+750,Orthochromis uvinzae,NA,external brooders,NA,A mouthbrooding species. Aquarium observations showed that  females usually brood the eggs.,y
+751,Parachromis dovii,external,clutch tenders,NA,"Produces about 1000-1500 eggs. Altruism with males of other species while tending the young. This updates previous informations from Ref. 7335.Min. 1000 eggs, sexual maturity is reached at 15 months and 20 cm (Ref. 2060).",n
+752,Parachromis friedrichsthalii,external,clutch tenders,NA,Produces about 500-700 eggs.,n
+753,Parachromis managuensis,external,NA,biparental,"Deposits up to 5,000 eggs on rocks and other hard substrates; both parents guard the eggs and resulting fry (Ref. 44091). Reported to deposit up to 10,496 eggs (Ref. 80549).",n
+754,Parachromis motaguensis,external,nesters,NA,Oviparous (Ref. 205).  Subtrate guarding as a form of parental care is done by both male and female (Ref. 50828).,n
+755,Paracyprichromis nigripinnis,external,external brooders,maternal,Larvae of up to 1.88 cm TL are mouthbrooded by female parents ranging from 8.3 to 10.0 cm SL (Ref. 86760).,y
+756,Parananochromis brevirostris,NA,NA,NA,"In aquaria, a pair-bonding, cave-breeding species (Ref. 50579).",n
+757,Parananochromis caudifasciatus,external,nesters,NA,Spawns in caves.,n
+758,Parananochromis ornatus,NA,NA,NA,"In aquaria, a pair-bonding, cave-breeding species (Ref. 50579).",n
+759,Paraneetroplus bifasciatus,external,clutch tenders,NA,500 eggs.,n
+760,Paraneetroplus fenestratus,external,clutch tenders,NA,"Breeding pairs lay eggs on wood, rock or in the sand.",n
+761,Paraneetroplus guttulatus,external,nesters,NA,Oviparous (Ref. 205).  Subtrate guarding of eggs as a form of parental care is done by both male and female (Ref. 50828).,n
+762,Paraneetroplus maculicauda,external,clutch tenders,NA,Spawns in an open water and produces about 600-1000 fry per spawning. Both parents participate in caring the young.,n
+763,Paraneetroplus synspilus,external,clutch tenders,NA,Produces 300-500 fry per spawning (Ref. 7335). Reported to produce up to 1000 eggs and reach sexual maturity at 10 cm (Ref. 2060).,n
+764,Paratilapia polleni,external,nesters,maternal,NA,n
+765,Paratilapia toddi,NA,nesters,NA,NA,n
+766,Pelvicachromis humilis,external,nesters,NA,Spawns in caves. Female tends the clutch (Ref. 2060).,n
+767,Pelvicachromis pulcher,external,nesters,NA,Spawns in caves.,n
+768,Pelvicachromis roloffi,external,nesters,NA,Spawns in caves.,n
+769,Pelvicachromis subocellatus,external,nesters,NA,Spawns in caves.,n
+770,Pelvicachromis taeniatus,external,nesters,NA,"Spawns in caves. Eggs may be deposited in niches and crevices as well as below roots, pieces of bark and larger leaves (Ref. 89992).  ",n
+771,Petrochromis famula,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 2.05 cm TL are mouthbrooded by female parents ranging from 8.7 to 9.5 cm SL (Ref. 86760).,y
+772,Petrochromis fasciolatus,external,external brooders,maternal,Larvae of up to 1.94 cm TL are mouthbrooded by female parents 9.1 to 11.3 cm SL in size (Ref. 86760).,y
+773,Petrochromis orthognathus,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 1.76 cm TL are mouthbrooded by female parents 9.3 to 10.7 cm SL in size (Ref. 86760).,y
+774,Petrochromis polyodon,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 2.83 cm TL are mouthbrooded by female parents 12.6 to 14.1 cm SL in size (Ref. 86760).,y
+775,Petrochromis trewavasae,external,external brooders,maternal,Larvae of up to 3.17 cm TL are mouthbrooded by female parent 14.3 cm SL long (Ref. 86760).,y
+776,Petrotilapia tridentiger,in mouth,external brooders,NA,Females takes the brood into her mouth and takes care of the young.,y
+777,Pharyngochromis acuticeps,external,external brooders,NA,Mouthbrooding by females.,y
+778,Placidochromis electra,in mouth,external brooders,NA,"Female mouth brooder, about 50 eggs.",y
+779,Placidochromis johnstoni,in mouth,external brooders,NA,Lays up to 120 eggs.,y
+780,Placidochromis milomo,in mouth,external brooders,NA,The female is mouthbrooder.,y
+781,Placidochromis phenochilus,external,external brooders,NA,Mouthbrooding by females.,y
+782,Plecodus straeleni,external,external brooders,biparental,"Exhibit prolonged biparental guarding of the fry after mouthbrooding (Ref. 86760).  In a study, larvae of up to 2.18 cm TL are mouthbrooded by a female parent 10.8 cm SL long (Ref. 86760).",y
+783,Protomelas annectens,in mouth,external brooders,NA,NA,y
+784,Protomelas fenestratus,in mouth,external brooders,NA,Female mouth brooder.,y
+785,Protomelas spilopterus,external,external brooders,maternal,Mouthbrooding by females (Ref. 53335).,y
+786,Protomelas taeniolatus,external,clutch tenders,NA,Parents practice co-operative care of young by grouping together and setting up protective stations close to one another; releasing their young and embarking upon parental care. Every protective mantle is very close to the next in such a way that young can move from one parent to the next.   ,n
+787,Pseudocrenilabrus multicolor,external,external brooders,NA,Females takes the brood into her mouth and takes care of the young.,y
+788,Pseudocrenilabrus philander,external,external brooders,maternal,"Female lays batches of eggs on a substratum which the male begins to inseminate. Female collects the eggs almost immediately after laying a batch and incubates eggs in her mouth for 12-14 days at 26å¡C, releasing the young after which. Parent guards the young for 5-7 days, keeping them into her mouth when approached by predators or divers.  ",y
+789,Pseudosimochromis curvifrons,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 2.22 cm TL are mouthbrooded by female parents 6.8 to 7.6 cm SL in size (Ref. 86760).,y
+790,Pseudotropheus elongatus,in mouth,external brooders,NA,Produces up to 37 eggs.,y
+791,Pseudotropheus fainzilberi,in mouth,external brooders,NA,NA,y
+792,Pseudotropheus joanjohnsonae,in mouth,external brooders,NA,NA,y
+793,Pseudotropheus johannii,in mouth,external brooders,NA,"Maternal mouthbrooders; males establish territories and maintain a harem of females; female deposits eggs and picks them up in the mouth for incubation; male spreads out his anal fin showing the ""eggs pots""; the females  mistake these spots for her eggs and try to also take them inside her mouth; the male then releases his milt and the female takes them in, thus fertilizing the eggs inside her mouth (Ref. 44091). ",y
+794,Pseudotropheus socolofi,in mouth,external brooders,NA,Females are mouthbrooders.,y
+795,Pterophyllum altum,external,clutch tenders,NA,NA,n
+796,Pterophyllum scalare,external,clutch tenders,NA,"Males court females during the breeding season. Both male and female guard the eggs which are attached to the surface of aquatic vegetation in a nest area (Ref. 46591). During the entire brooding cycle, bonding of the original pair of parents is maintained complete with defence of each partner against aggression or potential rivals (Ref. 46591).",n
+797,Ptychochromis oligacanthus,external,nesters,NA,Eggs are layed in a nest on the ground. Larvae hatch after 8-10 days. Parents guard the young.,n
+798,Pungu maclareni,external,external brooders,NA,"Eggs green (Ref. 26185, 53940, 58527) and ovoid, large (4x3mm) and few in number (Ref. 26185, 53940). Female is mouthbrooding (Ref. 13614), but possibly variable biparental mouthbrooder (variably one of the parents or both incubate eggs)(Ref. 58527).",y
+799,Retroculus lapidifer,external,nesters,NA,Pair builds nest of about 60 cm diameter in gravel. Both parents defend nest; about 200 eggs are frequently reshuffled by both parents; larvae hatched 5-6 days after spawning.,n
+800,Rhamphochromis longiceps,NA,NA,NA,"Mouthbrooding females and juveniles commonly found inshore, generally in surface water in the shelf and littoral zones, often in reed bays and lagoons (Ref. 55949).",y
+801,Rhamphochromis macrophthalmus,NA,NA,NA,Species probably forms breeding leks on or near the bottom; juveniles are common in the adult habitat (Ref. 55949).,?
+802,Rocio octofasciata,external,clutch tenders,NA,Lays eggs on substrate. Parents incubate eggs and guard young.,n
+803,Sargochromis carlottae,external,external brooders,NA,"A mouth brooder, excavating a small sandscrape nest.",y
+804,Sargochromis codringtonii,external,external brooders,NA,Exhibits mouth brooding.,y
+805,Sargochromis giardi,NA,external brooders,NA,A mouth brooding species. A female of 31 cm caught in a seine net carried 674 fry in her mouth.,y
+806,Sarotherodon caroli,external,external brooders,NA,It is not known which parent mouth-broods the large eggs.      ,y
+807,Sarotherodon galilaeus,external,external brooders,biparental,The initiative throughout courting and mating is taken predominantly by the female; female mainly responsible for the excavation of nest and defending mating territory. Pair-formation exists and is dissolved as soon as the eggs are in the parental mouth. Mouth brooding is reportedly biparental.   ,y
+808,Sarotherodon linnellii,external,external brooders,NA,"Brooding by both sexes, predominantly by the female.      ",y
+809,Sarotherodon lohbergeri,external,external brooders,NA,Absence of sexual dichromatism suggests a biparental mouth-brooding function.      ,y
+810,Sarotherodon melanotheron,external,external brooders,paternal,"Spawns in shallow water close inshore.  Initiative in courtship, pit digging and mating activities are taken by the female. Eventually a male is stimulated to react in a mainly passive manner and a pair-bond is established; sexual dimorphism minimal; no T-stand by the partners during fertilization. Exhibits mouth-brooding habit (Ref. 6298). Males exclusively incubate the eggs (Ref. 2, 6309).",y
+811,Sarotherodon nigripinnis,external,external brooders,paternal,Males carry eggs (Ref. 41581).  Males of <i>Sarotherodon nigripinnis dolloi</i> construct nest and incubate eggs (Ref. 55074). Incubatory period lasts about 14 days; female retrieves newly released young in mouth (Ref. 72506). Juveniles become independant after about 4 weeks (Ref. 55074).,y
+812,Sarotherodon occidentalis,external,external brooders,NA,Oviparous (Ref. 205).  Females employ mouthbrooding to care for the young (Ref. 164).,y
+813,Sarotherodon steinbachi,external,external brooders,NA,Exhibits biparental mouth-brooding.      ,y
+814,Satanoperca acuticeps,external,clutch tenders,NA,"Deposit eggs in troughs, covered with a little sand. Female tends the clutch, male defends the territory. This corrects previous information from Ref. 2060.",n
+815,Satanoperca daemon,external,brood hiders,NA,Deposits eggs in a pit and covers them with grosser substrate. The Young find the way out by themselves.,n
+816,Satanoperca jurupari,external,external brooders,NA,"Ovophile mouth brooders. The parent fish clean the rocky substrate prior to spawning. Incubation takes place in the mouth. Juveniles use the mouth as their shelter for several weeks, where they attach themselves to the palate, by means of a specific gland (Ref. 35237).",y
+817,Satanoperca leucosticta,external,external brooders,NA,"Deposit eggs on substrate. A biparental larophile mouthbrooder, taking up the larvae in the mouth. This corrects previous information from Ref. 26372.",y
+818,Satanoperca pappaterra,external,external brooders,NA,Ovophile mouth brooders.,y
+819,Sciaenochromis ahli,external,external brooders,NA,Oviparous (Ref. 205). Eggs are fertilized externally before the female picks them up to brood in her mouth (Ref. 205).,y
+820,Serranochromis angusticeps,NA,external brooders,NA,"Female incubates eggs in her mouth. Parental care is exercised for a short while after hatching when the juveniles move off to shallow grassy areas and there they remain, in the Upper Zambezi, until floodwaters recede and force them back to the main river. They seek refuge in lagoons and backwaters until reaching a size large enough to avoid predation by tigerfish in the open waters of the river.",y
+821,Serranochromis jallae,NA,external brooders,NA,Incubates eggs in the mouth. Constructs a shallow concave nest on a sandy or muddy substrate in fairly shallow water.,y
+822,Serranochromis macrocephalus,NA,external brooders,NA,A mouth brooding species.,y
+823,Serranochromis meridianus,NA,external brooders,NA,Male clears small nest and attracts female with quivering display. Eggs are laid in several bouts and fertilized before being collected by the female (Ref. 7248). Female incubates the eggs in the mouth (Ref. 12251).,y
+824,Serranochromis robustus,external,external brooders,NA,Oviparous (Ref. 205).  Females incubate the eggs in the mouth (Ref. 50828).,y
+825,Serranochromis thumbergi,NA,external brooders,NA,Constructs a sandscrape nest. Incubates eggs in the mouth.,y
+826,Simochromis babaulti,external,External brooders,maternal,Larvae of up to 1.47 cm TL are mouthbrooded by female parents 6.3 to 6.9 cm SL in size (Ref. 86760). Also Ref. 102710.,y
+827,Simochromis diagramma,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 1.56 cm TL are mouthbrooded by female parents 6.0 to 9.0 cm SL in size (Ref. 86760).,y
+828,Simochromis marginatus,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 5.0 cm TL are mouthbrooded by female parents 6.8 to 8.3 cm SL in size (Ref. 86760).,y
+829,Spathodus erythrodon,in mouth,external brooders,NA,"Female is mouthbrooder, but male takes care of the young as soon as they are released from the female's mouth.",y
+830,Spathodus marlieri,in mouth,external brooders,NA,Female is mouthbrooder and takes care of the young.,y
+831,Steatocranus casuarius,external,nesters,NA,Produces 20-150 eggs.,n
+832,Steatocranus gibbiceps,external,nesters,NA,Deposit eggs in caves.,n
+833,Steatocranus irvinei,external,NA,NA,NA,?
+834,Steatocranus tinanti,external,nesters,NA,Female lays up to 100 eggs in the male's cave. Both parents take care of their young.,n
+835,Steatocranus ubanguiensis,external,NA,NA,NA,?
+836,Stomatepia mariae,external,external brooders,NA,Females are mouthbrooding.,y
+837,Stomatepia pindu,external,external brooders,NA,Female is mouthbrooding.,y
+838,Symphysodon aequifasciatus,external,clutch tenders,NA,NA,n
+839,Symphysodon discus,external,clutch tenders,NA,Deposit several hundred eggs on stones or plants; both parents defend eggs and larvae; larvae feed on a skin mucus during their first few days.,n
+840,Taeniacara candidi,external,clutch tenders,maternal,"The male is very active sexually and it spawns with several females, even at the same time. Females care for the eggs and larvae. They even chew the fry loose from the egg case after a few days of development (Ref. 12251).  Female attaches the offspring at the ceiling of caves (Ref. 47893).",n
+841,Tahuantinsuyoa macantzatza,external,external brooders,NA,"Spawn on fallen leaves or pieces of wood, which are moved if necessary; both parents guard the eggs and take the larvae in the mouth (Ref.40602).",y
+842,Tanganicodus irsacae,external,external brooders,biparental,Larvae of up to 1.12 cm TL are mouthbrooded by both parents 4.4 to 5.1 cm SL in size (Ref. 86760).,y
+843,Teleocichla centrarchus,external,nesters,NA,NA,n
+844,Teleocichla cinderella,external,nesters,NA,NA,n
+845,Teleocichla gephyrogramma,external,nesters,NA,NA,n
+846,Teleocichla monogramma,external,nesters,NA,NA,n
+847,Teleocichla prionogenys,external,nesters,NA,NA,n
+848,Teleocichla proselytus,external,nesters,NA,NA,n
+849,Teleogramma brichardi,external,nesters,NA,Produces 10-30 eggs.,n
+850,Telmatochromis bifrenatus,external,nesters,NA,Lays up to 80 eggs. A cave-brooder.,n
+851,Telmatochromis dhonti,external,clutch tenders,NA,Lays up to 500 eggs. A cave-brooder.,n
+852,Telmatochromis temporalis,external,nesters,NA,Spawns in caves.,n
+853,Telmatochromis vittatus,external,clutch tenders,NA,A cave-brooder.,n
+854,Thoracochromis albolabris,external,external brooders,NA,Mouthbrooding by females.,y
+855,Thoracochromis bakongo,external,external brooders,NA,Mouthbrooding by females.,y
+856,Thoracochromis brauschi,external,external brooders,NA,Mouthbrooding by females.,y
+857,Thoracochromis buysi,external,external brooders,NA,Mouthbrooding by females.,y
+858,Thoracochromis callichromus,external,external brooders,NA,Mouthbrooding by females.,y
+859,Thoracochromis demeusii,external,external brooders,NA,Mouthbrooding by females.,y
+860,Thoracochromis fasciatus,external,external brooders,NA,Mouthbrooding by females.,y
+861,Thoracochromis lucullae,external,external brooders,NA,Mouthbrooding by females.,y
+862,Thoracochromis moeruensis,external,external brooders,NA,Mouthbrooding by females.,y
+863,Thoracochromis schwetzi,external,external brooders,NA,Mouthbrooding by females.,y
+864,Thoracochromis stigmatogenys,external,external brooders,NA,Mouthbrooding by females.,y
+865,Thoracochromis wingatii,external,external brooders,NA,Mouthbrooding by females.,y
+866,Thorichthys ellioti,external,NA,NA,NA,?
+867,Thorichthys helleri,external,NA,NA,NA,?
+868,Thorichthys meeki,external,clutch tenders,NA,"Deposits eggs on open substrate such as stones (Ref. 6466), a piece of submerged wood, or a shallow depression excavated in the substrate; from 100 to 500 eggs are deposited and guarded by both parents; newly hatched young are transferred to shallow pits and the parents continue guarding them (Ref. 44091). ",n
+869,Thorichthys socolofi,external,NA,NA,NA,?
+870,Thysochromis ansorgii,external,nesters,NA,NA,n
+871,Tilapia bakossiorum,external,clutch tenders,NA,NA,n
+872,Tilapia bemini,external,clutch tenders,NA,NA,n
+873,Tilapia bythobates,external,clutch tenders,NA,NA,n
+874,Tilapia deckerti,external,clutch tenders,NA,NA,n
+875,Tilapia discolor,external,nesters,NA,"Courtship occurs as male circular displays around the females. Unresponsive females are chased away from the spawning area by the males. Distinct pairing (Ref. 205) is resorted to after courtship. Each couple prepares the nest in a chosen suitable substrate where the eggs are laid in batches, fertilised, incubated and hatched. Both parents guard the eggs from intruders.",n
+876,Tilapia flava,external,clutch tenders,NA,NA,n
+877,Tilapia guinasana,external,nesters,NA,Nests are built on narrow rocky ledges and competition for these nest sites is very strong.     ,n
+878,Tilapia guineensis,external,nesters,NA,Oviparous (Ref. 205).  Subtrate guarding of eggs as a form of parental care is done by both male and female (Ref. 50828).,n
+879,Tilapia gutturosa,external,clutch tenders,NA,NA,n
+880,Tilapia imbriferna,external,clutch tenders,NA,NA,n
+881,Tilapia joka,external,nesters,NA,Female lays around 200 eggs inside the male's cave. Both parents care for their young.,n
+882,Tilapia kottae,external,clutch tenders,NA,NA,n
+883,Tilapia mariae,external,nesters,biparental,Produces up to 2000 eggs.,n
+884,Tilapia rendalli,external,nesters,NA,Prefers a sloping spawning ground near the marginal fringe of vegetation (Ref. 3). Builds nest in shallow water where both parents guard the eggs and young.    ,n
+885,Tilapia snyderae,external,clutch tenders,NA,NA,n
+886,Tilapia sparrmanii,external,nesters,NA,Male spreads his milt over the cluster of eggs which are deposited on the bottom or even attached to the branches of aquatic weeds. Parents guard the eggs. Eggs and fry may be moved into the mouth to alternative sites during hatching operations but there is no evidence of actual mouth brooding.,n
+887,Tilapia spongotroktis,external,clutch tenders,NA,NA,n
+888,Tilapia thysi,external,clutch tenders,NA,NA,n
+889,Tilapia zillii,external,clutch tenders,NA,Spawns in lake bottoms with pebbles or sand and abundant vegetation (Ref. 3). Lays adhesive eggs on the substratum which are guarded by both parents (Ref. 6298). Reported to deposit and guard eggs in shallow nest (Ref. 12069). Produces up to 1000 eggs (Ref. 1672).,n
+890,Tramitichromis intermedius,external,external brooders,maternal,Mouthbrooding done by the female (Ref. 59309).,y
+891,Trematocranus placodon,in mouth,external brooders,NA,The female can carry over 100 young in her mouth.,y
+892,Tristramella simonis simonis,NA,external brooders,maternal,Also exhibit biparental care by mouthbrooding (Ref. 13609).,y
+893,Tropheops macrophthalmus,in mouth,external brooders,NA,Produces 40-70 eggs.,y
+894,Tropheops microstoma,in mouth,external brooders,NA,Females are mouthbrooders.,y
+895,Tropheops tropheops,in mouth,external brooders,NA,Produces up to 40 eggs.,y
+896,Tropheus brichardi,in mouth,external brooders,NA,Females are mouthbrooders.,y
+897,Tropheus duboisi,external,external brooders,NA,Produces 5-15 eggs.,y
+898,Tropheus moorii,in mouth,external brooders,maternal,"Female lays only a few eggs. Female collects eggs up into her mouth before they sink to the bottom and then moves to the genital area of the male. There the sperm are shed and taken into the mouth of the female where fertilization takes place. Eggs hatch after about 4 weeks of incubation (Ref. 7020). Produces 5-17 eggs (Ref. 1672).  In one study, eggs from the cleavage phase and larvae of up to 1.45 cm TL are mouthbrooded by female parents ranging from 6.2 to 7.9 cm SL long (Ref. 86760).",y
+899,Tropheus polli,external,external brooders,NA,NA,y
+900,Tylochromis bangwelensis,external,external brooders,maternal,"Female mouth-brooder; breeding occurs during the rainy seasons and the young, a favorite prey for the tiger-fish, keep closer inshore among <i>Eleocharis</i> reed and other vegetation (Ref. 246).  Young fish still attached to the yolk sac can be found in the mouth of a parent which is at the verge of spawning again (Ref. 52961).The species breeds during a single spawning period toward the end of the rainy season (Ref. 2774).  At highwater, the fish move from the lake to their breeding grounds in adjacent swamps to spawn (Ref. 52346).",y
+901,Tylochromis sudanensis,external,external brooders,NA,Mouth brooder (male or female is unknown).,y
+902,Tyrannochromis macrostoma,external,clutch tenders,NA,Guards offspring for more than 3 weeks. Young become independent when they reach 3.8-4.0 cm SL and are able to move around as solitary hunters in the rocky habitats.    ,n
+903,Uaru amphiacanthoides,external,clutch tenders,NA,Parents care for (up to 200) eggs and larvae (Ref. 40602).,n
+904,Uaru fernandezyepezi,external,clutch tenders,biparental,Both parents tend the clutch.,n
+905,Variabilichromis moorii,external,nesters,NA,"Spawns in caves, both parents care for their young.",n
+906,Xenotilapia boulengeri,external,external brooders,biparental,"After the male has fertilized the eggs the female mouthbroods them for 12 days after which they are transferred to the male for an additional 18-20 days of mouthbrooding (Ref. 2060).  In one study, larvae of up to 0.99 cm TL are mouthbrooded by female parents 6.8 to 7.5 cm SL in size (Ref. 86760).",y
+907,Xenotilapia longispinis,external,external brooders,biparental,Eggs from the cleavage phase and larvae of up to 1.47cm TL are mouthbrooded by both parents 6.5 to 7.4 cm SL in size (Ref. 86760).,y
+908,Xenotilapia ochrogenys,external,external brooders,biparental,Eggs from the cleavage phase and larvae of up to 1.20 cm TL are mouthbrooded by both parents 6.4 to 7.0 cm SL in size (Ref. 86760).,y
+909,Xenotilapia papilio,external,external brooders,NA,Male and females are mouthbrooders.,y
+910,Xenotilapia sima,external,external brooders,maternal,Eggs from the cleavage phase and larvae of up to 1.06 cm TL are mouthbrooded by female parents 10.3 to 10.9 cm SL in size (Ref. 86760).,y
+911,Xenotilapia tenuidentata,external,external brooders,maternal,Larvae of up to 0.39 cm TL are mouthbrooded by a female parent 5.0 cm SL in size (Ref. 86760).,y

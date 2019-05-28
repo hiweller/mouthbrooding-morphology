@@ -1,0 +1,7 @@
+parasphenoid	ps.ant	ps.post
+epibranchial	ep.dors	ep.vent
+ceratobranchial	cb.dors	cb.vent
+basibranchials	bb.post	bb.ant
+ljaw	lj.post	lj.ant
+EBL	ebl.dors	ebl.vent
+eye	eye.start	eye.end

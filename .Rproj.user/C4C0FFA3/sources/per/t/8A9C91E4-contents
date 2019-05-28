@@ -1,0 +1,190 @@
+# following gpagen tutorial from https://cran.r-project.org/web/packages/geomorph/vignettes/geomorph.assistance.html
+require(geomorph)
+require(StereoMorph)
+
+# formatting ####
+# filepath setting
+shapes.dir <- "Analysis/SM_test_2/"
+INT.landmarks <- dir(shapes.dir, pattern = "*INT.txt", full.names = T)
+EXT.landmarks <- dir(shapes.dir, pattern = "*EXT.txt", full.names = T)
+
+# make a table of just IDs (first three letters of genus & species names)
+id.table <- substr(tools::file_path_sans_ext(basename(INT.landmarks)),
+                   1, 7) %>% table
+
+# there are repeats, so number them accordingly
+ids <- c()
+for (i in 1:length(id.table)) {
+    ids <- c(ids, paste(names(id.table)[i], as.character(c(1:id.table[i]))))
+}
+
+# read in landmarks and perform procrustes fitting ####
+shapes.list <- readShapes(INT.landmarks)
+int.landmarks <- readland.shapes(shapes.list, 
+                                nCurvePts = c(15, 5, 10, 10, 10, 5),
+                                scaled = TRUE)
+int.landmarks <- estimate.missing(int.landmarks, method = "TPS")
+int.fit <- gpagen(int.landmarks)
+
+ext.shapes <- readShapes(EXT.landmarks)
+ext.landmarks <- readland.shapes(ext.shapes, 
+                                 nCurvePts = c(10, 10, 5, 5, 5, 5, 5),
+                                 scaled = FALSE)
+ext.landmarks <- estimate.missing(ext.landmarks, method = "TPS")
+ext.fit <- gpagen(ext.landmarks)
+
+# create additional classifiers ####
+ids
+feeding <- c(rep("other", 14), 
+             rep("winnow", 8),
+             rep("other", 3),
+             rep("winnow", 5))
+
+reproduction <- c(rep("SS", 4),
+                  rep("MB", 6),
+                  rep("SS", 6),
+                  rep("MB", 5),
+                  rep("SS", 6),
+                  rep("MB", 3))
+
+location <- c(rep("South America", 14),
+              rep("Central America", 2),
+              rep("South America", 8),
+              "Madagascar",
+              rep("South America", 4),
+              "Africa")
+mb.int <- list(coords = int.fit$coords,
+               reproduction = reproduction,
+               location = location,
+               feeding = feeding,
+               id = ids)
+
+# perform PCA and color by group ####
+gp <- interaction(mb.int$feeding, mb.int$reproduction)
+col.gp <- c("goldenrod1", "mediumseagreen", "tomato", "cornflowerblue")
+names(col.gp) <- levels(gp)
+
+col.gp <- col.gp[match(gp, names(col.gp))]
+
+pts <- plotTangentSpace(mb.int$coords, 
+                        groups = col.gp, 
+                        legend = T,
+                        label = mb.int$id)
+
+ext.pts <- plotTangentSpace(ext.fit$coords,
+                            groups = col.gp,
+                            legend = T,
+                            label = mb.int$id)
+
+# plotting PC scores ####
+require(ggplot2)
+# PC1 and PC2
+{plot(pts$pc.scores[ , 1:2], 
+     col = alpha(col.gp, 0.8),
+     pch = 19,
+     cex = 1.5, asp = 1,
+     panel.first = abline(h = 0, v = 0, lty = 2, col = "grey"))
+
+legend(x = -0.28,
+       y = -0.12, 
+       fill = c("goldenrod1", "mediumseagreen", "tomato", "cornflowerblue"), 
+       legend = c("MB / other", "MB / winnow", "SS / other", "SS / winnow"),
+       cex = 0.75)
+
+text(pts$pc.scores[ , 1:2],
+     mb.int$id,
+     col = col.gp, pos = 3,
+     cex = 0.65)}
+
+# PC1 and PC3
+{plot(pts$pc.scores[ , c(1, 3)], 
+      col = alpha(col.gp, 0.8),
+      pch = 19,
+      cex = 1.5, asp = 1,
+      panel.first = abline(h = 0, v = 0, lty = 2, col = "grey"))
+  
+  legend(x = -0.28,
+         y = -0.09, 
+         fill = c("goldenrod1", "mediumseagreen", "tomato", "cornflowerblue"), 
+         legend = c("MB / other", "MB / winnow", "SS / other", "SS / winnow"),
+         cex = 0.75)
+  
+  text(pts$pc.scores[ , c(1, 3)],
+       mb.int$id,
+       col = col.gp, pos = 3,
+       cex = 0.65)}
+
+# PC2 and PC3
+{plot(pts$pc.scores[ , 2:3], 
+      col = alpha(col.gp, 0.8),
+      pch = 19,
+      cex = 1.5, asp = 1,
+      panel.first = abline(h = 0, v = 0, lty = 2, col = "grey"))
+  
+  legend(x = -0.13,
+         y = 0.12, 
+         fill = c("goldenrod1", "mediumseagreen", "tomato", "cornflowerblue"), 
+         legend = c("MB / other", "MB / winnow", "SS / other", "SS / winnow"),
+         cex = 0.75)
+  
+  text(pts$pc.scores[ , 2:3],
+       mb.int$id,
+       col = col.gp, pos = 3,
+       cex = 0.65)}
+
+
+# exterior plotting ####
+# PC1 and PC2
+{plot(ext.pts$pc.scores[ , 1:2], 
+      col = alpha(col.gp, 0.8),
+      pch = 19,
+      cex = 1.5, asp = 1,
+      panel.first = abline(h = 0, v = 0, lty = 2, col = "grey"))
+  
+  legend(x = -0.22,
+         y = -0.12, 
+         fill = c("goldenrod1", "mediumseagreen", "tomato", "cornflowerblue"), 
+         legend = c("MB / other", "MB / winnow", "SS / other", "SS / winnow"),
+         cex = 0.75)
+  
+  text(ext.pts$pc.scores[ , 1:2],
+       mb.int$id,
+       col = col.gp, pos = 3,
+       cex = 0.65)}
+
+# PC1 and PC3
+{plot(ext.pts$pc.scores[ , c(1, 3)], 
+      col = alpha(col.gp, 0.8),
+      pch = 19,
+      cex = 1.5, asp = 1,
+      panel.first = abline(h = 0, v = 0, lty = 2, col = "grey"))
+  
+  legend(x = -0.22,
+         y = -0.09, 
+         fill = c("goldenrod1", "mediumseagreen", "tomato", "cornflowerblue"), 
+         legend = c("MB / other", "MB / winnow", "SS / other", "SS / winnow"),
+         cex = 0.75)
+  
+  text(ext.pts$pc.scores[ , c(1, 3)],
+       mb.int$id,
+       col = col.gp, pos = 3,
+       cex = 0.65)}
+
+# PC2 and PC3
+{plot(ext.pts$pc.scores[ , 2:3], 
+      col = alpha(col.gp, 0.8),
+      pch = 19,
+      cex = 1.5, asp = 1,
+      panel.first = abline(h = 0, v = 0, lty = 2, col = "grey"))
+  
+  legend(x = 0.04,
+         y = -0.06,
+         fill = c("goldenrod1", "mediumseagreen", "tomato", "cornflowerblue"), 
+         legend = c("MB / other", "MB / winnow", "SS / other", "SS / winnow"),
+         cex = 0.75)
+  
+  text(ext.pts$pc.scores[ , 2:3],
+       mb.int$id,
+       col = col.gp, pos = 3,
+       cex = 0.65)}
+

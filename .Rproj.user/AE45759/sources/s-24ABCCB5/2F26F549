@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558379251788.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "6|27|8|0|\n19|35|53|0|\n54|26|118|0|\n119|30|148|0|\n149|12|185|0|\n186|27|230|0|\n211|6|227|0|\n",
+    "hash" : "0",
+    "id" : "2F26F549",
+    "lastKnownWriteTime" : 1558636578,
+    "last_content_update" : 1558636578330,
+    "path" : "~/Dropbox/Mouthbrooding/Notes/Harmon_PCM_notes.Rmd",
+    "project_path" : "Notes/Harmon_PCM_notes.Rmd",
+    "properties" : {
+        "cursorPosition" : "254,48",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

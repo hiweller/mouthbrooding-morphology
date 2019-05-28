@@ -1,0 +1,52 @@
+#NEXUS
+
+begin TREES;
+
+	TRANSLATE
+		1 Mesonauta,
+		2 Heros,
+		3 Andinoacara,
+		4 Bujurquina,
+		5 Acaronia,
+		6 Laetacara,
+		7 Aequidens,
+		8 Cichlasoma,
+		9 Krobia,
+		10 Nannacara,
+		11 Cleithracara,
+		12 'Crenicichla+Teleocichla',
+		13 Biotoecus,
+		14 Acarichthys,
+		15 Taeniacara,
+		16 Apistogramma,
+		17 'Satanoperca_SB',
+		18 'Satanoperca_MB',
+		19 Mazarunia,
+		20 Guianacara,
+		21 'G._setequedas',
+		22 'G._che',
+		23 'G._meridionalis',
+		24 'G._rhabdotus',
+		25 'Gymnogeophagus_MB',
+		26 '"Geophagus"',
+		27 'Geophagus_MB',
+		28 'G._harreri',
+		29 'G._argyrostictus',
+		30 'G._taeniopareius',
+		31 'G._grammepareius',
+		32 Mikgrogeophagus,
+		33 '"G."_brasiliensis',
+		34 Biotodoma,
+		35 Dicrossus,
+		36 Crenicara,
+		37 Chaetobranchus,
+		38 Chaetobranchopsis,
+		39 Astronotus,
+		40 Cichla,
+		41 Retroculus;
+
+
+	TREE 'Default Symmetrical Tree+' = ((((1,2),(((10,11),((7,8),9)),(6,(5,(3,4))))),(((((((((((21,25),(23,(22,24))),26),((30,31),((27,28),29))),32),34),35),36),((12,(13,14)),(((15,16),(17,18)),(20,19)))),37),39)),(40,41));
+end;
+
+

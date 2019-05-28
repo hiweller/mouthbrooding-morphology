@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557866559547.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "16|31|18|0|\n81|1|96|16|\n99|1|114|18|\n117|1|132|18|\n",
+    "hash" : "1694897472",
+    "id" : "8A9C91E4",
+    "lastKnownWriteTime" : 1557934139,
+    "last_content_update" : 1557934139739,
+    "path" : "C:/Users/Problematicus/Dropbox/Mouthbrooding/Code/PRELIMINARY_geomorph_analysis_2d_images.R",
+    "project_path" : "Code/PRELIMINARY_geomorph_analysis_2d_images.R",
+    "properties" : {
+        "cursorPosition" : "96,17",
+        "scrollLine" : "72",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

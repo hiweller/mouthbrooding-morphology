@@ -1,0 +1,5 @@
+jaw.uppe
+jaw.lowe
+mth.corn
+pec.dors
+pec.vent

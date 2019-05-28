@@ -1,0 +1,153 @@
+#NEXUS
+[written Wed Apr 17 17:26:07 EDT 2019 by Mesquite  version 3.6 (build 917) at DESKTOP-B9GLP32/172.16.48.75]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=120;
+	TAXLABELS
+		'"Geophagus" brasiliensis"' '"Geophagus" crassilabris"' '"Geophagus" iporangensis"' '"Geophagus" pellegrini"' '"Geophagus" steindachneri"' Acarichthys_heckelii Acaronia Aequidens_chimantanus Aequidens_diadema Aequidens_epae Aequidens_gerciliae Aequidens_hoehnei Aequidens_mauesanus Aequidens_metae Aequidens_michaeli Aequidens_pallidus Aequidens_paloemeuensis Aequidens_patricki Aequidens_plagiozonatus Aequidens_potaroensis Aequidens_rondoni Aequidens_tetramerus Aequidens_tubicen Aequidens_viridis Andinoacara Andinoacara_biseriatus Apistogramma Astronotus Biotodoma Biotoecus Bujurquina_apoparuana Bujurquina_cordemadi Bujurquina_eurhinus Bujurquina_hophrys Bujurquina_huallagae Bujurquina_labiosa Bujurquina_mariae Bujurquina_megalospilus Bujurquina_moriorum Bujurquina_oenolaemus Bujurquina_ortegai Bujurquina_peregrinabunda Bujurquina_robusta Bujurquina_syspilus Bujurquina_tambopatae Bujurquina_vittata Bujurquina_zamorensis Caquetaia_ Chaetobranchopsis Chaetobranchus Cichla Cichlasoma Cleithracara_maronii Crenicara 'Crenicichla + Teleocichla' Dicrossus Geophagus_abalios Geophagus_altifrons Geophagus_argyrostictus Geophagus_brachybranchus Geophagus_brokopondo Geophagus_camopiensis Geophagus_crocatus Geophagus_dicrozoster Geophagus_gottwaldi Geophagus_grammepareius Geophagus_harreri Geophagus_itapicuruensis Geophagus_megasema Geophagus_neambi Geophagus_obscurus Geophagus_parnaibae Geophagus_proximus Geophagus_surinamensis Geophagus_sveni Geophagus_taeniopareius Geophagus_winemilleri Guianacara_cuyunii Guianacara_dacrya Guianacara_geayi Guianacara_oelemariensis Guianacara_owroewefi Guianacara_sphenozona Guianacara_stergiosi Gymnogeophagus_australis Gymnogeophagus_balzanii Gymnogeophagus_caaguazuensis Gymnogeophagus_che Gymnogeophagus_gymnogenys Gymnogeophagus_labiatus Gymnogeophagus_lacustris Gymnogeophagus_meridionalis Gymnogeophagus_rhabdotus Gymnogeophagus_setequedas Gymnogeophagus_tiraparae Heroina_isonycterina Heros Hoplarchus_psittacus Hypselecara Krobia Laetacara Mazarunia Mesonauta Mikrogeophagus Nannacara Pterophyllum Retroculus Satanoperca_acuticeps Satanoperca_daemon Satanoperca_jurupari Satanoperca_leucosticta Satanoperca_lilith Satanoperca_mapiritensis Satanoperca_pappaterra Satanoperca_rhynchitis Symphysodon_aequifasciatus Taeniacara_candidi Tahuantinsuyoa_chipi Tahuantinsuyoa_macantzatza Uaru 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	LINK TAXA = Taxa;
+	DIMENSIONS  NCHAR=1;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8 9 A B C D E F G H J K M N P Q R S T U V W X Y Z a b c d e f g h j k m n p q r s t u v w x y z";
+	MATRIX
+	'"Geophagus" brasiliensis"'   0
+	'"Geophagus" crassilabris"'   1
+	'"Geophagus" iporangensis"'   0
+	'"Geophagus" pellegrini"'     1
+	'"Geophagus" steindachneri"'  1
+	Acarichthys_heckelii          0
+	Acaronia                      0
+	Aequidens_chimantanus         ?
+	Aequidens_diadema             1
+	Aequidens_epae                ?
+	Aequidens_gerciliae           ?
+	Aequidens_hoehnei             0
+	Aequidens_mauesanus           ?
+	Aequidens_metae               0
+	Aequidens_michaeli            0
+	Aequidens_pallidus            0
+	Aequidens_paloemeuensis       ?
+	Aequidens_patricki            0
+	Aequidens_plagiozonatus       0
+	Aequidens_potaroensis         0
+	Aequidens_rondoni             ?
+	Aequidens_tetramerus          0
+	Aequidens_tubicen             ?
+	Aequidens_viridis             ?
+	Andinoacara                   0
+	Andinoacara_biseriatus        0
+	Apistogramma                  ?
+	Astronotus                    0
+	Biotodoma                     0
+	Biotoecus                     0
+	Bujurquina_apoparuana         1
+	Bujurquina_cordemadi          ?
+	Bujurquina_eurhinus           ?
+	Bujurquina_hophrys            ?
+	Bujurquina_huallagae          ?
+	Bujurquina_labiosa            ?
+	Bujurquina_mariae             1
+	Bujurquina_megalospilus       ?
+	Bujurquina_moriorum           ?
+	Bujurquina_oenolaemus         ?
+	Bujurquina_ortegai            ?
+	Bujurquina_peregrinabunda     ?
+	Bujurquina_robusta            ?
+	Bujurquina_syspilus           1
+	Bujurquina_tambopatae         1
+	Bujurquina_vittata            1
+	Bujurquina_zamorensis         ?
+	Caquetaia_                    0
+	Chaetobranchopsis             ?
+	Chaetobranchus                ?
+	Cichla                        0
+	Cichlasoma                    0
+	Cleithracara_maronii          0
+	Crenicara                     0
+	'Crenicichla + Teleocichla'   0
+	Dicrossus                     0
+	Geophagus_abalios             1
+	Geophagus_altifrons           1
+	Geophagus_argyrostictus       0
+	Geophagus_brachybranchus      1
+	Geophagus_brokopondo          ?
+	Geophagus_camopiensis         1
+	Geophagus_crocatus            ?
+	Geophagus_dicrozoster         1
+	Geophagus_gottwaldi           ?
+	Geophagus_grammepareius       ?
+	Geophagus_harreri             ?
+	Geophagus_itapicuruensis      ?
+	Geophagus_megasema            1
+	Geophagus_neambi              1
+	Geophagus_obscurus            ?
+	Geophagus_parnaibae           1
+	Geophagus_proximus            1
+	Geophagus_surinamensis        1
+	Geophagus_sveni               ?
+	Geophagus_taeniopareius       0
+	Geophagus_winemilleri         1
+	Guianacara_cuyunii            ?
+	Guianacara_dacrya             ?
+	Guianacara_geayi              0
+	Guianacara_oelemariensis      ?
+	Guianacara_owroewefi          ?
+	Guianacara_sphenozona         ?
+	Guianacara_stergiosi          ?
+	Gymnogeophagus_australis      1
+	Gymnogeophagus_balzanii       1
+	Gymnogeophagus_caaguazuensis  ?
+	Gymnogeophagus_che            ?
+	Gymnogeophagus_gymnogenys     1
+	Gymnogeophagus_labiatus       1
+	Gymnogeophagus_lacustris      1
+	Gymnogeophagus_meridionalis   0
+	Gymnogeophagus_rhabdotus      0
+	Gymnogeophagus_setequedas     0
+	Gymnogeophagus_tiraparae      ?
+	Heroina_isonycterina          0
+	Heros                         0
+	Hoplarchus_psittacus          0
+	Hypselecara                   0
+	Krobia                        0
+	Laetacara                     0
+	Mazarunia                     0
+	Mesonauta                     0
+	Mikrogeophagus                0
+	Nannacara                     0
+	Pterophyllum                  0
+	Retroculus                    0
+	Satanoperca_acuticeps         0
+	Satanoperca_daemon            0
+	Satanoperca_jurupari          1
+	Satanoperca_leucosticta       1
+	Satanoperca_lilith            ?
+	Satanoperca_mapiritensis      ?
+	Satanoperca_pappaterra        1
+	Satanoperca_rhynchitis        ?
+	Symphysodon_aequifasciatus    0
+	Taeniacara_candidi            0
+	Tahuantinsuyoa_chipi          ?
+	Tahuantinsuyoa_macantzatza    1
+	Uaru                          0
+
+;
+
+END;
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  (CHARACTERS = Character_Matrix)  =  unord:  1;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED  (CHARACTERS = Character_Matrix)  =  'Mk1 (est.)':  1;
+END;
+
+

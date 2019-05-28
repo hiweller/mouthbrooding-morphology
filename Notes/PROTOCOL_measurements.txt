@@ -1,0 +1,21 @@
+GILL ARCHES:
+* Ceratobranchial curvature (2nd order polynomial)
+* Number of gill rakers per arch
+* Avg. height of gill rakers on 1st arch
+* 1st epibranch:
+	- aspect ratio
+	- size relative to ceratobranch
+* length of hyoid series (i.e. floor of mouth)
+
+CRANIAL SKELETON:
+* Lower jaw length
+* Upper jaw length
+* Head depth at 1st dorsal fin
+* Head depth at posterior tip of mouth
+* Head depth at anterior point
+	- measuring slope of head & roundness/pointiness
+* Head length (LJ to operculum)
+* Head width at same points as measured head depth
+
+PHARYNGEAL CAVITY:
+* 

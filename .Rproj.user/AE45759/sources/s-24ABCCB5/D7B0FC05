@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558028233858.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "4|13|19|0|\n20|51|34|0|\n35|32|60|0|\n61|33|77|0|\n78|21|140|0|\n85|1|101|16|\n141|20|201|0|\n147|1|163|18|\n202|28|242|0|\n243|47|289|0|\n",
+    "hash" : "0",
+    "id" : "D7B0FC05",
+    "lastKnownWriteTime" : 1558634971,
+    "last_content_update" : 1558634971969,
+    "path" : "~/Dropbox/Mouthbrooding/Code/PRELIMINARY_geomorph_analysis_2d_images.R",
+    "project_path" : "Code/PRELIMINARY_geomorph_analysis_2d_images.R",
+    "properties" : {
+        "cursorPosition" : "289,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

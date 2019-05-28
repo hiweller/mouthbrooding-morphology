@@ -1,0 +1,466 @@
+## LIBRARIES
+require(dplyr)
+require(ggplot2)
+
+# Formatting data ####
+## read in our csv
+
+all.teeth <- read.csv("C:/Users/Problematicus/Dropbox/Brainerd_Lab/Projects/Other/master_homodont_dentition.csv")
+colnames(all.teeth) <- c("Species", "Jaw.ID", "Tooth.Position",
+                         "Tooth.SA", "Stress", "Side", "Jaw.length")
+
+# Get a vector of all unique species in dataset
+unique.species <- unique(all.teeth$Species)
+
+# Make a blank list equal in length to the number of species
+teeth.list <- vector("list", length = length(unique.species))
+
+# Assign each species its own list element
+names(teeth.list) <- unique.species
+
+# for every element of teeth.list
+# add in a sub-list of Upper.Jaw and Lower.Jaw
+teeth.list <- lapply(teeth.list, function(i) i <- list(Upper.Jaw = NULL,
+                                                       Lower.Jaw = NULL))
+
+# for every species...
+# find upper jaw and lower jaw rows and slot them into the list
+for (i in 1:length(unique.species)) {
+  
+  sp <- unique.species[i]
+  
+  teeth.list[[i]]$Upper.Jaw <- filter(all.teeth, 
+                               Species == unique.species[i] &
+                                 Jaw.ID == "Upper Jaw")
+  
+  teeth.list[[i]]$Lower.Jaw <- filter(all.teeth, 
+                               Species == unique.species[i] &
+                                 Jaw.ID == "Lower Jaw")
+  
+}
+
+original.teeth.list <- teeth.list
+
+teeth.list <- original.teeth.list
+
+# for every dataframe in teeth.list...
+sf <- 0.9
+png("../Brainerd_Lab/Projects/Other/Linear_modeling.png",
+    height = 400 * 4 * sf,
+    width = 600 * 2 * sf,
+    res = 150)
+par(mfrow = c(2, 1))
+for (k in 1:length(teeth.list)) {
+  
+  species.list <- teeth.list[[k]]
+  
+  for (i in 1:length(species.list)) {
+    
+    df <- species.list[[i]]
+    
+    if (nrow(df) == 0) {
+      next
+    }
+    
+    if (k == 4 && i == 1) { next }
+    
+    colnames(df) <- c("Species", "Jaw.ID", "Tooth.Position",
+                      "Tooth.SA", "Stress", "Side", "Jaw.length")
+    
+    df$Tooth.Position <- df$Tooth.Position / df$Jaw.length
+    plot(df$Tooth.Position, df$Stress,
+         pch = 19, cex = 1.5,
+         #xlim = c(0, 1),
+         col = alpha("black", alpha = 0.5),
+         xlab = "Relative tooth position", ylab = expression(paste("Stress (Pa)")),
+         main = paste(df$Species[1], df$Jaw.ID[1]))
+    
+    # plotting predicted values
+    fit <- lm(data = df, Stress^(-1) ~ Tooth.Position)
+
+    points(df$Tooth.Position[order(df$Tooth.Position)],
+           (fit$fitted.values[order(df$Tooth.Position)])^(-1),
+           type = 'l',
+           col = "red",
+           lty = 2,
+           lwd = 2)
+    
+    plot(df$Tooth.Position, fit$residuals, 
+         pch = 19, cex = 1.5,
+         col = alpha("black", alpha = 0.5),
+         xlab = "Relative tooth position", 
+         ylab = "Residuals",
+         main = paste(df$Species[1], df$Jaw.ID[1]))
+    abline(h = 0, col = "red", lty = 2, lwd = 2)
+    rsq <- summary(fit)$coefficients[2,4]
+    
+    text(0.8*max(df$Tooth.Position), 0.9*max(fit$residuals), 
+         labels = paste("p-value:", round(rsq, digits = 3)))
+
+    #colordistance:::pause()
+  }
+  
+}
+dev.off()
+
+teeth.df <- rbind(teeth.list[[1]][[1]],
+                  teeth.list[[1]][[2]])
+
+for (i in 2:length(teeth.list)) {
+  
+  for (j in 1:2) {
+    teeth.df <- rbind(teeth.df, teeth.list[[i]][[j]])
+  }
+  
+}
+
+colnames(teeth.df) <- c("Species", "Jaw.ID", "Tooth.Position",
+                        "Tooth.SA", "Stress", "Side", "Jaw.length")
+
+# Plotting data ####
+
+# using confidence intervals only
+# take-home: not a metric for homodonty
+for (i in 1:length(teeth.list)) {
+  
+  species.list <- teeth.list[[i]]
+  
+  for (j in 1:length(species.list)) {
+    
+    df <- species.list[[j]]
+    
+    if (nrow(df) == 0) { next }
+    
+    # calculate ci
+    n <- nrow(df)
+    t <- qt(0.975, df = (n - 1))
+    std <- sd(df$Stress)
+    mu <- mean(df$Stress)
+    
+    ci <- t * std / sqrt(n)
+    
+    #df$Stress <- df$Stress - mean(df$Stress)
+    
+    # fit data
+    fit <- lm(Stress^(-1) ~ Tooth.Position,
+              data = df)
+    
+    # plot position and stress
+    plot(df$Tooth.Position, df$Stress,
+         pch = 19, cex = 1.5,
+         col = alpha("black", 0.5),
+         xlab = "Tooth position",
+         ylab = "Stress (Pa)",
+         main = paste(names(teeth.list)[i], names(species.list)[j]))
+    
+    # add confidence interval lines
+    abline(h = mu, lwd = 2)
+    abline(h = c(mu - ci, mu + ci),
+           lwd = 2, lty = 2, col = "grey")
+    
+    # highlight outliers
+    res <- abs(df$Stress - mu)
+    out.idx <- which(res > ci)
+    points(df$Tooth.Position[out.idx],
+           df$Stress[out.idx],
+           col = "magenta",
+           pch = 19, cex = 1.6)
+    text(0.8 * max(df$Tooth.Position),
+         0.8 * max(df$Stress), 
+         cex = 1.5,
+         labels = paste0(round(length(out.idx) / n * 100), "% outliers"))
+
+    #tooth.std <- summary(fit)$coefficients[2,2]
+    #abline(h = c(-ci, ci), lty = 2, lwd = 2, col = "grey")
+    
+    outliers <- which(abs((fit$residuals / sd(fit$residuals))) > 1.5)
+    points(df$Tooth.Position[outliers],
+           fit$residuals[outliers] / sd(fit$residuals),
+           col = "magenta",
+           pch = 19,
+           cex = 1.6)
+    
+    colordistance:::pause()
+    
+  }
+  
+}
+
+# linear corrections with standard outlier test (2 standard deviations)
+for (i in 1:length(teeth.list)) {
+  par(mfrow = c(2, 1))
+  species.list <- teeth.list[[i]]
+  
+  for (j in 1:length(species.list)) {
+    
+    df <- species.list[[j]]
+    
+    if (nrow(df) == 0) { next }
+    
+    
+    #df$Stress <- df$Stress - mean(df$Stress)
+    
+    # fit data
+    fit <- lm(Stress^(-1) ~ Tooth.Position,
+              data = df)
+    fit$std.residuals <- fit$residuals / sd(fit$residuals)
+    
+    # plot position and stress
+    plot(df$Tooth.Position, df$Stress,
+         pch = 19, cex = 1.5,
+         col = alpha("black", 0.5),
+         xlab = "Tooth position",
+         ylab = "Stress (Pa)",
+         main = paste(names(teeth.list)[i], names(species.list)[j]))
+    
+    # add fitted points
+    points(df$Tooth.Position[order(df$Tooth.Position)],
+           (fit$fitted.values[order(df$Tooth.Position)])^(-1),
+           type = 'l',
+           col = "red",
+           lty = 2,
+           lwd = 2)
+    
+    # plot position vs residual
+    plot(df$Tooth.Position, fit$std.residuals,
+         pch = 19, cex = 1.5,
+         col = alpha("black", 0.5),
+         ylim = c(-6, 6),
+         xlab = "Tooth position",
+         ylab = "Standardized residuals")
+    
+    # add confidence interval lines
+    abline(h = 0, lwd = 2)
+    abline(h = c(-2, 2),
+           lwd = 2, lty = 2, col = "grey")
+    
+    # highlight outliers
+    out.idx <- which(abs(fit$std.residuals) > 2)
+    points(df$Tooth.Position[out.idx],
+           fit$std.residuals[out.idx],
+           col = "magenta",
+           pch = 19, cex = 1.6)
+    text(0.8 * max(df$Tooth.Position),
+         5, 
+         cex = 1.5,
+         labels = paste0(round(length(out.idx) / n * 100), "% outliers"))
+    
+    #tooth.std <- summary(fit)$coefficients[2,2]
+    #abline(h = c(-ci, ci), lty = 2, lwd = 2, col = "grey")
+    message(paste0(names(teeth.list)[i], ":\n"))
+    print(summary(fit))
+    colordistance:::pause()
+    
+  }
+  
+}
+
+
+
+# blue, green, red, orange, purple, yellow, grey, blue-green?
+
+#cbPal <- RColorBrewer::brewer.pal(8, "Paired")
+
+shuffle <- function(v) {
+  sample(v, size = length(v), replace = FALSE)
+}
+
+# png(filename = "C:/Users/Problematicus/Dropbox/Brainerd_Lab/Projects/Other/Heterodonty_ALL_v2.png", 
+#     width = 3000,
+#     height = 1500, 
+#     res = 300)
+# order:
+# pink
+# orange
+# yellow
+# yellow-green
+cbPal <- c("#ffc61a", # yellow
+           "#ff751a", # orange
+           "#3333cc", # dark blue
+           "#00e6e6", # cyan
+           "#a64dff", # purple
+           "#ff4d94", # pink
+           "#ace600", # yellow-green
+           "#006600") # dark green
+{#cbPal <- shuffle(cbPal)
+
+p <- ggplot(teeth.df, aes(x = Tooth.Position, 
+                          y = Stress, 
+                          color = Species)) + 
+  
+  # set axis labels
+  xlab("Relative distance from jaw joint") + 
+  ylab("Deviation from mean surface stress") + 
+  geom_point(aes(fill = Species, 
+                 shape = Jaw.ID),
+                 color = "black",
+             size = 3) +
+  scale_shape_manual(values = c(21, 25), name = "Jaw") +
+  scale_fill_manual(values = cbPal) +
+  geom_hline(yintercept = c(-1, 0, 1),
+             color = "black",
+             linetype = c("dotted", "solid", "dotted")) +
+  guides(fill = guide_legend(override.aes = list(shape=21))) +
+  theme_classic(); p}
+
+# dev.off()
+
+
+
+# PLOT ONLY FRONT 25% OF JAW
+png(filename = "C:/Users/Problematicus/Dropbox/Brainerd_Lab/Projects/Other/Heterodonty_ANTERIOR_v2.png", 
+    width = 3000,
+    height = 1500, 
+    res = 300)
+p <- ggplot(teeth.df, aes(x = Tooth.Position, 
+                          y = Stress, 
+                          color = Species)) + 
+  xlim(c(0, 0.1)) +
+  # set axis labels
+  xlab("Relative distance from jaw joint") + 
+  ylab("Deviation from mean surface stress") + 
+  geom_point(aes(fill = Species, 
+                 shape = Jaw.ID),
+             color = "black",
+             size = 3) +
+  scale_shape_manual(values = c(21, 25), name = "Jaw") +
+  scale_fill_manual(values = cbPal) +
+  geom_hline(yintercept = c(-1, 0, 1),
+             color = "black",
+             linetype = c("dotted", "solid", "dotted")) +
+  guides(fill = guide_legend(override.aes = list(shape=21))) +
+  theme_classic(); p
+dev.off()
+
+
+sf <- 0.8
+png("../Brainerd_Lab/Projects/Other/Ophiodon_homodonty.png",
+    width = 1200 * sf, height = 1000 * sf, res = 150)
+df <- teeth.list$`Ophiodon elongatus`$Lower.Jaw
+
+colnames(df) <- c("Species", "Jaw.ID", "Tooth.Position",
+                  "Tooth.SA", "Stress", "Side", "Jaw.length")
+plot(df$Tooth.Position,
+     df$Stress,
+     xlab = "Jaw position", 
+     ylab = "Stress (Pa)", 
+     main = "Ophiodon elongatus (lower jaw)",
+     pch = 19,
+     col = alpha("black", 0.5), cex = 1.5)
+
+abline(h = mean(df$Stress), lty = 2, col = "red", lwd = 2)
+abline(h = mean(df$Stress) + 1.5*sd(df$Stress), lwd = 2, col = "darkgrey")
+abline(h = mean(df$Stress) - 1.5*sd(df$Stress), lwd = 2, col = "darkgrey")
+#fit <- lm(data = df, Stress^(-1) ~ Tooth.Position)
+
+# points(df$Tooth.Position[order(df$Tooth.Position)], 
+#        (fit$fitted.values[order(df$Tooth.Position)])^(-1),
+#        type = 'l',
+#        col = "red",
+#        lty = 2,
+#        lwd = 2)
+
+dev.off()
+
+par(mfrow = c(2, 1))
+for (i in 1:length(teeth.list)) {
+  
+  species.list <- teeth.list[[i]]
+  
+  for (j in 1:length(species.list)) {
+    
+    df <- species.list[[j]]
+    
+    if (nrow(df) == 0) { next }
+    
+    # calculate ci
+    n <- nrow(df)
+    t <- qt(0.975, df = (n - 1))
+    std <- sd(df$Stress)
+    mu <- mean(df$Stress)
+    
+    ci <- t * std / sqrt(n)
+    
+    #df$Stress <- df$Stress - mean(df$Stress)
+    
+    fit <- lm(Stress^(-1) ~ Tooth.Position,
+              data = df)
+    plot(df$Tooth.Position, df$Stress,
+         pch = 19, cex = 1.5,
+         col = alpha("black", 0.5),
+         xlab = "Tooth position",
+         ylab = "Stress (Pa)",
+         main = paste(names(teeth.list)[i], names(species.list)[j]))
+    points(df$Tooth.Position[order(df$Tooth.Position)], 
+           fit$fitted.values[order(df$Tooth.Position)]^(-1),
+           type = 'l',
+           col = "red",
+           lty = 2)
+    
+    plot(df$Tooth.Position, fit$residuals / sd(fit$residuals),
+         pch = 19, cex = 1.5,
+         col = alpha("black", 0.5),
+         xlab = "Tooth position",
+         ylab = "Residuals",
+         ylim = c(-3, 3),
+         main = paste(names(teeth.list)[i], names(species.list)[j]))
+    abline(h = 0, lwd = 2)
+    abline(h = c(-1.5, 1.5), lty = 2, lwd = 2, col = "grey")
+    #tooth.std <- summary(fit)$coefficients[2,2]
+    #abline(h = c(-ci, ci), lty = 2, lwd = 2, col = "grey")
+    
+    outliers <- which(abs((fit$residuals / sd(fit$residuals))) > 1.5)
+    points(df$Tooth.Position[outliers],
+           fit$residuals[outliers] / sd(fit$residuals),
+           col = "magenta",
+           pch = 19,
+           cex = 1.6)
+    
+    hist(fit$residuals,main = "Residuals")
+    hist(df$Stress, main = "Stress")
+    
+  }
+  
+}
+
+# total variance
+ss.tot <- sum((df$Stress - mean(df$Stress))^2)
+ss.reg <- sum((fit$fitted.values - mean(df$Stress))^2)
+ss.res <- sum(fit$residuals^2)
+
+summary(fit)
+
+corrected.homodont <- teeth.list$`Cynodon gibbus`$Lower.Jaw
+heterodont <- teeth.list$`Anoplogaster cornuta`$Upper.Jaw
+uncorrected.homodont <- teeth.list$`Saurida tumbil`$Upper.Jaw
+
+# extremely good
+lm(Stress^(-1) ~ Tooth.Position,
+   data = corrected.homodont) %>% summary
+
+# still good, but not as good 
+lm(Stress^(-1) ~ 1,
+   data = corrected.homodont)
+
+# not too good
+lm(Stress^(-1) ~ Tooth.Position,
+   data = uncorrected.homodont) %>% summary
+
+# good!
+lm(Stress^(-1) ~ 1,
+   data = uncorrected.homodont) %>% summary
+
+# pretty pathetic
+lm(Stress^(-1) ~ Tooth.Position,
+   data = heterodont) %>% summary
+
+# still....good....?
+fit <- lm(Stress^(-1) ~ Tooth.Position,
+   data = heterodont)
+ss.reg <- sum((fit$fitted.values - mean(heterodont$Stress))^2)
+
+#install.packages("rcompanion")
+n <- length(fit$residuals)
+std <- sd(fit$residuals)
+error <- qt(0.975, df = (n-1)) * std / sqrt(n)
+ 

@@ -1,0 +1,36 @@
+SA = South America
+CA = Central America
+A = Africa
+A-L = African lakes
+A-R = African rivers
+
+Non-sifters, non-mouthbrooders:
+* Aequidens (SA)
+* Altolamprologus (A-L)
+* Amatitlania
+* Apistogramma (SA) - EXCEPTIONS
+* Caquetaia (SA)
+* Cichla (SA)
+* Cichlasoma (CA)
+* Crenicichla (SA)
+* Cryptoheros (CA)
+
+
+Sifters, non-mouthbrooders:
+* Amphilophus (CA)
+
+
+Non-sifters, mouthbrooders:
+* Apistogramma barlowi (SA)
+* Benthochromis (A-L)
+* Bujurquina (SA)
+* Champsochromis
+* Chilotilapia
+* Copadichromis
+
+Sifters, mouthbrooders:
+* Alcolapia (A)
+* Aulonocara (A-L)
+* Callochromis (A-L)
+* Chromidotilapia (A-R)
+

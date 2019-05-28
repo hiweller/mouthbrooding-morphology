@@ -1,0 +1,99 @@
+#NEXUS
+[written Mon Apr 22 15:10:42 EDT 2019 by Mesquite  version 3.6 (build 917) at DESKTOP-B9GLP32/172.16.48.75]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=39;
+	TAXLABELS
+		'Mesonauta,Substrate_spawner,6,0' 'Heros,Substrate_spawner,5,0' 'Andinoacara,Substrate_spawner,8,0' 'Bujurquina,Mouthbrooder,18,0' 'Acaronia,Substrate_spawner,2,0' 'Laetacara,Substrate_spawner,7,0' 'Aequidens,Substrate_spawner,16,0' 'Cichlasoma,Substrate_spawner,16,0' 'Krobia,Substrate_spawner,4,0' 'Nannacara,Substrate_spawner,6,0' 'Cleithracara,Substrate_spawner,1,0' 'Crenicichla+Teleocichla,Substrate_spawner,101,0' 'Biotoecus,Substrate_spawner,2,0' 'Acarichthys,Substrate_spawner,1,1' 'Taeniacara,Substrate_spawner,1,0' 'Apistogramma,Substrate_spawner,89,0' 'Satanoperca_SB,Substrate_spawner,3,1' 'Satanoperca_MB,Mouthbrooder,5,1' 'Mazarunia,Substrate_spawner,3,0' 'Guianacara,Substrate_spawner,7,1' 'Gymnogeophagus_setequedas,Substrate_spawner,1,1' 'Gymnogeophagus_che,Substrate_spawner,1,1' 'Gymnogeophagus_meridionalis,Substrate_spawner,1,1' 'Gymnogeophagus_rhabdotus,Substrate_spawner,1,1' 'Gymnogeophagus_MB,Mouthbrooder,7,1' '"""Geophagus""",Mouthbrooder,3,1' 'Geophagus_MB,Mouthbrooder,14,1' 'Geophagus_harreri,Substrate_spawner,1,1' 'Geophagus_argyrostictus,Substrate_spawner,1,1' 'Geophagus_taeniopareius,Substrate_spawner,1,1' 'Geophagus_grammepareius,Substrate_spawner,1,1' '"Mikrogeophagus+""Geophagus""",Substrate_spawner,7,1' 'Biotodoma,Substrate_spawner,2,0' 'Dicrossus,Substrate_spawner,5,0' 'Crenicara,Substrate_spawner,2,0' 'Chaetobranchus+Chaetobranchopsis,Substrate_spawner,4,0' 'Astronotus,Substrate_spawner,2,0' 'Cichla,Substrate_spawner,15,0' 'Retroculus,Substrate_spawner,3,1' 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=0;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1";
+	MATRIX
+	'Mesonauta,Substrate_spawner,6,0'                       
+	'Heros,Substrate_spawner,5,0'                           
+	'Andinoacara,Substrate_spawner,8,0'                     
+	'Bujurquina,Mouthbrooder,18,0'                          
+	'Acaronia,Substrate_spawner,2,0'                        
+	'Laetacara,Substrate_spawner,7,0'                       
+	'Aequidens,Substrate_spawner,16,0'                      
+	'Cichlasoma,Substrate_spawner,16,0'                     
+	'Krobia,Substrate_spawner,4,0'                          
+	'Nannacara,Substrate_spawner,6,0'                       
+	'Cleithracara,Substrate_spawner,1,0'                    
+	'Crenicichla+Teleocichla,Substrate_spawner,101,0'       
+	'Biotoecus,Substrate_spawner,2,0'                       
+	'Acarichthys,Substrate_spawner,1,1'                     
+	'Taeniacara,Substrate_spawner,1,0'                      
+	'Apistogramma,Substrate_spawner,89,0'                   
+	'Satanoperca_SB,Substrate_spawner,3,1'                  
+	'Satanoperca_MB,Mouthbrooder,5,1'                       
+	'Mazarunia,Substrate_spawner,3,0'                       
+	'Guianacara,Substrate_spawner,7,1'                      
+	'Gymnogeophagus_setequedas,Substrate_spawner,1,1'       
+	'Gymnogeophagus_che,Substrate_spawner,1,1'              
+	'Gymnogeophagus_meridionalis,Substrate_spawner,1,1'     
+	'Gymnogeophagus_rhabdotus,Substrate_spawner,1,1'        
+	'Gymnogeophagus_MB,Mouthbrooder,7,1'                    
+	'"""Geophagus""",Mouthbrooder,3,1'                      
+	'Geophagus_MB,Mouthbrooder,14,1'                        
+	'Geophagus_harreri,Substrate_spawner,1,1'               
+	'Geophagus_argyrostictus,Substrate_spawner,1,1'         
+	'Geophagus_taeniopareius,Substrate_spawner,1,1'         
+	'Geophagus_grammepareius,Substrate_spawner,1,1'         
+	'"Mikrogeophagus+""Geophagus""",Substrate_spawner,7,1'  
+	'Biotodoma,Substrate_spawner,2,0'                       
+	'Dicrossus,Substrate_spawner,5,0'                       
+	'Crenicara,Substrate_spawner,2,0'                       
+	'Chaetobranchus+Chaetobranchopsis,Substrate_spawner,4,0'
+	'Astronotus,Substrate_spawner,2,0'                      
+	'Cichla,Substrate_spawner,15,0'                         
+	'Retroculus,Substrate_spawner,3,1'                      
+
+;
+
+END;
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1555960243057;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 3446171461172035063;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 1643174747965691921;
+			mqVersion 360;
+			checksumv 0 3 0 null  getNumChars 0 numChars 0 getNumTaxa 39 numTaxa 39   short true   bits 0   states 0   sumSquaresStatesOnly 0.0 sumSquares 0.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState true false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 700 464;
+			setLocation 8 8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		endTell;
+end;
+
+

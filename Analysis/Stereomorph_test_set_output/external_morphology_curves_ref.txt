@@ -1,0 +1,5 @@
+snout	snout.caud	snout.rost
+operc	operc.dors	operc.vent
+inter	inter.caud	inter.rost
+lojaw	lojaw.caud	lojaw.rost
+preop	preop.dors	preop.vent

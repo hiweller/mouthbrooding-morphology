@@ -1,0 +1,7 @@
+"0","# creating our own p-value:"
+"0","# generate a random number of ""heads"" for 100 coin flips, 10000 times:"
+"0","null.dist <- rbinom(1000000, 100, 0.5) / 100"
+"0","{h <- hist(null.dist, breaks = 100, plot = FALSE)"
+"0","  clr <- ifelse(h$breaks <= 0.63, ""grey"", ""red"")[-length(h$breaks)]"
+"0","  plot(h, col = clr)"
+"0","abline(v = 0.63, col = ""darkgrey"", lwd = 2, lty = 2)}"

@@ -1,0 +1,125 @@
+Gill morphology (general notes)
+From: Vandewalle et al. 2000, "The branchial basket in teleost feeding"
+
+MUSCLES:
+Levatores externi: 
+	- INSERT: epibranchial
+	- ATTACH: neurocranium
+	- four total on each side of the gill basket
+	- FUNCTION: adduct the left and right UPJs
+
+Levatores interni:
+	- INSERT: 2nd & 3rd pharyngobranchials
+	- ATTACH: neurocranium
+	- FUNCTION: lift UPJs and shift them forward
+
+Transversi dorsales:
+	- INSERT: left epibranchials
+	- ATTACH: right epibranchials
+	- FUNCTION: adduct epibranchials (bring left and right together)
+	- always between second and third epibranchials
+	- sometimes between ceratobranchial and epibranchial of same arch
+	- FUNCTION: fifth adductor between fourth epibranchial and fifth ceratobranchial
+		- lifts the posterior part of one LPJ
+
+Transversi ventrales:
+	- INSERT/ATTACH: left and right 4th  and 5th ceratobranchials
+	- FUNCTION: adduct LPJs
+
+Rectus communis:
+	- INSERT/ATTACH: 5th ceratobranchial to 3rd hypobranchial
+	- FUNCTION: lower the LPJ
+
+Pharyngocleithrales interni and externi:
+	- INSERT: pectoral girdle
+	- ATTACH: LPJs
+	- FUNCTION: interni - draw PJs posteriorly; externi - draw PJs downward
+
+Sternohyoideus:
+	- INSERT: urohyal
+	- ATTACH: pectoral girdle
+	- FUNCTION: pull the hyobranchial system backward
+
+Geniohyoidei:
+	- INSERT: lower jaw
+	- ATTACH: hyoid bars
+	- FUNCTION: pull system forward
+
+**Acanthopterygians**
+
+- Levatores externi and interni are turned forward
+	- FUNCTION: lift, protract, and separate the UPJs
+	- fourth levator externus is more developed
+
+
+Levator posterior:
+	- INSERT: back of the skull
+	- ATTACH: fourth epibranchial
+
+Retractor posterior:
+	- INSERT: third (or higher) pharyngobranchial
+	- ATTACH: ventral surface of first vertebrae
+	- FUNCTION: lifts and pulls each UPJ backward
+
+Pharyngohyoideus
+	- homologous to rectus communis
+	- INSERT: 5th ceratobranchial
+	- ATTACH: urohyal
+	- FUNCTION: movement of LPJs (lowering, pulling apart left and right, forward displacement)
+
+
+
+
+
+
+
+MOVEMENTS AND FUNCTIONS
+
+* Pharyngeal jaws are associated with macrophagous diets, and branchiospines (gill rakers) associated with microphagous diet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Okuda et al. 2002, "Sexual difference in buccal morphology of the paternal mouthbrooding cardinalfish Apogon doederleini"
+
+* Standard length (SL): rostral tip of upper jaw to caudal peduncle
+* Head length (HL): anterior tip of upper jaw to posterior end of operculum
+* Snouth length (SNL): rsotral tip of upper jaw to rostral edge of eye
+* Upper jaw length (UJL): anterior end of premax to distal tip of maxilla
+* Lower jaw length (LJL): Anterior of dentary to rear of articular
+* Dentary-hypohyal (Dnt-Hyp): rostral dentary to caudal hypohyal
+* Cheek depth (CD): ventral margin of orbit to caudal tip of maxilla
+* Interorbital width (IOW): b/w dorsal bony margins of L and R orbits
+* Head depth (HD): caudal tip of premaxillary pedical to rostral tip of hypohyal
+* Mouth width: Posterior tips of the left and right maxillae
+* Angular width (AW): outer edges of left and right angulars
+* Infraorbital width (IFW): outer points of L and R infraorbitals
+
+Analytical method:
+- PCA to extract overall patterns of covariation among morphometric variables (obviously all correlated with each other)
+- used extracted components as explanatory variables in a MLR model
+- also tried using all morphometircs together in MLR after size correcting (i.e. residuals of log-log regressions against body size)
+
+Significant differences between mouthbrooding and non-mouthbrooding sex:
+- Head length*
+- Snout length*
+- Lower jaw length*
+- Dentary-hypohyal length**
+- Infraorbital-hypohyal length
+- Head depth*
+- Mouth width (borderline)
+- Angular width**
+- Urohyal length*
+- Urohyal aspect ratio*
+- sternohyoideus as a stabilizer for depressed urohyal? (speculation)
+

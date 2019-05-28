@@ -1,0 +1,70 @@
+library(colordistance)
+library(magrittr)
+# get HSV clusters for one image
+cluster.list <- getImageHist("Rey_48_230418_MADU.JPG", 
+                           bins = 2, hsv = TRUE,
+                           upper = rep(1, 3), lower = rep(0.8, 3),
+                           plotting = FALSE)
+
+# view cluster values
+print(cluster.list)
+
+# extract saturations
+cluster.list$Rey_175_160518_HADU$s
+
+
+# get a list of all images in current directory that start with "Rey"
+images <- dir(".", pattern = "Rey*")
+
+# get clusters for all images in list
+cluster.list <- getHistList(images, bins = 3,
+                            lower = rep(0.8, 3),
+                            upper = rep(1, 3), 
+                            hsv = TRUE)
+
+# set ranges for orange clusters
+h.range <- c(0, 0.12)
+v.range <- c(0.25, 0.837)
+
+# find all clusters that have H and V scores within those ranges
+for (i in 1:length(cluster.list)) {
+  
+  clusters <- cluster.list[[i]]
+  
+  # add in a column for image name 
+  # this will be retained in our final dataset to
+  # keep track of which clusters go with which images!
+  clusters$image <- rep(names(cluster.list)[i], nrow(clusters))
+  
+  cluster.idx <- clusters$h > h.range[1] & clusters$h < h.range[2] &
+                 clusters$v > v.range[1] & clusters$v < v.range[2]
+  
+  # smush them all together into a single dataframe
+  if (i == 1) {
+    orange.clusters <- clusters[cluster.idx, ]
+  } else {
+    orange.clusters <- rbind(orange.clusters, clusters[cluster.idx, ])
+  }
+  
+}
+
+# get unique image names in orange.clusters
+image.names <- unique(orange.clusters$image) # original file names
+
+# make empty dataframe with columns for image name, total orange percentage, weighted saturation
+orange.totals <- data.frame(Image.name = image.names,
+                            Pct.orange = rep(0, length(image.names)),
+                            Weighted.saturation = rep(0, length(image.names)))
+for (i in 1:length(image.names)) {
+  
+  # get all clusters that match that image name
+  image.clusters <- orange.clusters[orange.clusters$image == image.names[i], ]
+  
+  # total proportion of orange
+  orange.totals$Pct.orange[i] <- sum(image.clusters$Pct)
+  
+  # average saturation, weighted by the size of each cluster
+  orange.totals$Weighted.saturation[i] <- mean(image.clusters$s * (image.clusters$Pct / max(image.clusters$Pct)))
+  
+}
+
