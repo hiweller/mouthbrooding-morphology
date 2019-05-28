@@ -1,8 +1,0 @@
-"0","# AIC for no estimated parameters:
-AIC_1 <- 2*0 - 2*log(L1); AIC_1
-"
-"2","NaNs produced"
-"1","[1]"
-"1"," NaN"
-"1","
-"

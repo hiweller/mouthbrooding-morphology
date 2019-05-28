@@ -1,0 +1,250 @@
+FEBRUARY 11, 2019:
+First day in collections. Mostly discussed plans, settled on:
+
+* Need a comprehensive trait tree of mouthbrooding, breaking it down into categories, eg:
+	- Eggs only for a few days
+	- Eggs only
+	- Larvae only
+	- Larvae facultatively
+	- Eggs and larvae
+* This is the core of the project: how often has this evolved, and how similar is it?
+* Then we can ask: what factors predict when mouthbrooding evolves?
+	- Predation
+	- Substrate
+	- Diet
+	- Environmental instability
+* This is great. But, I'm here to look at morphology. So what affects brood volume?
+	- Urohyal depression
+	- Mouth width/expansion
+
+Also pulled some stuff out of collections:
+* Satanoperca jurupari
+* Acaricthys heckeli
+* Gymnogeophagus
+* Geophagus
+* Biotodoma
+
+
+FEBRUARY 12, 2019:
+* Species pulled off shelves (some mis-IDs, probably):
+	- Geophagus surinamensis (UMMZ 204242)
+	- Gymnogeophagus lacustris (UMMZ 225505)
+	- Bujurquina hophrys (UMMZ 250342)
+	- Geophagus jurupari (UMMZ 205158)
+	- Geophagus surinamensis (UMMZ 204899)
+	- Gymnogeophagus setequedus (UMMZ 206457)
+	- Aequidens coeruleopunctatus (UMMZ 73280)
+	- Gymnogeophagus gymnogenys (UMMZ 225509)
+	- Gymnogeophagus balzani (UMMZ 207207)
+	- Tilapia aurea (UMMZ 192613)
+	- Aequidens vittatus (UMMZ 216200)
+	- Acarichthys heckeli (UMMZ 216417)
+	- Retroculus lapidifer (ROM 84142)
+* Organized into a spreadsheet called "UMMZ_specimen_access_record.xlsx" and looked up life history and ID info.
+
+* George Barlow wrote a comprehensive classification system for the different types of mouthbrooding (!!): 
+	- https://www.cichlidae.com/article.php?id=183
+
+* Spent the day re-identifying/confirming ID's on species and their status w/r/t feeding and reproduction.
+
+
+
+FEBRUARY 13, 2019:
+* Discussed phylogenetic/comparative context with HLF. Mouthbrooding is a consequence of life history, and is not a unimodal thing. BUT, for some reason, placed under the same conditions as co-occuring species, cichlids keep evolving oral incubation for all or part of reproduction.
+
+* In the meantime, exploratory dissections -- very important to do not just sister-species comparisons, but broader phylogenetic sampling. Your knowledge of the evolution of a group is limited to the time period since the last common ancestor of your most disparate taxa. i.e. if you only study species 20 MY apart, you can only infer what has happened in that 20 million years, nothing about what led them to that point.
+
+* All Neotropical and African cichlid lineages apparently can evolve mouthbrooding - why?
+	- How many times has it happened?
+	- How do they do it?
+	- How does transition look?
+	- How similar are constraints of different types of brooding - i.e. eggs only, delayed eggs only, larvae only, eggs and larvae, facultatively, etc? Maybe barrier to entry is different for each mode.
+
+* HLF letting me use extremely nice scope/Leica photography setup in his office w/ requisite dire warnings about what happens if I wreck anything. 
+
+Leica scope instructions:
+	- Illumination button in software controls lamps
+	- Knobs, focusing, stage adjustment, etc as normal
+	- Camera icon:
+		+ image format: 4.9 Mpx 
+		+ live format: 1.2 Mpx until you're checking whether to take a photograph
+	- Taking images: camera icon @ bottom of software or on the left
+
+TURNING OFF SCOPE:
+	- shut off lights
+	- shut off software
+	- shut off column (in back)
+	- shut off base (right side)
+	- shut down computer
+	- cover scope
+
+* Followed Ridewood procedure (via Doug Nelson) to dissect a non-mouthbrooding Central American cichlid, Aequidens coeruleopunctatus (UMMZ 73280). Worked super well. Took beautiful dissection photos w/ HLF scope. Which costs literally my entire grad student salary for a year. So.
+
+
+
+FEBRUARY 14, 2019:
+* More exploratory dissections, should be easier now I know what I'm doing.
+
+Original mouthbrooding definitions:
+* Immediate mouthbrooder - 
+	picks up eggs as soon as they are deposited
+* Delayed mouthbrooder - 
+	doesn't begin oral incubation until several days after egg laying
+
+Barlow definitions:
+TIMING
+* Postponocavus:
+	- Female lays eggs on a flat surface and parents guard them per substrate spawning, but orally incubate them just before or upon hatching. Common among monogamous eartheaters, ex Satanoperca jurupari clade. Possibly Oreochromis (dithers ~1 hour before picking up eggs).
+
+* Promptocavus:
+	- Orally incubates eggs right away, ex most African haplochromines and tilapiines, Geophagus steindachneri.
+
+PARENTAL INVESTMENT:
+* Duocavus:
+	- Both parents pick up and retain eggs or larvae in their mouths (unusual in African cichlids, but somehow the rule in South American ones). Duocavus cichlids also tend to be postponocavus. Common among Neotropical and riverine African cichlids, not lake cichlids.
+
+* Cedocavus:
+	- One parent picks up the eggs and broods them while the mate guards, then the first parent releases the young and care is up to either both parents or the other parent.
+		+ Male leads: Bujurquina vittata (eggs and larvae for about five days), Chromidotilapia guntheri (eggs & fry until free-swimming)
+		+ Female leads: all of the known cedocavus cichlids in Lake Tanganyika.
+		+ Cede fry: If fry are free-swimming upon release, both parents usually guard, and fry retreat to both parents' mouths at night or in response to threat.
+		+ Cede wrigglers: Known from monogamous cichlids in Lake Tanganyika -- mother passes wrigglers to father, and father broods them until free-swimming.
+		+ Farming out - intraspecific parents: Parent spits fry into the school of young of a different pair of cichlids of the same species
+		+ Farming out - interspecific parents: Hoist fry onto a different species. Includes cuckoo catfish.
+
+* Unicavus
+	- Just one parent broods eggs and embryos. Patricavus = male only (very uncommon), matricavus = female only (most common).
+
+* Iterocavus
+	- Parent accepts young back into the mouth after they've become free-swimming. Common in tilapiine cichlids, South American cichlids.
+
+* Semelcavus
+	- Usually a single female who lays huge eggs, carries them in her mouth for up to a month, and releases large, well-developed young that immediately leave the mother and don't come back. Lake Tanganyika has plenty, a few in Lake Malawi, probably most Seratherodon.
+
+
+FEBRUARY 18, 2018:
+* Long discussion yesterday w/ HLF on data - dissections seem very promising, i.e., mouthbrooder oral cavities are all distinctly larger and rounder relative to head size compared to non-mouthbrooders, which are more DV compressed/more like straight cylinders. 
+
+* Substrate sifter = cylinder, mouthbrooder oral cavity = ~lemon shaped?
+
+* FOOTBALL
+
+* This shape is called a football. Why did I say lemon? Only God knows and he ain't talked in ages so my secret is safe
+
+* Taxa were:
+	- Andinoacara coeruleopunctatus - non-MB, non-sifting
+	- Bujurquina vittata - MB, non-sifting
+	- Acaricthys heckelii - non-MB, sifting
+	- Satanoperca jurupari - MB, sifting
+	- Geophagus megasema - MB, sifting
+	- Gymnogeophagus setequedus - non-MB, sifting
+	- Gymnogeophagus balzanii - MB, sifting
+	- Gymnogeophagus gymnogenys - MB, sifting
+
+* From this, conclusions are:
+	1) Many traits of interest can be measured just from dissection photos:
+		- Size & position of eye
+		- Oral cavity depth at different points
+		- Ceratobranchial angle
+		- Parasphenoid/vomerine curvature
+		- Depth and position of hyoid and LJ
+		- Vertical distance b/w eye and parasphenoid
+
+	2) We have to expand taxonomic sampling. Seems like there are many ways to get a bigger, rounder oral cavity, and probably different lineages are doing this in different ways.
+
+Neotropics:
+* S. daemon clade (non-MB)
+* Guianacara (non-MB)
+* G. steindachneri group
+* Tahuantinsuyoa (HAHAHAHA)
+* Biotodoma
+* Apistogramma
+* Heros
+* Mesonauta
+* Uaru and Symphysodon
+* Crenicichla
+* Retroculus
+* Thorichthys
+* "Cichlasoma" (Cribroheros & Amphilophus)
+
+African riverine:
+* Tylochromis
+* Chromidotilapia
+* Pelvicachromis
+* Seratherodon
+* Oreochromis
+
+Pulled from collections at UMMZ:
+* Biotodoma
+* Apistogramma
+* Heros
+* Mesonauta
+* Crenicichla
+* Thorichthys
+* Cribroheros robertsoni
+* Tylochromis
+
+- Same pattern again. The non-MB, non-sifter (Crenicichla) has an absolutely pin-straight cylinder of an oral cavity. Non-MB sifter (Cribroheros) has fancy gills, but still quite a flat oral cavity. And Tylochromis (MB sifter) has a big old football-shaped one.
+
+FEBRUARY 19, 2019:
+
+- More dissections, also pulled out Retroculus and some Thorichthys and Cribroheros. Pattern is still similar. Mesonautines (Mesonauta & Heros) have super, SUPER flat palatines. Retroculus is pretty rounded though, and definitely not a MB (hardcore sifter though). So, who knows.
+
+FEBRUARY 20, 2019:
+
+- Spent the morning helping Alison Davis Rabosky (PI) and Talia Moore (post-doc) with patternize for snake mimicry project. Fun, but not relevant here.
+
+- Relevant: used the CT scanner!! Scanned Geophagus abalios (unstained), with plans to iodine stain & scan again. 
+
+- Took notes on how to pack specimens for CT scanning, in "Protocols" folder of dropbox -- short version: heatseal a plastic bag around fish + ethanol with a label, then label the bag, then stick it in a jar with foam and let it settle for a few hours and ask Ramon nicely.
+
+- Unstained scan looks beautiful, can definitely measure vomer/palatine curvature. But obviously soft tissue of gills is completely missing.
+
+
+
+FEBRUARY 21, 2019:
+
+- Packed a bunch of stuff for scanning, all in 'CT_scan_records.xlsx' spreadsheet.
+
+- Included stuff that I'm not allowed to dissect & stuff I have already dissected to see how well CT scans reflect dissections and vice versa.
+
+- Got 9 SCANS IN ONE DAY (!)
+
+- This place is amazing.
+
+
+FEBRUARY 22, 2019:
+
+- Went to Davis Rabosky lab meeting then immediately to seminar.
+
+- Packed some stuff for CT scanning.
+
+
+
+FEBRUARY 25, 2019:
+- HLF advice is to increase taxonomic sampling, so Doug helped me pull some Etropline, Madagascar, African cichlids:
+	- Haplotaxodon
+	- Oreochromis
+	- Pseudotropheus
+	- Haplochromis
+	- Ptychochromis
+	- Etia (!)
+	- Paretroplus
+- Scanned Etia since there was only one in the whole collection and none in FMNH.
+- Made a list of things w/ better representation in FMNH.
+- Also started measuring head with, inc width at:
+	- maxillae
+	- midpoint of eye
+	- preopercle
+
+FEBRUARY 26, 2019:
+- More dissections & scanning iodine-stained Geophagus abalios!
+- Hemichromis (jewel cichlid) is very interesting...
+	- Not a mouthbrooder or a substrate sifter; eats fish/insects.
+	- But HUGE oral cavity - just really not divided up much at all (i.e. no curvatures, fancy gill rakers, big gill lamellae).
+	- But individual I dissected also had a somewhat depressed urohyal and was fixed like that, which undoubtedly increases oral cavity volume.
+
+
+FEBRUARY 27, 2019:
+- diceCT scan looks great!
+- Took measurements of head width for remaining specimens.

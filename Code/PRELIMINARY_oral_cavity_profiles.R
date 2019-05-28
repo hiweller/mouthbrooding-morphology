@@ -40,7 +40,7 @@ output.dir <- "Analysis/SM_test_2/"
 internal.dir <- "Data/CT_dissection_overlap/Internal/"
 
 interior.files <- paste0(output.dir, sub("SL.*", "", dir(internal.dir)), "_INT.txt")
-exterior.files <- paste0(output.dir, sub("SL.*", "", dir(external.dir)), "_EXT.txt")}
+exterior.files <- paste0(output.dir, sub("SL.*", "", dir(external.dir, pattern = "*.jpg")), "_EXT.txt")}
 
 digitizeImages(paste0(internal.dir, dir(internal.dir)), interior.files,
                landmarks.ref = paste0(output.dir, "oral_cavity_landmarks_ref.txt"),

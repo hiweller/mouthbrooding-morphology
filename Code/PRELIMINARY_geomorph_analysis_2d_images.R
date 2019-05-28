@@ -30,6 +30,9 @@ ext.shapes <- readShapes(EXT.landmarks)
 ext.landmarks <- readland.shapes(ext.shapes,
                                  nCurvePts = c(10, 10, 5, 5, 5, 5, 5),
                                  scaled = TRUE)
+for (i in 1:length(ext.landmarks$landmarks)) {
+  ext.landmarks$landmarks[[i]][,2] <- -ext.landmarks$landmarks[[i]][,2]
+}
 ext.landmarks <- estimate.missing(ext.landmarks, method = "TPS")
 ext.fit <- gpagen(ext.landmarks)
 
@@ -201,7 +204,10 @@ dev.off()
 
 
 # backtransform -- external ####
-gpa_array <- gpagen(ext.landmarks)$coords
+sf <- 2
+png(filename = "Graphics/External_morphology_backtransform.png", res = 300, 
+    width = 1000 * sf, height = 1000 * sf)
+{gpa_array <- gpagen(ext.landmarks)$coords
 
 gpa_mat <- t(apply(gpa_array, 3, function(i) matrix(t(i), 1)))
 
@@ -217,7 +223,7 @@ source("Code/btShapes_functions.R")
 
 pcs <- 1:2
 
-plot(scores[, pcs], type = 'n', main = "btShapes test",
+plot(scores[, pcs], type = 'n', main = "External morphology",
      xlab=paste0('PC', pcs[1], ' (', round(per_var[pcs[1]]), '%)'),
      ylab=paste0('PC', pcs[2], ' (', round(per_var[pcs[2]]), '%)'),
      asp = 1)
@@ -239,10 +245,15 @@ legend(x = 0.15,
        y = -0.08,
        fill = c("goldenrod1", "mediumseagreen", "tomato", "cornflowerblue"),
        legend = c("MB / other", "MB / winnow", "SS / other", "SS / winnow"),
-       cex = 0.75)
+       cex = 0.75)}
+dev.off()
 
 # create backtransform morphospace  -- internal####
-gpa_array <- gpagen(int.landmarks)$coords
+sf <- 2
+png(filename = "Graphics/Internal_morphology_backtransform.png", res = 300, 
+    width = 1000 * sf, height = 1000 * sf)
+
+{gpa_array <- gpagen(int.landmarks)$coords
 
 gpa_mat <- t(apply(gpa_array, 3, function(i) matrix(t(i), 1)))
 
@@ -262,7 +273,7 @@ source("Code/btShapes_functions.R")
 
 pcs <- 1:2
 
-plot(scores[, pcs], type = 'n', main = "btShapes test",
+plot(scores[, pcs], type = 'n', main = "Oral cavity",
      xlab=paste0('PC', pcs[1], ' (', round(per_var[pcs[1]]), '%)'),
      ylab=paste0('PC', pcs[2], ' (', round(per_var[pcs[2]]), '%)'),
      asp = 1)
@@ -285,5 +296,6 @@ legend(x = 0.2,
        fill = c("goldenrod1", "mediumseagreen", "tomato", "cornflowerblue"),
        legend = c("MB / other", "MB / winnow", "SS / other", "SS / winnow"),
        cex = 0.75)
-
+}
+dev.off()
 

@@ -1,0 +1,483 @@
+---
+title: "Notes on 'Phylogenetic Comparative Methods' by Luke Harmon"
+output: html_document
+author: "Hannah Weller"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Chapter 2: Fitting Statistical Models to Data
+
+* Start with toy data: out of 100 "lizard flips", 63 land on their feet. Is this a fair lizard (50\% chance of landing on its feet)?
+
+```{r}
+D <- 63/100 # the D stands for data
+```
+
+
+## 2.2: Standard hypothesis testing
+
+* P-value: if $H_{0}$ is true (fair lizard), what is the probability that we would see data as extreme or more extreme than what we observed?
+
+```{r}
+p_h <- 0.5 # null hypothesis for fair lizard flips
+```
+
+* Standard hypothesis testing assumes that we're pulling from a normal binomial distribution.
+
+```{r}
+# creating our own p-value:
+# generate a random number of "heads" for 100 coin flips, 10000 times:
+null.dist <- rbinom(1000000, 100, 0.5) / 100
+{h <- hist(null.dist, breaks = 100, plot = FALSE)
+  clr <- ifelse(h$breaks <= 0.63, "grey", "red")[-length(h$breaks)]
+  plot(h, col = clr)
+abline(v = 0.63, col = "darkgrey", lwd = 2, lty = 2)}
+# should have a mean of about 0.5
+mean(null.dist)
+
+# how many are as extreme or more extreme than a proportion of 0.63?
+sum(null.dist >= 0.63) / length(null.dist) # should be on the order of 10^-3
+
+# what if we use the built-in r function to sample from a true normal distribution?
+2 * (1 - pbinom(63, 100, 0.5))
+
+```
+* Apparently, this is an unfair lizard.
+
+* This is statistically sound, but biologically uninteresting. Any two species (or populations, or genera, or individuals) will stop looking identical if you measure them enough.
+
+* P-values are imperfect reflections of likelihood. A small p-value can result from a very large effect ($\mu_{H} - \mu_{D}$ is big) or a large sample size (n is big).
+
+
+## 2.3: Maximum likelihood
+
+* Instead of binary hypotheses (reject the null/fail to reject the null), likelihoods are a more nuanced approach.
+
+* Likelihood = **the probability of observing the collected data, given a model and a set of parameter values**.
+
+* General expression of likelihood:
+
+$$ L(H|D) = Pr(D|H) $$
+
+* In English, this reads as "the likelihood of the hypothesis given the data is equal to the probability of the data given the hypothesis".
+
+* In *plain* English, this means that likelihood is the probability of seeing our observed data given a model and a set of parameters.
+
+* So the best model is defined as the one with the highest probability of generating the observed data.
+
+* In practice, we calculate likelihood for binomial theorem as:
+
+$$ L(H|D) = Pr(D|p) = \begin{pmatrix} n \\ H \end{pmatrix} p_{H}^{n}(1-p_{H})^{n-H}$$
+* Where ($\begin{pmatrix} n \\ H \end{pmatrix} = \frac{n!}{(n-H)!H!}$)
+```{r}
+n <- 100
+H <- 63
+p_h <- seq(0, 1, length.out = 100)
+
+lklhd <- function(p, n, H) {
+  fac <- factorial(n) / (factorial(n - H) * factorial(H))
+  l <- fac * p^63 * (1 - p)^37
+  return(l)
+}
+
+p <- sapply(p_h, function(i) lklhd(i, n, H))
+
+{plot(p_h, p, type = 'l', lwd = 3, xlab = "Proportion of heads", ylab = "Likelihood")
+  abline(v = 0.63, col = "red", lty = 2, lwd = 2)}
+```
+
+* Ok. That worked. What a relief.
+
+* This is brute force: we have an expression, and we try a bunch of parameters, and then we pick the best set. This is OK if you have no idea what's going on, but there is usually a faster way that involves understanding math a little bit.
+
+* Luke Harmon is gonna explain that later I guess.
+
+* You can also do this with differentiation to find the maximum. First take the log to make things additive:
+
+$$ ln L = \ln {\begin{pmatrix} n \\ H \end{pmatrix}} + H*\ln{p_{H}} + (n-H)*\ln{(1-p_{H})} $$
+
+* Peak likelihood will be when the derivative of likelihood is equal to 0:
+
+$$ \frac{d(\ln{L})}{dp_H} = H / p_H - \frac{n-H}{1-p_H} = 0$$
+
+* If you go through the whole rigamarole of solving for $p_H$ above, you end up with $p_H = H / n$.
+
+* So $p_H = 63/100 = 0.63$.
+
+* Which is where the red line is. So that's good.
+
+### Limitations: bias and precision
+
+* **Precision**: a measure of how different estimates are for the same measurement.
+
+* **Bias**: a measure of how close estimates are to the true value.
+
+* In general, estimates are less biased with larger sample sizes.
+
+## 2.3b: Likelihood ratio test
+
+* A likelihood ratio test compares two models where one is a special case of the other.
+
+* For example: probability of heads = 0.5 is a special case of probability of heads is between 0 and 1.
+
+* Test statistic is:
+
+$$\Delta = 2 * \ln{\frac{L_1}{L_2}} = 2 * (\ln{L_1} - \ln{L_2})$$
+
+* Basically 2x the difference in log likelihoods.
+
+* Then you ask if $\Delta$ is bigger than you would expect under the null hypothesis, taken from a $\chi^{2}$ distribution with df = difference in number of parameters.
+
+```{r}
+L1 <- log(lklhd(0.5, 100, 63)); L1
+
+L2 <- log(lklhd(0.63, 100, 63)); L2
+
+ratio <- 2*(L2 - L1); ratio
+
+1 - pchisq(ratio, df = 1)
+```
+
+### Limitations
+
+* Requires models to be nested.
+
+* Makes it difficult to compare multiple models systematically (you can do a sort of round robin approach, but the results might depend on the order of the tests).
+
+## 2.3c: AIC
+
+* Tries to balance simplicity with likelihood when evaluating a model.
+
+$$AIC = 2k - 2\ln{L}$$
+
+* Where *k* is the number of parameters. AIC will decrease with fewer parameters or a higher likelihood. 
+
+* When choosing a model, one way to choose the "best" model is to choose the one with the lowest AIC.
+
+* This has the advantage of not requiring models to be nested.
+
+* The 2x weighting is based on information theory, not rule of thumb.
+
+* Still, only valid when you have many more observations than parameters ($n/k > 40$).
+
+* With sample size correction:
+
+$$ AIC_c = AIC + \frac{2k(k+1)}{n-k-1} $$
+
+```{r}
+# AIC for no estimated parameters:
+AIC_1 <- 2*0 - 2*L1; AIC_1
+AIC_2 <- 2*1 - 2*L2; AIC_2
+
+# size-corrected:
+AIC_1 + 2*0*(0+1) / (100 - 0 - 1)
+AIC_2 + 2*1*(1+1) / (100 - 1 - 1)
+
+AIC_1 - AIC_2
+```
+
+* Uh it's big. Whatever. You get it.
+
+* You can also use AIC weights and weight the parameter estimates from different values according to their weights. Then you combine the weighted estimates across models, proportional to the support for those models.
+
+
+## 2.4: Bayesian statistics
+
+$$ Pr(H|D) = \frac{Pr(D|H)*Pr(H)}{Pr(D)} $$
+
+* The probability of the hypothesis given the data is equal to the probability of the data given the hypothesis, times the probability of the hypothesis, divided by the probability of the data.
+
+* Requires prior knowledge about hypothesis probability ($Pr(H)$). Scientists try to use priors that don't affect the posterior probability very much.
+
+* What about $Pr(D)$?
+  - This is the probability of obtaining the data, integrated over the prior distributions of the parameters:
+  
+  $$ Pr(D) = \int Pr(H|D) Pr(H) dH$$
+  
+* It usually doesn't matter, since it's held constant over all the models you're testing.
+
+* For model 1, there are no parameters, so $Pr(H) = 1$, $Pr(D|H) = P(D)$, so $Pr(H|D) = 1$.
+
+* For model 2, set a uniform prior between 0 and 1, writtenas "our prior for $p_h$ is U(0,1)".
+
+* This turns into some ugly expression which simplify to a beta distribution wiki:
+
+$$ Pr(H|D) = \frac{(N+1)!}{H!(N-H)!}*p_H^{H}(1-p_{H})^{N-H} $$
+
+* Apparently this is "nicer". Ok.
+
+```{r}
+# compare posterior and prior probability distributions:
+
+prior <- 1
+bayesian <- function(n, H, p) {
+  b <- factorial(n + 1) / (factorial(H) * factorial(n - H)) * p^H * (1-p)^(n-H)
+  return(b)
+}
+
+b <- sapply(seq(0, 1, length.out = 100), function(i) bayesian(100, 63, i))
+
+{plot(seq(0, 1, length.out = 100), b, type = 'l', 
+     lwd = 3,
+     ylab = "prior",
+     xlab = "Probability")
+  abline(h = prior, lty = 2)}
+```
+
+
+
+## 2.4b: Bayesian Markov-chain Monte Carlo (MCMC)
+
+* This sounds fancy but basically it means you just apply the same process to an estimate over and over until it stops changing.
+
+* So like, you multiply a matrix over and over until it reaches a steady state. Etc. It's very ham-handed, which is why people like me like it.
+
+* In this particular case, we're walking around parameter space in sequential steps until we get stuck somewhere nice, which will be the Bayesian posterior distribution.
+
+* You keep updating the parameter estimate until it stops changing.
+
+* The set of steps to land in the valley of Bayesian posterior probabilities is roughly this:
+
+  1. Start with some reasonable parameter value.
+    * Sample a starting parameter value ($p_0$) from the prior distribution.
+    
+  2. For every iteration, decide on a new parameter value, $p'$, using the proposal desnity $Q(p'|p)$.
+  
+  3. Calculate three ratios:
+    i) *Prior odds ratio*: probability drawing the parameter values $p$ and $p'$ from the prior:
+    $$ R_{prior} = \frac{P(p')}{P(p)} $$
+      - I'm guessing that if it's > 1, you swap out $p$ for $p'$, because your new parameter value is better (higher probability) than the previous one.
+    
+    ii) *Proposal density ratio*: Ratio of the probability of proposals going from $p$ to $p'$ vs. the probability of proposals going from $p'$ to $p$.
+      - These are constructed to be symmetrical.
+      
+    $$ R_{proposal} = \frac{Q(p'|p)}{Q(p|p')} $$
+      
+    iii) *Likelihood ratio*: Ratio of probabilities of the data, given the two different paramter values.
+    
+    $$ R_{likelihood} = \frac{L(p'|D)}{L(p|D)} = \frac{P(D|p')}{P(D|p)} $$ 
+  
+  4. Multiply the above three values (prior odds ratio, proposal density ratio, and likelihood ratio):
+  
+    $$R_{accept} = R_{prior} * R_{proposal} * R_{likelihood}$$
+    
+  5. Accept or reject. How? Draw a random number from [0, 1]; if $x < R_{accept}$, accept the new $p$ ($p_i = p'$), and otherwise reject it and retain your current guess ($p$).
+  
+  6. Repeat steps 2-5 until you converge on a value within a tolerable noise threshold.
+  
+* As you might guess, $p$ jumps around *a lot* at first, because new guesses won't always be better, and $x$ introduces a semi-random element for the acceptance/rejection threshold. This is called the **burn-in** period.
+
+* After you're past the burn-in period, each step in the chain is a sample from the posterior distribution.
+
+* So there's not going to be a single, perfect parameter on which you converge; you end up oscillating within a range of likely values. You can summarize this in plenty of ways -- histograms, confidence intervals, means and standard distributions, etc.
+
+### Ok, but to bring it back to the lizard flips...
+
+* Start with a prior distribution of $U(0, 1)$ for $p$. 
+
+* To choose new proposal values ($p'$), we'll add a small number ($\epsilon \leq 0.01$) to $p$, so $Q(p'|p) = U(p-\epsilon, p+\epsilon)$.
+
+```{r}
+
+# pick a starting parameter value and epsilon
+# p <- runif(1); we'll use 0.6 because it's what the book does
+p <- 0.6
+e <- 0.01
+
+# propose a new value
+p2 <- runif(1, p-e, p+e); p2
+
+```
+
+* Calculate the three ratios above:
+
+* The prior odds ratio ($R_{prior}$) will *always be 1* because the prior probability distribution is $U(0, 1)$. You can't have a probability outside of this range (i.e. something less than 0\% or more than 100\% chance of being correct). Since both $p$ and $p'$ will always have a probability distribution of 1, our prior odds ratio will always be 1:
+
+$$ R_{prior} = \frac{P(p')}{P(p)} = \frac{1}{1} = 1 $$
+
+* RIVETING
+
+* Ok. Our proposal distribution will also be symmetrical for the same reasons ($Q(p'|p) = Q(p|p')$), so $R_{proposal} = 1$).
+
+* We only have to calculate the likelihood ratio!
+
+```{r}
+
+# let's redifine this guy as a reminder
+likelihood <- function(p, n, H) {
+  fac <- factorial(n) / (factorial(n - H) * factorial(H))
+  l <- fac * p^63 * (1 - p)^37
+  return(l)
+}
+
+# calculate likelihoods
+L1 <- likelihood(p, 100, 63); L1
+L2 <- likelihood(p2, 100, 63); L2
+
+
+# get likelihood ratio
+L_ratio <- L2 / L1; L_ratio
+
+# acceptance ratio
+# in this case, just equal to L_ratio
+R_accept <- 1 * 1 * L_ratio; R_accept
+
+# choose a random threshold
+x <- runif(1)
+
+# if x is lower than the acceptance ratio, keep current p
+if (x <= R_accept) {
+  
+  p <- p2
+  
+}
+```
+
+* $R_{accept}$ will increase as $p'$ becomes more likely with respect to $p$. If $p'$ has a likelihood very similar to that of $p$, very few values of $x$ will be greater than $R_{accept}$; if $P(D|p') > P(D|p)$, then $R_{accept} > 1$, and $x$ will always be lower.
+
+* So you'll never reject a $p'$ that gives you better results, and you'll only rarely accept one that's considerably worse.
+
+* Maybe this seems inefficient -- why introduce this $x$ business at all? Isn't it more efficient to just say if $R_{accept} \geq 1$, keep $p'$?
+
+* The idea here is not to get *stuck* anywhere in parameter space. If you used a hard threshold, you might get to a local maxima, but if you're not allowed to occasionally go downhill or sideways, you'll never discover the rest of the landscape.
+
+* You could turn this into a metaphor about facing personal challenges if you want, but I wouldn't think about it too hard.
+
+* Anyways, keep doing this for a while. This is so simple we can actually do it in R, which is a sentence I think counts as a self-own:
+
+```{r, name = "test"}
+
+likelihood <- function(p, n, H) {
+  fac <- factorial(n) / (factorial(n - H) * factorial(H))
+  l <- fac * p^H * (1 - p)^(n - H)
+  return(l)
+}
+
+MCMC <- function(n, H, p = "rand",
+                 U = c(0, 1), 
+                 e = 0.01, 
+                 iter = 5000) {
+  
+  # get starting parameter if not specified
+  if (p == "rand") {
+    p <- runif(1, min = U[1], max = U[2])
+  }
+  
+  # store values in a vector
+  p_vec <- p
+  
+  for (i in 1:iter) {
+    # propose a new value
+    p2 <- runif(1, min = p-e, max = p+e)
+    
+    # get their likelihoods
+    L1 <- likelihood(p, n, H)
+    L2 <- likelihood(p2, n, H)
+    
+    # likelihood ratio
+    L_ratio <- L2 / L1
+    
+    # generate random threshold
+    x <- runif(1)
+    
+    if (x <= L_ratio) {
+      p <- p2
+    }
+    
+    p_vec <- c(p_vec, p)
+    
+  }
+  
+  return(p_vec)
+  
+}
+
+# define color vector
+colors <- RColorBrewer::brewer.pal(11, "Spectral")
+
+# plot 101 runs
+plot(MCMC(n = 100, H = 63),
+     type = 'l', col = colors[runif(1, 1, length(colors))], 
+     ylim = c(0, 1),
+     ylab = "p", xlab = "Iteration")
+for (i in 1:100) {
+  points(MCMC(n = 100, H = 63),
+         type = 'l', col = colors[runif(1, 1, length(colors))])
+}
+abline(h = 0.63, lty = 2, lwd = 4, col = "black")
+```
+
+* Hopefully, what you should see is a bunch of squiggly multicolored lines starting anywhere between 0 and 1 and eventually wiggling towards 0.63 and kind of plateauing.
+
+* We can also plot as a histogram:
+
+```{r}
+p <- MCMC(100, 63, iter = 100000)
+
+# chop off the "burn-in" segment
+p <- p[-c(1:1000)]
+
+# let's overlay our old bayesian friend, the Metropolis-Hastings algorithm
+bayesian <- function(n, H, p) {
+  b <- factorial(n + 1) / (factorial(H) * factorial(n - H)) * p^H * (1-p)^(n-H)
+  return(b)
+}
+
+b <- sapply(seq(0, 1, length.out = 100), function(i) bayesian(100, 63, i))
+
+# take every 100th value to avoid autocorrelation
+hist(p[seq(1, length(p), by = 100)],
+     probability = T,
+     main = "convergent parameter estimates")
+plot(b, type = 'l')
+
+```
+
+## 2.4c: Bayes factors
+
+* Ok, so now we know how to use a set of data and a prior assumption about the model to calculate a posterior probability distribution.
+
+* But how do you actually select a model using Bayesian statistics?
+
+* We went over AIC earlier as a general concept -- balancing fewer parameters with ability to explain the data.
+
+* Simplest method in a Bayesian framework: calculate a bunch of posterior probabilities using different models, then compare across models.
+
+* You can do this by calculating **Bayes factors**, which are the *ratios of marginal likelihoods of two competing models*:
+
+$$ B_{12} = \frac{Pr(D|H_1)}{Pr(D|H_2)} $$
+
+* These factors give the probabability of the data averaged over *all possible parameter values* for a model, weighted by their probability. By contrast, AIC takes the likelihood for a given set of most likely parameter values.
+
+* The upside: we can account for the uncertainty of our parameter estimates. The downside: we have to specify prior probabilities in the first place.
+
+* If you have a small uncertainty anyways, this won't make much of a difference -- but if you have a wide uncertainty, it can change the outcome of the analysis!
+
+* This can get really confusing if you need to integrate over multiple probability distributions, and I assume it's the kind of thing we just let package maintainers worry about most of the time. But in the lizard example, we have a fairly simple beta distribution, and I'm not reproducing that because it still kind of doesn't make sense?
+
+* But the output is that $Pr(D|H_1) = 0.0027$ and $Pr(D|H_2) = 0.0099$, so $B_{12} = 0.0099/0.0027 = 3.67$.
+
+* Even if this isn't decisive evidence, it's pretty substantial -- the Bayes factor indicates that $p = 0.63$ is 3.67 times more likely than $p = 0.5$.
+
+* Even if you don't have the exact likelihoods because you can't solve the integral equations (either because it's a hard math problem or because you're me, and an easy math problem is a hard math problem), you can you MCMC to approximate Bayes factors.
+
+* Apparently one of the methods to do this is called ARROGANCE SAMPLING, which sounds complicated but also, uh, has an absolutely incredible name.
+
+* Anyways, a more common method is calculating the harmonic mean of the likelihoods over the MCMC chain for each model, then taking those ratios as a poor man's Bayes factor. Apparently this is super unreliable, just easy to do. Probably don't do it I think.
+## 2.5: AIC versus Bayes
+
+* When you compare Bayes factors, you do it with the assumption that somewhere in one of those ratios is the true model -- the one that actually generated, and really explains, your data.
+
+* AIC is in the spirit of George Box: all of these models are wrong, but some are useful, and one of the ones you're comparing is more useful than the others.
+
+* So the mechanics are very similar, but the underlying assumptions are not: AIC trucks in simplified models, and Bayesian statistics in reality.
+
+* AIC tends to favor more complex models, because one is assuming that reality is very complicated, and even a simplified representation of it will still be pretty complicated.
+
+* Bayesian methods assume that one of your models is correct. This does fine as long as your data were actually generated under a pretty simple process, and will be really unreliable if your possible models don't include the model that actually generated the data.
+
+* The general consensus for comparative biology is that Bayesian is better, because it accounts for uncertainty, which is a fundamental aspect of phylogenetic comparative methods.
+
