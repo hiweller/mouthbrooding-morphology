@@ -16,7 +16,7 @@ A repository for code, landmark data, notes, and analysis for the first part of 
 
 ### Who is it for?
 
-Me, future me, and possibly Hernán.
+Me, future me, and possibly Hernán and Caleb.
 
 ### If it's just for you, why is there explanatory text?
 
