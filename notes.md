@@ -16,8 +16,6 @@ So from this perspective, the evolution of mouthbrooding at all is not surprisin
 
 But this reasoning ignores a pretty crucial nuance: fish are already using their mouths for feeding and breathing. Adding "baby carriage" to the list of functions that the oral cavity has to fulfill places even more constraints on an already fairly constrained structure. We might reasonably expect that the advantages of mouthbrooding will depend just as much on how fish look as on where they live.
 
-Instead, the better question is:
-
 # Why have some groups evolved mouthbrooding *so many times*?
 
 Nine fish families include mouthbrooders, all of whom either live on coral reefs or in complex, crowded freshwater environments (Southeast Asia and the Amazon basin). These habitats certainly pose the risks stated above, so that's consistent.
@@ -31,6 +29,14 @@ Here we run into the second issue: gouramis have evolved mouthbrooding at least 
 There is no combination of predation, environmental, and physiological factors that has so far been able to explain this propensity. You'll often see mouthbrooding and non-mouthbrooding sister taxa occupying the same rivers, exposed to the same risks, one of them happily mouthbrooding and the other happily not-mouthbrooding, both of them apparently sticking it out just fine.
 
 What gives?
+
+# Roadmap
+
+1. Is there a mouthbrooding morphology?
+
+2. If there is, does it actually help with mouthbrooding?
+
+3. With the above evidence in mind, how much of the evolution of mouthbrooding can we now explain? What is still mysterious?
 
 
 
